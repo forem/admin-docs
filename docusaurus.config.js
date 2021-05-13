@@ -19,9 +19,9 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'forem-admin-guide',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Start',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -38,8 +38,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Start',
+              to: '/docs/forem-admin-guide',
             },
           ],
         },

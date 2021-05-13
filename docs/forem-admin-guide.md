@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Forem Admin Guide
 
-If you are visiting this guide from the [associated GitHub repo](https://github.com/forem/forem-admin-guide), **we recommend that you view the GitBook-generated version here:** [**https://app.gitbook.com/@forem/s/forem-admin-guide/**](https://app.gitbook.com/@forem/s/forem-admin-guide/)\*\*\*\*
-
 ## Overview
 
 This guide is for anyone creating a community built on [Forem](https://github.com/forem/forem).
@@ -14,12 +12,11 @@ This guide is for anyone creating a community built on [Forem](https://github.co
 
 We strongly recommend that you get started by checking out the [**Quick Start Guide**](quick-start-guide.md).
 
-{% page-ref page="quick-start-guide.md" %}
-
 ### Additional Resources
 
 Please make use of the following resources:
 
+<!-- TODO @andy: change the link -->
 * The [Forem Admin Guide](https://forem.gitbook.io/forem-admin-guide/) \(which you're already browsing\)
 * The private [Creators Forem](https://creators.forem.com)
   * Exclusively for early partners and Forem Cloud customers

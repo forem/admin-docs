@@ -18,7 +18,7 @@ Brand new Forem Creators should start off by [watching this quick introduction v
 ### Private Forem Link
 
 * You've likely received your Forem Cloud subdomain, which looks something like this: `forem-742342330b2c53.forem.cloud`
-* This is the pre-launch link for your Forem.  When you're ready to launch, [follow these instructions](going-live/cname.md) to update the domain name.
+* This is the pre-launch link for your Forem.  When you're ready to launch, [follow these instructions](docs/going-live/cname) to update the domain name.
 
 ### Creating an Account
 
@@ -33,7 +33,7 @@ You'll create your account in one of three ways:
 As a superadmin, you're able to start configuring your forem.
 
 * Please review to our [Config documentation](/docs/admin/config/README), especially the [Get Started](/docs/admin/config/README#get-started) section
-* Additionally, you may be interesting in [inviting a new user](admin/users/inviting-a-new-user.md) and [elevating their role](/docs/admin/users/user-roles).
+* Additionally, you may be interesting in [inviting a new user](/docs/admin/users/inviting-a-new-user) and [elevating their role](/docs/admin/users/user-roles).
 
 ### Personalizing your Forem \(custom logo, images, colors\)
 
@@ -69,5 +69,5 @@ You'll want to ensure that you've set up a welcome thread
 
 ### Launching your Forem
 
-Your forem likely won't live as a `forem.cloud` subdomain forever!  When you're ready to launch your Forem on your own domain refer to our "[Going Live](going-live/)" resources.
+Your forem likely won't live as a `forem.cloud` subdomain forever!  When you're ready to launch your Forem on your own domain refer to our "[Going Live](docs/going-live/README)" resources.
 

@@ -19,16 +19,20 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'forem-admin-guide',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Start',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          to: '/blog',
+          label: 'Blog',
+          position: 'left'
         },
+        // {
+        //   href: 'https://github.com/facebook/docusaurus',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -38,8 +42,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Start',
+              to: '/docs/forem-admin-guide',
             },
           ],
         },
@@ -47,16 +51,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'DEV',
+              href: 'https://dev.to',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'forem.dev',
+              href: 'https://forem.dev',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/forem',
             },
           ],
         },
@@ -69,12 +73,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/forem/admin-docs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Forem`,
     },
   },
   presets: [
@@ -83,15 +87,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/forem/admin-docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/forem/admin-docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

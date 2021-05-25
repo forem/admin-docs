@@ -3,7 +3,7 @@ description: A high-level overview of the most important Forem features.
 sidebar_position: 2
 ---
 
-# Quick Start Guide
+# Getting Started
 
 This is a quick introduction to the most important features you need to know about as a Forem Creator.  In many cases, this page will link out to standalone pages in the admin guide for further information.
 

@@ -28,15 +28,15 @@ Brand new Forem Creators should start off by [watching this quick introduction v
 
 ![https://www.loom.com/share/4cd18f6e15b94a818a7178a7aab20753](/img/screen-shot-2020-12-24-at-3.27.23-pm.png)
 
-Once you’ve completed this video, please follow along with the checklist below
+Once you’ve completed this video, please follow along with the checklist below.
 
 ## Getting Started with Forem Checklist
 
-- [ ] 1. Set up and configure your Forem under `Customization > Config`
-- [ ] 2. Create a Welcome Thread (and any other relevant posts…)
-- [ ] 3. Update and customize your Forem tags
-- [ ] 4. Create pages and sort them in the navigation sidebar
-- [ ] 5. Invite people to join your Forem
+1. Set up and configure your Forem under `Customization > Config`
+2. Create a Welcome Thread (and any other relevant posts…)
+3. Update and customize your Forem tags
+4. Create pages and sort them in the navigation sidebar
+5. Invite people to join your Forem
 
 ### 1. Set Up and Configure Your Forem
 

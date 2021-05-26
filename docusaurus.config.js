@@ -1,32 +1,33 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://forem-admin.netlify.app',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: "My Site",
+  tagline: "Dinosaurs are cool",
+  url: "https://forem-admin.netlify.app",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "facebook", // Usually your GitHub org/user name.
+  projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      // title: 'Forem Admin Docs',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "Forem Admin Docs Logo",
+        src: "./static/img/forem.svg",
+        srcDark: "./static/img/foremDark.svg",
       },
       items: [
         {
-          type: 'doc',
-          docId: 'forem-admin-guide',
-          position: 'left',
-          label: 'Start',
+          type: "doc",
+          docId: "forem-admin-guide",
+          position: "left",
+          label: "Start",
         },
         {
-          to: '/blog',
-          label: 'Blog',
-          position: 'left'
+          to: "/blog",
+          label: "Blog",
+          position: "left",
         },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
@@ -36,44 +37,44 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Start',
-              to: '/docs/forem-admin-guide',
+              label: "Start",
+              to: "/docs/forem-admin-guide",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'DEV',
-              href: 'https://dev.to',
+              label: "DEV",
+              href: "https://dev.to",
             },
             {
-              label: 'forem.dev',
-              href: 'https://forem.dev',
+              label: "forem.dev",
+              href: "https://forem.dev",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/forem',
+              label: "Twitter",
+              href: "https://twitter.com/forem",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: "Blog",
+              to: "/blog",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/forem/admin-docs',
+              label: "GitHub",
+              href: "https://github.com/forem/admin-docs",
             },
           ],
         },
@@ -83,20 +84,18 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/forem/admin-docs/edit/main/',
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/forem/admin-docs/edit/main/",
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/forem/admin-docs/edit/main/',
+          editUrl: "https://github.com/forem/admin-docs/edit/main/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],

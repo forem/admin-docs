@@ -5,7 +5,7 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* You can override the default Infima variables here. 
 :root {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
@@ -15,6 +15,33 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+}
+*/
+
+:root {
+  --ifm-color-primary: #21ba70;
+  --ifm-code-font-size: 95%;
+  --ifm-footer-background-color: #022830;
+  --ifm-spacing-horizontal: 3rem;
+}
+
+html[data-theme="dark"] {
+  --ifm-color-primary: #fbc1f5;
+  --ifm-background-color: #022830;
+  --ifm-navbar-background-color: #022830;
+}
+
+.container a,
+.container a:hover {
+  text-decoration: underline;
+}
+
+.pagination-nav__item a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #012026;
 }
 
 .docusaurus-highlight-code-line {

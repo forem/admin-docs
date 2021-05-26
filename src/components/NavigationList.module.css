@@ -1,0 +1,21 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+  width: 60%;
+  margin: 0 auto;
+  /* background-color: var(--ifm-footer-background-color); Maybe set the link background to the same color as the footer? */
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}

@@ -7,10 +7,18 @@ const NavigationSections = [
   {
     title: "Quickstart",
     links: [
-      { title: "Test 1", url: "docs/forem-admin-guide" },
-      { title: "Test 2", url: "docs/forem-admin-guide" },
-      { title: "Test 3", url: "docs/forem-admin-guide" },
-      { title: "Test 4", url: "docs/forem-admin-guide" },
+      {
+        title: "Introduction to Forem Admin Docs",
+        url: "docs/quick-start-guide#introduction-to-the-forem-admin-docs",
+      },
+      {
+        title: "Getting Started with Forem Video",
+        url: "docs/quick-start-guide#getting-started-with-forem-in-under-10-minutes-video",
+      },
+      {
+        title: "Getting Started with Forem Checklist",
+        url: "docs/quick-start-guide#getting-started-with-forem-checklist",
+      },
     ],
   },
   {

@@ -23,12 +23,20 @@ const NavigationSections = [
     ],
   },
   {
-    title: "Moderation",
+    title: "Community Moderation",
     links: [
-      { title: "Test 1", url: "docs/forem-admin-guide" },
-      { title: "Test 2", url: "docs/forem-admin-guide" },
-      { title: "Test 3", url: "docs/forem-admin-guide" },
-      { title: "Test 4", url: "docs/forem-admin-guide" },
+      {
+        title: "Admin Moderation Features",
+        url: "/docs/community-moderation/admin-moderation-features",
+      },
+      {
+        title: "Tag Moderator Features",
+        url: "docs/community-moderation/tag-moderator-features",
+      },
+      {
+        title: "Trusted User Features",
+        url: "docs/community-moderation/trusted-user-features",
+      },
     ],
   },
   {

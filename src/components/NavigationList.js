@@ -23,7 +23,7 @@ const NavigationSections = [
     ],
   },
   {
-    title: "Admin",
+    title: "Moderation",
     links: [
       { title: "Test 1", url: "docs/forem-admin-guide" },
       { title: "Test 2", url: "docs/forem-admin-guide" },

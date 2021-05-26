@@ -14,8 +14,8 @@ module.exports = {
       // title: 'Forem Admin Docs',
       logo: {
         alt: "Forem Admin Docs Logo",
-        src: "./static/img/forem.svg",
-        srcDark: "./static/img/foremDark.svg",
+        src: "img/forem.svg",
+        srcDark: "img/foremDark.svg",
       },
       items: [
         {

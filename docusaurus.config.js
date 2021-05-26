@@ -11,7 +11,7 @@ module.exports = {
   projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
     navbar: {
-      // title: 'Hashnode',
+      // title: 'Forem Admin Docs',
       logo: {
         alt: "Forem Admin Docs Logo",
         src: "./static/img/forem.svg",

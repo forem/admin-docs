@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Forem Admin Docs",
+  tagline: "Forem is cool",
   url: "https://forem-admin.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "throw",

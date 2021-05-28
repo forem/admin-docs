@@ -24,11 +24,6 @@ module.exports = {
           position: "left",
           label: "Start",
         },
-        {
-          to: "/blog",
-          label: "Blog",
-          position: "left",
-        },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -69,10 +64,6 @@ module.exports = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
               label: "GitHub",
               href: "https://github.com/forem/admin-docs",
             },
@@ -90,10 +81,10 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/forem/admin-docs/edit/main/",
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: "https://github.com/forem/admin-docs/edit/main/",
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl: "https://github.com/forem/admin-docs/edit/main/",
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },

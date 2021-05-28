@@ -21,15 +21,15 @@ const NavigationSections = [
       },
     ],
   },
-  {
-    title: "Forem Basics",
-    links: [
-      { title: "Test 1", url: "docs/forem-admin-guide" },
-      { title: "Test 2", url: "docs/forem-admin-guide" },
-      { title: "Test 3", url: "docs/forem-admin-guide" },
-      { title: "Test 4", url: "docs/forem-admin-guide" },
-    ],
-  },
+  // {
+  //   title: "Forem Basics",
+  //   links: [
+  //     { title: "Test 1", url: "docs/forem-admin-guide" },
+  //     { title: "Test 2", url: "docs/forem-admin-guide" },
+  //     { title: "Test 3", url: "docs/forem-admin-guide" },
+  //     { title: "Test 4", url: "docs/forem-admin-guide" },
+  //   ],
+  // },
   {
     title: "Community Moderation",
     links: [
@@ -47,24 +47,15 @@ const NavigationSections = [
       },
     ],
   },
-  {
-    title: "Advanced Tutorials",
-    links: [
-      { title: "Test 1", url: "docs/forem-admin-guide" },
-      { title: "Test 2", url: "docs/forem-admin-guide" },
-      { title: "Test 3", url: "docs/forem-admin-guide" },
-      { title: "Test 4", url: "docs/forem-admin-guide" },
-    ],
-  },
-  {
-    title: "Frequently Asked Questions",
-    links: [
-      { title: "Test 1", url: "docs/forem-admin-guide" },
-      { title: "Test 2", url: "docs/forem-admin-guide" },
-      { title: "Test 3", url: "docs/forem-admin-guide" },
-      { title: "Test 4", url: "docs/forem-admin-guide" },
-    ],
-  },
+  // {
+    // title: "Frequently Asked Questions",
+    // links: [
+    //   { title: "FAQ", url: "docs/faq/README" },
+      // { title: "Test 2", url: "docs/forem-admin-guide" },
+      // { title: "Test 3", url: "docs/forem-admin-guide" },
+      // { title: "Test 4", url: "docs/forem-admin-guide" },
+  //   ],
+  // },
 ];
 
 function Column({ title, links }) {

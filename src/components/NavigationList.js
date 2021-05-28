@@ -24,10 +24,10 @@ const NavigationSections = [
   {
     title: "Forem Basics",
     links: [
-      { title: "Test 1", url: "docs/forem-admin-guide" },
-      { title: "Test 2", url: "docs/forem-admin-guide" },
-      { title: "Test 3", url: "docs/forem-admin-guide" },
-      { title: "Test 4", url: "docs/forem-admin-guide" },
+      // { title: "Test 1", url: "docs/forem-admin-guide" },
+      // { title: "Test 2", url: "docs/forem-admin-guide" },
+      // { title: "Test 3", url: "docs/forem-admin-guide" },
+      // { title: "Test 4", url: "docs/forem-admin-guide" },
     ],
   },
   {
@@ -50,19 +50,19 @@ const NavigationSections = [
   {
     title: "Advanced Tutorials",
     links: [
-      { title: "Test 1", url: "docs/forem-admin-guide" },
-      { title: "Test 2", url: "docs/forem-admin-guide" },
-      { title: "Test 3", url: "docs/forem-admin-guide" },
-      { title: "Test 4", url: "docs/forem-admin-guide" },
+      // { title: "Test 1", url: "docs/forem-admin-guide" },
+      // { title: "Test 2", url: "docs/forem-admin-guide" },
+      // { title: "Test 3", url: "docs/forem-admin-guide" },
+      // { title: "Test 4", url: "docs/forem-admin-guide" },
     ],
   },
   {
     title: "Frequently Asked Questions",
     links: [
-      { title: "Test 1", url: "docs/forem-admin-guide" },
-      { title: "Test 2", url: "docs/forem-admin-guide" },
-      { title: "Test 3", url: "docs/forem-admin-guide" },
-      { title: "Test 4", url: "docs/forem-admin-guide" },
+      // { title: "Test 1", url: "docs/forem-admin-guide" },
+      // { title: "Test 2", url: "docs/forem-admin-guide" },
+      // { title: "Test 3", url: "docs/forem-admin-guide" },
+      // { title: "Test 4", url: "docs/forem-admin-guide" },
     ],
   },
 ];

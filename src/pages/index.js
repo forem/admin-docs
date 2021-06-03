@@ -24,7 +24,7 @@ function HomepageHeader() {
           This documentation is for those who have launched and are managing a
           Forem community. If you haven’t yet installed the app and are hoping
           to self-host, please check out our <br />
-          <a href="https://hackmd.io/6DljLehNR5OsowmNpD2FnA" target="_blank">
+          <a href="https://github.com/forem/selfhost-devel" target="_blank">
             Forem Selfhost Installation Documentation
           </a>
           .

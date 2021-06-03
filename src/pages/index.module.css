@@ -19,6 +19,12 @@
   }
 }
 
+.subtext {
+  width: 100%;
+  max-width: 550px;
+  margin: 25px auto;
+}
+
 .buttons {
   display: flex;
   align-items: center;

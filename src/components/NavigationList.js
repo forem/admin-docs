@@ -5,7 +5,7 @@ import Link from "@docusaurus/Link";
 
 const NavigationSections = [
   {
-    title: "Quickstart",
+    title: "Getting Started",
     links: [
       {
         title: "Introduction to Forem Admin Docs",
@@ -21,17 +21,17 @@ const NavigationSections = [
       },
     ],
   },
-  // {
-  //   title: "Forem Basics",
-  //   links: [
-  //     { title: "Test 1", url: "docs/forem-admin-guide" },
-  //     { title: "Test 2", url: "docs/forem-admin-guide" },
-  //     { title: "Test 3", url: "docs/forem-admin-guide" },
-  //     { title: "Test 4", url: "docs/forem-admin-guide" },
-  //   ],
-  // },
   {
-    title: "Community Moderation",
+    title: "Forem Basics",
+    links: [
+      { title: "Coming Soon...", url: "" },
+      { title: "Coming Soon...", url: "" },
+      { title: "Coming Soon...", url: "" },
+      { title: "Coming Soon...", url: "" },
+    ],
+  },
+  {
+    title: "Managing Your Community",
     links: [
       {
         title: "Admin Moderation Features",
@@ -47,15 +47,33 @@ const NavigationSections = [
       },
     ],
   },
-  // {
-    // title: "Frequently Asked Questions",
-    // links: [
-    //   { title: "FAQ", url: "docs/faq/README" },
-      // { title: "Test 2", url: "docs/forem-admin-guide" },
-      // { title: "Test 3", url: "docs/forem-admin-guide" },
-      // { title: "Test 4", url: "docs/forem-admin-guide" },
-  //   ],
-  // },
+  {
+    title: "Advanced Customization",
+    links: [
+      { title: "Coming Soon...", url: "" },
+      { title: "Coming Soon...", url: "" },
+      { title: "Coming Soon...", url: "" },
+      { title: "Coming Soon...", url: "" },
+    ],
+  },
+  {
+    title: "Frequently Asked Questions",
+    links: [
+      { title: "FAQ", url: "docs/faq/README" },
+      { title: "Coming Soon...", url: "" },
+      { title: "Coming Soon...", url: "" },
+      { title: "Coming Soon...", url: "" },
+    ],
+  },
+  {
+    title: "Community Resources",
+    links: [
+      { title: "Coming Soon...", url: "" },
+      { title: "Coming Soon...", url: "" },
+      { title: "Coming Soon...", url: "" },
+      { title: "Coming Soon...", url: "" },
+    ],
+  },
 ];
 
 function Column({ title, links }) {

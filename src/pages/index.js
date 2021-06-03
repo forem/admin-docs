@@ -20,8 +20,15 @@ function HomepageHeader() {
         ) : (
           <ForemLogo title="Forem Logo" className={styles.logo} />
         )}
-        <h1 className="hero__title">Admin Docs</h1>
-        <p className="hero__subtitle">Here to help get you started</p>
+        <p className={styles.subtext}>
+          This documentation is for those who have launched and are managing a
+          Forem community. If you haven’t yet installed the app and are hoping
+          to self-host, please check out our{" "}
+          <a href="https://hackmd.io/6DljLehNR5OsowmNpD2FnA" target="_blank">
+            Forem Selfhost Installation Documentation
+          </a>
+          .
+        </p>
       </div>
     </header>
   );

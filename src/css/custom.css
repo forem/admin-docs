@@ -31,6 +31,14 @@ html[data-theme="dark"] {
   --ifm-navbar-background-color: #022830;
 }
 
+.navbar__logo {
+  height: 1.25rem;
+}
+
+.footer__links {
+  text-align: center;
+}
+
 .container a,
 .container a:hover {
   text-decoration: underline;

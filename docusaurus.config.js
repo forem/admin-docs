@@ -22,7 +22,7 @@ module.exports = {
           type: "doc",
           docId: "forem-admin-guide",
           position: "left",
-          label: "Start",
+          label: "Getting Started",
         },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
@@ -38,7 +38,7 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Start",
+              label: "Getting Started",
               to: "/docs/forem-admin-guide",
             },
           ],

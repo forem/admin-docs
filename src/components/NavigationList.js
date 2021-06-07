@@ -45,7 +45,7 @@ const NavigationSections = [
   {
     title: "Advanced Customization",
     links: [
-      { title: "Display Ads", url: "_advanced-customization/display_ads" },
+      { title: "Display Ads", url: "docs/_advanced-customization/display_ads" },
       {
         title: "HTML Variants",
         url: "docs/_advanced-customization/html_variants",

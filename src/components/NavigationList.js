@@ -9,51 +9,51 @@ const NavigationSections = [
     links: [
       {
         title: "Introduction to Forem Admin Docs",
-        url: "docs/quick-start-guide#introduction-to-the-forem-admin-docs",
+        url: "docs/_getting-started/first_user_registration",
       },
       {
-        title: "Getting Started with Forem Video",
-        url: "docs/quick-start-guide#getting-started-with-forem-in-under-10-minutes-video",
-      },
-      {
-        title: "Getting Started with Forem Checklist",
-        url: "docs/quick-start-guide#getting-started-with-forem-checklist",
+        title: "Forem Setup Checklist",
+        url: "docs/_getting-started/forem_setup_checklist",
       },
     ],
   },
   {
     title: "Forem Basics",
     links: [
-      { title: "Coming Soon...", url: "" },
-      { title: "Coming Soon...", url: "" },
-      { title: "Coming Soon...", url: "" },
-      { title: "Coming Soon...", url: "" },
+      { title: "What are pages?", url: "docs/_forem-basics/what_are_pages" },
+      { title: "What are posts?", url: "docs/_forem-basics/what_are_posts" },
+      { title: "What are tags?", url: "docs/_forem-basics/what_are_tags" },
     ],
   },
   {
     title: "Managing Your Community",
     links: [
       {
-        title: "Admin Moderation Features",
-        url: "/docs/community-moderation/admin-moderation-features",
+        title: "How do I delete a post or comment?",
+        url: "docs/_managing-your-community/how_do_I_delete_a_post_or_comment",
       },
       {
-        title: "Tag Moderator Features",
-        url: "docs/community-moderation/tag-moderator-features",
+        title: "How do I remove spam?",
+        url: "docs/_managing-your-community/how_do_I_remove_spam",
       },
       {
-        title: "Trusted User Features",
-        url: "docs/community-moderation/trusted-user-features",
+        title: "How do I suspend a user?",
+        url: "docs/_managing-your-community/how_do_i_suspend_a_user",
       },
     ],
   },
   {
     title: "Advanced Customization",
     links: [
-      { title: "Coming Soon...", url: "" },
-      { title: "Coming Soon...", url: "" },
-      { title: "Coming Soon...", url: "" },
-      { title: "Coming Soon...", url: "" },
+      { title: "Display Ads", url: "_advanced-customization/display_ads" },
+      {
+        title: "HTML Variants",
+        url: "docs/_advanced-customization/html_variants",
+      },
+      {
+        title: "Tag Display Order",
+        url: "docs/_advanced-customization/tag_display_order",
+      },
     ],
   },
   {
@@ -68,9 +68,18 @@ const NavigationSections = [
   {
     title: "Community Resources",
     links: [
-      { title: "Coming Soon...", url: "" },
-      { title: "Coming Soon...", url: "" },
-      { title: "Coming Soon...", url: "" },
+      {
+        title: "Who are these docs for?",
+        url: "docs/_community-resources/who_are_these_docs_for",
+      },
+      {
+        title: "Connect with Forem builders?",
+        url: "docs/_community-resources/connect_with_forem_builders",
+      },
+      {
+        title: "How can I submit a bug report?",
+        url: "docs/_community-resources/submit_bug_report",
+      },
       { title: "Coming Soon...", url: "" },
     ],
   },

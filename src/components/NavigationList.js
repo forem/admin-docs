@@ -59,10 +59,19 @@ const NavigationSections = [
   {
     title: "Frequently Asked Questions",
     links: [
-      { title: "FAQ", url: "docs/faq/README" },
-      { title: "Coming Soon...", url: "" },
-      { title: "Coming Soon...", url: "" },
-      { title: "Coming Soon...", url: "" },
+      {
+        title:
+          "How do I change the background image of the onboarding screens?",
+        url: "docs/_faqs/how_do_I_change_the_background_of_the_onboarding_screen",
+      },
+      {
+        title: "How do I set the logo on my Forem?",
+        url: "docs/_faqs/how_do_I_set_the_logo_on_my_Forem",
+      },
+      {
+        title: "Where do I go to get help with self-hosting my Forem?",
+        url: "docs/_faqs/where_do_I_go_to_get_help_with_self-hosting_my_Forem",
+      },
     ],
   },
   {
@@ -80,7 +89,6 @@ const NavigationSections = [
         title: "How can I submit a bug report?",
         url: "docs/_community-resources/submit_bug_report",
       },
-      { title: "Coming Soon...", url: "" },
     ],
   },
 ];

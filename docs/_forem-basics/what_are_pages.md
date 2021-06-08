@@ -24,7 +24,7 @@ Visiting `/admin/customization/pages/new` allows you to create a new page.
 * Template
   * [Here's a Contained example](https://dev.to/about)
   * [Here's a full\_within\_layout example](https://dev.to/downloads)
-  * json //todo
+  * json (_coming soon_)
 * Body Markdown / Body HTML
   * You'll usually use _one or the other_
   * You should have a very specific reason for using HTML and not Markdown
@@ -34,7 +34,7 @@ Visiting `/admin/customization/pages/new` allows you to create a new page.
   * If checked, your page lives at `/slug`
   * If not checked, your page lives at `/page/slug`
 * Feature Flag
-  * //todo
+  * _coming soon_
 
 ## What can you do with pages?
 

@@ -39,13 +39,12 @@ html[data-theme="dark"] {
   text-align: center;
 }
 
-.container a,
-.container a:hover {
-  text-decoration: underline;
-}
-
 .pagination-nav__item a {
   text-decoration: none;
+}
+
+.container {
+  padding: 0;
 }
 
 .footer {

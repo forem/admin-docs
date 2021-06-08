@@ -10,6 +10,11 @@ module.exports = {
   organizationName: "facebook", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: process.env.API_KEY,
+      appId: process.env.APPLICATION_ID,
+      indexName: process.env.INDEX_NAME,
+    },
     navbar: {
       // title: 'Forem Admin Docs',
       logo: {

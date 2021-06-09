@@ -11,9 +11,9 @@ module.exports = {
   projectName: "admin-docs", // Usually your repo name.
   themeConfig: {
     algolia: {
-      apiKey: process.env.API_KEY,
-      appId: process.env.APPLICATION_ID,
-      indexName: process.env.INDEX_NAME,
+      apiKey: process.env.ALGOLIA_API_KEY,
+      appId: process.env.ALGOLIA_APP_ID,
+      // indexName: process.env.INDEX_NAME,
     },
     navbar: {
       // title: 'Forem Admin Docs',

@@ -13,7 +13,7 @@ module.exports = {
     algolia: {
       apiKey: process.env.ALGOLIA_API_KEY,
       appId: process.env.ALGOLIA_APP_ID,
-      // indexName: process.env.INDEX_NAME,
+      indexName: process.env.ALGOLIA_INDEX_NAME,
     },
     navbar: {
       // title: 'Forem Admin Docs',

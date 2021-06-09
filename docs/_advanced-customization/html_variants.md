@@ -18,7 +18,7 @@ You can filter variants by:
 * Badge Landing Page (variants set specifically to appear on `/badge`)
 * Campaign (variants set to appear on the homepage banner) 
 
-## New HTML Variant
+## Steps to Create a New HTML Variant
 
 To create an HTML variant, navigate to `/admin/customization/html_variants` and click "New HTML Variant".
 

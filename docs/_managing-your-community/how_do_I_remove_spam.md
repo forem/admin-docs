@@ -22,7 +22,7 @@ To banish a user, you must be logged into a super-admin account and:
 
 You can always [unpublish a user's article](https://forem-admin.netlify.app/docs/_managing-your-community/how_do_I_delete_a_post_or_comment) and then suspend them instead of banishing them.
 
-## Steps to Banish a User
+## Steps to Suspend a User
 
 To suspend a user, you must be logged into a super-admin account and:
 

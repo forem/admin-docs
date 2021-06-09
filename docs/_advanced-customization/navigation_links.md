@@ -41,7 +41,7 @@ A brief description of each of the fields can be found below:
 
 * **Name** which is the user facing friendly name that you will give the link.
 * **URL** sets the url for the link. The user will be directed to this link when they click on the navigation item.
-* **Icon** requires an SVG icon to be pasted into the text area. The icon will be displayed in a 24x24 px box. More info on [finding SVGs](navigation-links.md#finding-svgs) below.
+* **Icon** requires an SVG icon to be pasted into the text area. The icon will be displayed in a 24x24 px box. More info on finding SVGs below.
 * **Position** provides the position or the order placement of the links in the sidebar. If you choose to not specify an order then the links will simply be ordered in a descending order by name. 
 * **Display only when signed in** which allows the admin to decide whether that link should only be shown after the user has signed into their account..
 

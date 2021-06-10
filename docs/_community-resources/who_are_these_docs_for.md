@@ -20,4 +20,4 @@ Using these docs, you'll learn:
 
 If you are setting up your Forem for the first time, we recommend reading the Getting Started section first. 
 
-If you have joined on with an established Forem as an admin, you'll may want to skip ahead to the Forem Basics section.
+If you have joined on with an established Forem as an admin, you may want to skip ahead to the Forem Basics section.

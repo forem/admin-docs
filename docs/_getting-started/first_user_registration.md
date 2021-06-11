@@ -4,7 +4,7 @@ sidebar_position: 0
 ---
 
 # First User Registration
-When you first install your Forem, you will be invited to become its First User. **Until you create your First User account, the sign-up page will be accessible to anyone visiting your Forem’s URL.** It is important to complete this registration immediately upon spinning up your Forem because the first user will be given `Super Admin` privileges which will allow you to configure your Forem. [Click here for more information about different user privileges.](link to user privileges)
+When you first install your Forem, you will be invited to become its First User. **Until you create your First User account, the sign-up page will be accessible to anyone visiting your Forem’s URL.** It is important to complete this registration immediately upon spinning up your Forem because the first user will be given `Super Admin` privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](https://admin.forem.com/docs/_forem-basics/user_roles)
 
    ![First User sign-up form](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstSplash.png)
 

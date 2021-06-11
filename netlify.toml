@@ -2,4 +2,3 @@
 package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
     template = "hierarchical"
-    pathPrefix = "/docs"

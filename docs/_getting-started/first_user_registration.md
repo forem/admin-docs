@@ -16,7 +16,7 @@ Your profile image is the only field on the initial form that can be skipped dur
 
    ![Suggested tags form](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstTags.png)
 
-Before being able to access your Forem, you will need to accept your Community [Code of Conduct](link to What is a Code of Conduct?) and [Terms of Use](link to What are Terms of Use?). The text for these is the Forem default, and you can [modify them from your Pages Admin](https://forem-admin.netlify.app/docs/quick-start-guide#4-create-pages-and-sort-them-in-the-navigation-sidebar) later on. 
+Before being able to access your Forem, you will need to accept your Community Code of Conduct and Terms of Use. The text for these is the Forem default, and you can [modify them from your Pages Admin](https://forem-admin.netlify.app/docs/quick-start-guide#4-create-pages-and-sort-them-in-the-navigation-sidebar) later on. 
 
    ![Accept Community Code of Conduct and Terms of Use](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstAgreement.png)
 

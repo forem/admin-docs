@@ -1,4 +1,5 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+console.log(process.env.testkey)
 module.exports = {
   title: "Forem Admin Docs",
   tagline: "Forem is cool",

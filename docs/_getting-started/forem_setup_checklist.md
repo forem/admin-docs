@@ -32,7 +32,7 @@ Click on the arrow beside an item from the checklist to expand it.
 
 ### 1. Set Up and Configure Your Forem
 
-[Upon installing your Forem, you will be prompted to join it.](lhttps://forem-admin.netlify.app/docs/_getting-started/first_user_registration) As the first user, you will be given `Super Admin` privileges which will allow you to configure your Forem. [Click here for more information about different user privileges.](link to user privileges)
+[Upon installing your Forem, you will be prompted to join it.](lhttps://forem-admin.netlify.app/docs/_getting-started/first_user_registration) As the first user, you will be given `Super Admin` privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](https://admin.forem.com/docs/_forem-basics/user_roles/)
 
 Navigate to your **Admin Portal** by appending `/admin` to the homepage URL of your Forem (e.g. **dev.to/admin**) or selecting `Admin` from the dropdown menu under your profile image at the top-right of your screen. 
   

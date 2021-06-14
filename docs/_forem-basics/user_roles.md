@@ -13,7 +13,7 @@ To update a user's role, you'll need to:
 * Click the `Manage User` button
 * Select their new role\(s) in the drop-down
 
-![This is the page available at /admin/users](https://user-images.githubusercontent.com/16007075/121750769-024a3b80-cadb-11eb-93e8-e7ce7dcd672b.png)
+![This is the page available at /admin/users](/img/userRolesManage.png)
 
 ![This is the page to manage users](https://user-images.githubusercontent.com/16007075/121751111-90bebd00-cadb-11eb-9e2e-310acacac4f7.png)
 

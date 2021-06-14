@@ -15,7 +15,7 @@ To update a user's role, you'll need to:
 
 ![This is the page available at /admin/users](/img/userRolesManage.png)
 
-![This is the page to manage users](https://user-images.githubusercontent.com/16007075/121751111-90bebd00-cadb-11eb-9e2e-310acacac4f7.png)
+![This is the page to manage users](/img/userRolesNewStatus.png)
 
 Admins have the ability to remove any role other than the **Super Admin** role from users. Admins do not, however, have the ability to remove roles from themselves. To remove a user's role, you'll need to:
 
@@ -23,7 +23,7 @@ Admins have the ability to remove any role other than the **Super Admin** role f
 * Click the `Manage User` button
 * Click the `X` button next to the role\(s\) you wish to remove
 
-![This is where admins can remove roles from users other than themselves](https://user-images.githubusercontent.com/16007075/121752322-e2684700-cadd-11eb-87b7-42ae6e2f77b6.png)
+![This is where admins can remove roles from users other than themselves](/img/userRolesCurrentRole.png)
 
 
 ## Base Roles

@@ -17,7 +17,7 @@ Using these docs, you'll learn:
 
 :::important
 
-NOTE: this guide does not offer development guidance for setting up a Forem. For those who have yet to install the app that are hoping to self-host, please check out our [Forem Selfhost Installation Documentation](https://hackmd.io/6DljLehNR5OsowmNpD2FnA). If you would like to contribute to Forem as a developer, please read our [Forem Developer Documentation](https://docs.forem.com/).
+NOTE: this guide does not offer development guidance for setting up a Forem. For those who have yet to install the app that are hoping to self-host, please check out our [Forem Selfhost Installation Documentation](https://github.com/forem/selfhost-devel). If you would like to contribute to Forem as a developer, please read our [Forem Developer Documentation](https://docs.forem.com/).
 
 :::
 

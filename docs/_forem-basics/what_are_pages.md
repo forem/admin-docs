@@ -24,6 +24,7 @@ Visiting `/admin/customization/pages/new` allows you to create a new page.
 * **Template** =  
   * [Here is an example of a Contained page](https://dev.to/about)
   * [Here is an example of a full\_within\_layout page](https://dev.to/downloads)
+  * [Here is an example of a json page](https://dev.to/page/codeland_schedule)
 * **Body Markdown / Body HTML**
   * You'll usually use _one or the other_
   * You should have a very specific reason for using HTML and not Markdown
@@ -38,6 +39,7 @@ Visiting `/admin/customization/pages/new` allows you to create a new page.
 
 * [Here is an example of a simple Contained Markdown page](https://dev.to/about)
 * [Here is an example of a full\_within\_layout page that uses HTML](https://dev.to/downloads)
+* [Here is an example of a json page \(unprettified\)](https://dev.to/page/codeland_schedule)
 * You can create more sophisticated pages, such as:
   * [A blend of static content with custom CSS + dynamic posts](https://dev.to/shecoded)
   * [A full-on conference experience](https://dev.to/codeland)

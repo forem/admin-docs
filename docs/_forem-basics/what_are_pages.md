@@ -28,7 +28,7 @@ Visiting `/admin/customization/pages/new` allows you to create a new page.
   * You'll usually use _one or the other_
   * You should have a very specific reason for using HTML and not Markdown
 * **Social Image** = This is the social image for the page
-* **Is Top Level Path?
+* **Is Top Level Path?**
   * If checked, your page lives at `/slug`
   * If not checked, your page lives at `/page/slug`
 * **Feature Flag**

@@ -2,7 +2,7 @@
 description: How to create banner images across your community.
 ---
 
-# HTML Variants
+# X - HTML Variants
 
 ### Overview
 
@@ -10,12 +10,12 @@ HTML Variants are HTML/CSS designs that are included in different areas of the p
 
 You can filter variants by:
 
-* Leaderboard \(published & approved\)
-* Mine \(variants you have created\)
-* Admin \(all variants, included unpublished and unapproved\)
-* Article show below article CTA \(variants set to appear below each post\)
-* Badge Landing Page \(variants set specifically to appear on /badge\)
-* Campaign \(variants set to appear on the homepage banner\) 
+- Leaderboard \(published & approved\)
+- Mine \(variants you have created\)
+- Admin \(all variants, included unpublished and unapproved\)
+- Article show below article CTA \(variants set to appear below each post\)
+- Badge Landing Page \(variants set specifically to appear on /badge\)
+- Campaign \(variants set to appear on the homepage banner\)
 
 ### New HTML Variant
 
@@ -23,17 +23,17 @@ To create an HTML variant, click 'New HTML Variant'.
 
 Fill the form with the following:
 
-* Name: A descriptive name of your HTML Variant \(i.e. GithHub Actions Campaign Banner\)
-* Group: Select which area you'd like this variant to appear.
-* Target Tag: This is applicable for 'article show below article CTA' variants only. For example, a call-to-action for anything related to a tag that you'd like to appear under posts with that tag.
-* HTML: This is where you can include the HTML and CSS of your design. 
-  * For campaigns: Please see the code below to reference the proper classes and ids to use to ensure your banner functions appropriately.
-* Published: Set published: true when your variant is ready to be used.
-* Approved: An admin needs to set approved:true in order for your variant to go live.
+- Name: A descriptive name of your HTML Variant \(i.e. GithHub Actions Campaign Banner\)
+- Group: Select which area you'd like this variant to appear.
+- Target Tag: This is applicable for 'article show below article CTA' variants only. For example, a call-to-action for anything related to a tag that you'd like to appear under posts with that tag.
+- HTML: This is where you can include the HTML and CSS of your design.
+  - For campaigns: Please see the code below to reference the proper classes and ids to use to ensure your banner functions appropriately.
+- Published: Set published: true when your variant is ready to be used.
+- Approved: An admin needs to set approved:true in order for your variant to go live.
 
 The 'fork' button allows you to quickly duplicate an existing HTML Variant to make adjustments to your own version. The 'preview' button gives you a sense of what your variant will look like once it's published and approved.
 
-Below is an example of an HTML Variant that results in this banner: 
+Below is an example of an HTML Variant that results in this banner:
 
 ![Example HTML Variant](/img/image-2020-09-28-at-6.15.55-pm.png)
 
@@ -53,7 +53,7 @@ Below is an example of an HTML Variant that results in this banner:
     border: 2px solid #dfe3e6;
     box-shadow: 2px 2px 2px #dfe3e6;
   }
-  
+
   .campaignmode-hackathon--first {
     width: 50%;
     display: inline-block;
@@ -130,7 +130,7 @@ Below is an example of an HTML Variant that results in this banner:
        width: 80%;
        font-size: 0.9em;
   }
-  
+
     .campaignmode-hackathon--first {
       width: 90%;
       margin-left: 5%;
@@ -170,6 +170,3 @@ Below is an example of an HTML Variant that results in this banner:
   </div>
 </div>
 ```
-
-
-

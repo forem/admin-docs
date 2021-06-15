@@ -9,7 +9,7 @@ Trusted users are users with additional privileges across the platform. They hav
 * Flag a post to admins
 * Set the experience level of a post
 
-To upgrade a user status to "trusted", [follow these instructions](../admin/users/manage-user.md#user-status).
+To upgrade a user status to "trusted", [follow these instructions](../admin-tooling/users/manage-user.md#user-status).
 
 ### Mod Center
 

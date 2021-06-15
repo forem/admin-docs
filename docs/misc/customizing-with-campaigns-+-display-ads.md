@@ -14,7 +14,7 @@ description: >-
 
 **For more information, please refer to:**
 
-* [Setting a campaign hero HTML](../admin/config/campaign.md#campaign-hero-html-variant-name)
-* [Setting a campaign sidebar image](../admin/config/campaign.md#campaign-sidebar-image)
-* [Setting a display ad](../admin/display-ads.md)
+* [Setting a campaign hero HTML](../admin-tooling/config/campaign.md#campaign-hero-html-variant-name)
+* [Setting a campaign sidebar image](../admin-tooling/config/campaign.md#campaign-sidebar-image)
+* [Setting a display ad](../admin-tooling/display-ads.md)
 

@@ -25,7 +25,7 @@ module.exports = {
       items: [
         {
           type: "doc",
-          docId: "forem-admin-guide",
+          docId: "quick-start-guide",
           position: "left",
           label: "Getting Started",
         },
@@ -44,7 +44,7 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "/docs/forem-admin-guide",
+              to: "/docs/quick-start-guide",
             },
           ],
         },

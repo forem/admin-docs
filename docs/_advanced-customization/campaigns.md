@@ -16,10 +16,10 @@ Campaign features include:
 
 You can choose to enable each feature individually or at the same time.
 
-![1) Large banner on home page](img/large_banner_on_homepage.png)
+![1) Large banner on home page](/img/large_banner_on_homepage.png)
 
 
-![2) Highlighted Campaign Articles & 3) Campaign Sidebar Image](img/campaign_sidebar_image.png)
+![2) Highlighted Campaign Articles & 3) Campaign Sidebar Image](/img/campaign_sidebar_image.png)
 
 ## Campaign Hero HTML Variant Name
 

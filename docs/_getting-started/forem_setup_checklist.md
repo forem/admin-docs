@@ -28,9 +28,7 @@ This checklist is for brand-new Forems. Whilst every configuration you make to y
 Click on the arrow beside an item from the checklist to expand it.
 
 <details>
-<summary>1. Set up and configure your Forem</summary>
-
-### 1. Set Up and Configure Your Forem
+<summary>### 1. Set up and configure your Forem</summary>
 
 [Upon installing your Forem, you will be prompted to join it.](lhttps://forem-admin.netlify.app/docs/_getting-started/first_user_registration) As the first user, you will be given `Super Admin` privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](https://admin.forem.com/docs/_forem-basics/user_roles/)
 

@@ -3,7 +3,7 @@ description: A high-level overview of the most important Forem features.
 sidebar_position: 0
 ---
 
-# How do I remove spam?
+# Removing Spam
 
 The best way to remove spam is to banish the user creating it.
 

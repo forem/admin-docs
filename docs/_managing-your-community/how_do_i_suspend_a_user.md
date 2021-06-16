@@ -3,7 +3,7 @@ description: A high-level overview of the most important Forem features.
 sidebar_position: 0
 ---
 
-# How do I suspend a user?
+# Suspending Users
 
 Suspending a user will stop the user from posting new posts and comments. It doesn't delete any of the user's content, just prevents them from creating new content while suspended.
 

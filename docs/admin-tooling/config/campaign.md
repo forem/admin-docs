@@ -2,7 +2,7 @@
 description: How to go into "campaign mode" on the homepage.
 ---
 
-# Campaign
+# X - Campaign
 
 ### Overview
 

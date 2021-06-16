@@ -25,7 +25,7 @@ module.exports = {
       items: [
         {
           type: "doc",
-          docId: "quick-start-guide",
+          docId: "_getting-started/first_user_registration",
           position: "left",
           label: "Getting Started",
         },
@@ -44,7 +44,7 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "/docs/quick-start-guide",
+              to: "/docs/_getting-started/first_user_registration",
             },
           ],
         },

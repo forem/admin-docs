@@ -17,7 +17,7 @@ Your profile image is the only field on the initial form that can be skipped dur
 
 ![Suggested tags form](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstTags.png)
 
-Before being able to access your Forem, you will need to accept your Community Code of Conduct and Terms of Use. The text for these is the Forem default, and you can [modify them from your Pages Admin](/_forem-basics/what_are_pages) later on.
+Before being able to access your Forem, you will need to accept your Community Code of Conduct and Terms of Use. The text for these is the Forem default, and you can [modify them from your Pages Admin](/docs/_forem-basics/what_are_pages) later on.
 
 ![Accept Community Code of Conduct and Terms of Use](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstAgreement.png)
 

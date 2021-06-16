@@ -1,4 +1,9 @@
-# X - Trusted User Features
+---
+description: A high-level overview of Trusted Member's moderation features.
+sidebar_position: 5
+---
+
+# Trusted User Features
 
 ### Overview
 

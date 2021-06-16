@@ -1,4 +1,9 @@
-# X - Tag Moderator Features
+---
+description: A high-level overview of Tag Moderator's moderation features.
+sidebar_position: 4
+---
+
+# Tag Moderator Features
 
 ### Overview
 

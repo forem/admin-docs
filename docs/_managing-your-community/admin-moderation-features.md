@@ -1,4 +1,9 @@
-# X - Admin Moderation Features
+---
+description: A high-level overview of Admin's moderation features.
+sidebar_position: 3
+---
+
+# Admin Moderation Features
 
 ### Overviews
 

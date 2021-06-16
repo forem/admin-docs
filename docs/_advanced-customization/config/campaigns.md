@@ -1,5 +1,6 @@
 ---
 description: How to go into "campaign mode" on the homepage.
+position: 2
 ---
 
 # Campaigns
@@ -18,7 +19,6 @@ You can choose to enable each feature individually or at the same time.
 
 ![1) Large banner on home page](/img/large_banner_on_homepage.png)
 
-
 ![2) Highlighted Campaign Articles & 3) Campaign Sidebar Image](/img/campaign_sidebar_image.png)
 
 ## Campaign Hero HTML Variant Name
@@ -27,19 +27,19 @@ An HTML Variant is the HTML and CSS design of your banner. Visit [HTML Variants]
 
 ### Campaign Articles Require Approval
 
-If using the sidebar, select this box if the articles under your selected tags should be approved before being shown here. Note: the articles will still appear on the main tag page, but they will be hidden from the homepage sidebar. 
+If using the sidebar, select this box if the articles under your selected tags should be approved before being shown here. Note: the articles will still appear on the main tag page, but they will be hidden from the homepage sidebar.
 
 ### **Campaign Sidebar Enabled**
 
-Check this box if you'd like to have the sidebar enabled. 
+Check this box if you'd like to have the sidebar enabled.
 
 ### Campaign Sidebar Image
 
-Add an optional image URL if you'd like to include an image above your campaign sidebar. 
+Add an optional image URL if you'd like to include an image above your campaign sidebar.
 
 ### Campaign URL
 
-This link directs users to more information about your campaign when they click on the campaign sidebar image. 
+This link directs users to more information about your campaign when they click on the campaign sidebar image.
 
 ### Campaign Featured Tags
 

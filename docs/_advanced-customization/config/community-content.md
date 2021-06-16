@@ -1,4 +1,9 @@
-# X - Community Content
+---
+description: How to go into "campaign mode" on the homepage.
+position: 3
+---
+
+# Community Content
 
 ### Community Name
 

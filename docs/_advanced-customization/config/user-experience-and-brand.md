@@ -1,4 +1,9 @@
-# X - User Experience and Brand
+---
+description: How to go into "campaign mode" on the homepage.
+position: 19
+---
+
+# User Experience and Brand
 
 The Forem feed is perhaps _the_ core functionality of the service. It's an adaptation of a concept popularized by other social platforms in the past two decades, and it is something we need to develop with care in a way that empowers individual communities and users.
 

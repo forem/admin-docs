@@ -1,4 +1,9 @@
-# X - Images
+---
+description: How to go into "campaign mode" on the homepage.
+position: 8
+---
+
+# Images
 
 ### Main Social Image
 

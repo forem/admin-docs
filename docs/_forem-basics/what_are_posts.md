@@ -5,9 +5,9 @@ sidebar_position: 0
 
 # What are posts?
 
-Posts (commonly referred to as "articles") are written pieces of content that are created in the Forem editor. 
+**Posts** (commonly referred to as **Articles**) are the format of content that populate Forem feeds. They can contain text (formatted in markdown), images, videos, and other embedded content. Post authors and Forem Admins have the option to enable/disable discussions on their posts, and Forem Admins have the option to Pin community posts to the top of the main feed.
 
-Community members have the ability to create posts by navigating to `/new` and can set various attributes like a cover image, tags (for discoverability), and a canonical_url (if the post was originally posted elsehwere first). Community members can choose to publish their posts once ready or save a draft to work on the article later. Once posted, a community member's article will appear in the feed on the homepage.
+Community members can create new posts in the editor by clicking `Create Post` from the top navigation or by navigating to `/new`. The post editor allows post authors to set various attributes like a cover image, tags (for discoverability), and a canonical_url (if the post was originally posted elsehwere first). Post authors can choose to publish their posts immediately or save a draft to work on the article later. Once posted, a community member's article will appear in the feed on the homepage.
 
 ## Overview
 

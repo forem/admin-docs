@@ -57,3 +57,13 @@ html[data-theme="dark"] {
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+details summary {
+  cursor: pointer;
+  padding: 5px 0;
+  transition: 0.3s;
+}
+
+details summary:hover {
+  color: var(--ifm-color-primary);
+}

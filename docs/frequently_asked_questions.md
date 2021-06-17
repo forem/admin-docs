@@ -42,3 +42,26 @@ You can go to /admin/advanced/tools in your Forem Admin page to upload an image.
 Your image URL will look something like this: `dev-to-uploads.s3.amazonaws.com/i/alk5808pwnt3j8sb8th3.png`
 
 </details>
+
+<details open class="testDetail">
+
+<summary>
+What data does Forem collect?
+</summary>
+
+We collect and aggregate data about how Forem is being used so that we can focus product development efforts where creators and users are finding the most value, facilitate the delivery of the product, measure engagement and resource consumption, and assess the ongoing health of our infrastructure. The data is generally aggregated but may include identifiers such as Forem Cloud instances.
+
+Please find below a current exhaustive list of the endpoints that comprise our telemetry data sources.
+
+---
+
+| **URL endpoint**                | **Description**                    | **Metric**  |
+| :------------------------------ | :--------------------------------- | :---------- |
+| **/admin/customization/config** | Admin panel configuration settings | Click count |
+| **/admin/invitations**          | Admin panel user invitations       | Click count |
+| **/admin/content_manager/tags** | Admin panel tag management         | Click count |
+| **/admin/apps/welcome**         | Admin panel onboarding             | Click count |
+
+_Last update: 6/17/21_
+
+</details>

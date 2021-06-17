@@ -33,19 +33,19 @@ Click on the arrow beside an item from the checklist to expand it.
 
 ### 1. Set up and configure your Forem
 
-[Upon installing your Forem, you will be prompted to join it.](lhttps://forem-admin.netlify.app/docs/_getting-started/first_user_registration) As the first user, you will be given `Super Admin` privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](https://admin.forem.com/docs/_forem-basics/user_roles/)
+[Upon installing your Forem, you will be prompted to join it.](https://admin.forem.com/docs/_getting-started/first_user_registration) As the first user, you will be given **Super Admin** privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](https://admin.forem.com/docs/_forem-basics/user_roles/)
 
-Navigate to your **Admin Portal** by appending `/admin` to the homepage URL of your Forem (e.g. **dev.to/admin**) or selecting `Admin` from the dropdown menu under your profile image at the top-right of your screen.
+Navigate to your **Admin Portal** by appending `/admin` to the homepage URL of your Forem (e.g. **dev.to/admin**) or selecting **Admin** from the dropdown menu under your profile image at the top-right of your screen.
 
 ![Accessing Admin Portal from dropdown menu under profile image](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstDropdownAdmin.png)
 
 You will see the **Admin Navigation** sidebar menu on the left side of the **Forem Admin landing page**. This is where you will find all your Forem Admin tools and features.
 
-Navigate to `Customization > Config` using the Admin Navigation menu.
+Navigate to `/admin/customization/config` using the **Admin Navigation** menu.
 
 ![Get Started Config](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstConfig.png)
 
-Once in **Config**, you will see a list of options for things that you can set up. For your initial configuration, you will need to complete the fields under `Get Started`:
+Once in **Config**, you will see a list of options for things that you can set up. For your initial configuration, you will need to complete the fields under **Get Started**:
 
 - Community name
 - Community description
@@ -60,16 +60,16 @@ Until these fields are completed, you will see a notification pinned to the top 
 
 Once you’ve completed the initial config settings, we recommend you navigate down the page to
 
-- [Community Content](/docs/_advanced-customization/config/community-content)
-- [Images](/docs/_advanced-customization/config/images)
-- [User Experience and Brand](/docs/_advanced-customization/config/user-experience-and-brand)
+- [Community Content](https://admin.forem.com/docs/_advanced-customization/config/community-content)
+- [Images](https://admin.forem.com/docs/_advanced-customization/config/images)
+- [User Experience and Brand](https://admin.forem.com/docs/_advanced-customization/config/user-experience-and-brand)
 
-These three sections will allow you to set up the bulk of your design options, like choosing your logo, primary brand color, community name, etc.
+These three sections will allow you to set up the bulk of your design options, like choosing your logo, primary brand color, community name, etc. Clicking each link will take you to the relevant page in these docs, to continue to complete your customization process.
 
 </details>
 
 <details>
-<summary>2. Create a Welcome Thread (and any other relevant posts…)</summary>
+<summary>2. Create a Welcome Thread</summary>
 
 ### 2. Create a Welcome Thread
 
@@ -77,9 +77,9 @@ We always recommend that Forem admins set up a **Welcome Thread** early on. The 
 
 You can either set up a Welcome Thread just once and use it to welcome all folks who join your Forem, or you can regularly create new welcome threads to greet new members in batches. It’s up to you!
 
-The "official" Welcome Thread is always the most recent post published under the #welcome tag by the Site Staff User. Your Site Staff User is set to your [First User](https://forem-admin.netlify.app/docs/_getting-started/first_user_registration) by default but can be changed at any time by adjusting the Staff User ID in `Admin > Customization > Config > Community Content`.
+The "official" Welcome Thread is always the most recent post published under the #welcome tag by the Site Staff User. Your Site Staff User is set to your [First User](https://forem-admin.netlify.app/docs/_getting-started/first_user_registration) by default but can be changed at any time by adjusting the **Staff User ID** under **Community Content** in `/admin/customization/config`.
 
-To create your Welcome Thread, ensure you’re logged into the account that is set as Site Staff User. From the homepage of your Forem, click the `Create Post` button in the top right-hand corner. You can say anything you want in the Welcome Thread, as long as you include the #welcome tag.
+To create your Welcome Thread, ensure you’re logged into the account that is set as Site Staff User. From the homepage of your Forem, click the **Create Post** button in the top right-hand corner. You can say anything you want in the Welcome Thread, as long as you include the #welcome tag.
 
 ![Include the #welcome tag on your welcome post](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/welcomeTag.png)
 
@@ -96,11 +96,11 @@ Now, if you append `/welcome` to your Forem’s URL, you should navigate straigh
 
 Any user on your Forem is able to create a tag by including it on their post and saving the article. The difference between these tags and those you create as Forem admin is that organically-created tags are the most basic version with no custom options enabled.
 
-As a Forem admin, you can create tags directly from the Admin Portal. Navigate to `Admin > Content Manager > Tags`
+As a Forem admin, you can create tags directly from the Admin Portal. Navigate to `/admin/content_manager/tags`
 
 ![Tag Manager](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/tagManager.png)
 
-From here you can manage and edit your tags, as well as create new ones. Click the `Make a Tag` button in the right-hand corner.
+From here you can manage and edit your tags, as well as create new ones. Click the **Make a Tag** button in the right-hand corner.
 
 ![New Tag form](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/tagNew.png)
 
@@ -110,32 +110,32 @@ You’ll be presented with a number of options to customize your tag. Most impor
 
 ![Supported tags are recommended to users when adding tags to their posts](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/tagSupportedTrue.png)
 
-Once you’ve created a handful of tags, you can pin them to the right-hand side of your homepage by navigating to `Admin > Customization > Config > Tags`. You should see an option to add **Sidebar tags** — these tags will appear in the order which you designate, top-to-bottom.
+Once you’ve created a handful of tags, you can pin them to the right-hand side of your homepage by navigating to **Tags** in `/admin/customization/config`. You should see an option to add **Sidebar tags** — these tags will appear in the order which you designate, top-to-bottom.
 
 ![Configure Sidebar tags](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/tagConfig.png)
 
 </details>
 
 <details>
-<summary>4. Create pages and sort them in the navigation sidebar</summary>
+<summary>4. Create Pages and Sort Them in the Navigation Sidebar</summary>
 
 ### 4. Create Pages and Sort Them in the Navigation Sidebar
 
-Navigate to `Admin > Customization > Pages` to create and modify pages.
+Navigate to `/admin/customization/pages` to create and modify pages.
 
 ![Page Manager](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/pageManager.png)
 
 Notice that beneath the **Override defaults** section there are a number of pages that come default with Forem. If you modify these pages, they will no longer be updated with newer Forem versions.
 
-You can add pages by clicking `New page` in the top right-hand corner. This is particularly useful for creating custom pages like an _About_ page, a _Contact_ page, or any number of authoritative pages.
+You can add pages by clicking **New page** in the top right-hand corner. This is particularly useful for creating custom pages like an _About_ page, a _Contact_ page, or any number of authoritative pages.
 
 ![New Page form](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/pageNew.png)
 
-Once you’ve created your pages, go to `Admin > Customization > Navigation Links` to add left-hand sidebar links on your homepage that will help folks discover these pages.
+Once you’ve created your pages, go to `/admin/customization/navigation_links` to add left-hand sidebar links on your homepage that will help folks discover these pages.
 
 ![Navigation Links](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/navigationLinks.png)
 
-Click `Add Navigation Link` and follow the prompts to create your nav links for your pages.
+Click **Add Navigation Link** and follow the prompts to create your nav links for your pages.
 
 ![New Navigation Link modal](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/navigationAdd.png)
 
@@ -150,11 +150,11 @@ Once you’ve created all the Navigation Links, you can edit each one to customi
 
 ### 5. Invite People to Join Your Forem
 
-Navigate to `Admin > Config > Authentication` and choose your specific authentication options.
+Navigate to **Authentication** in `/admin/customization/config` and choose your specific authentication options.
 
-If you want your community to remain private, keep `Invite-only mode` checked. If you choose this option, you’ll need to navigate to `Admin > People` and click the “Invitations” tab near the top of the page. Next, click “New” which should appear as a tab also near the top of the page beside “Invitations”. From here, you’ll be able to invite folks to join your Forem.
+If you want your community to only allow people to join if you manually invite them, keep **Invite-only mode** checked. If you choose this option, you’ll need to navigate to `https://dev.to/admin/invitations` and click “New” (which should appear as a tab also near the top of the page beside “Invitations”). From here, you’ll be able to invite new members to join your Forem.
 
-If you choose to make your community public via email and other registration options, you’ll be prompted to set up each registration option.
+If you choose to make your community **Open Registration** via email and other registration options, you’ll be prompted to set up each registration option.
 
 </details>
 

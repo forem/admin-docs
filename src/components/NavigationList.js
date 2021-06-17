@@ -62,15 +62,15 @@ const NavigationSections = [
       {
         title:
           "How do I change the background image of the onboarding screens?",
-        url: "docs/_faqs/how_do_I_change_the_background_of_the_onboarding_screen",
+        url: "docs/frequently_asked_questions",
       },
       {
         title: "How do I set the logo on my Forem?",
-        url: "docs/_faqs/how_do_I_set_the_logo_on_my_Forem",
+        url: "docs/frequently_asked_questions",
       },
       {
         title: "Where do I go to get help with self-hosting my Forem?",
-        url: "docs/_faqs/where_do_I_go_to_get_help_with_self-hosting_my_Forem",
+        url: "docs/frequently_asked_questions",
       },
     ],
   },

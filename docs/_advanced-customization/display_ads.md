@@ -7,7 +7,7 @@ sidebar_position: 0
 
 ## Overview
 
-Display ads are images/text/links you can add to the upper right and lower left sidebars of your community homepage. 
+**Display ads** are images, text, and/or links you can add to the upper right and lower left sidebars of your community homepage. 
 
 ![Annotation of left and ride sidebar](https://user-images.githubusercontent.com/16007075/121432399-9e900900-c948-11eb-8f9d-db4cf3429477.png)
 

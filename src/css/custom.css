@@ -67,3 +67,15 @@ details summary {
 details summary:hover {
   color: var(--ifm-color-primary);
 }
+
+code {
+  border: var(--ifm-color-primary) solid 0.1rem;
+}
+
+.testDetail {
+}
+
+.testDetail summary {
+  font-size: 1.5rem;
+  font-weight: var(--ifm-heading-font-weight);
+}

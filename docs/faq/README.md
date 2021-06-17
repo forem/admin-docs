@@ -3,15 +3,29 @@ sidebar_position: 2
 description: Answering some frequently asked questions.
 ---
 
-# FAQ
+# Frequently Asked Questions
+
+:::tip
+Still have a question? Head over to [forem.dev](https://forem.dev), our community of Forem Creators and Developers
+:::
+
+<details class="testDetail">
+
+<summary>
+How do I set the logo on my Forem?
+</summary>
+
+Be sure to fill out the "Favicon URL", "Logo PNG", and "Logo SVG" fields under "Images" available from the `admin/customization/config` page. Due to caching, it may take a few minutes for your changes to appear.
+
+</details>
 
 ### How do I set the logo on my Forem?
 
-Be sure to fill out all fields on the [Config &gt; Images](../admin-tooling/config/images.md) page.  Due to caching, it may take a few minutes for your changes to appear.
+Be sure to fill out all fields on the [Config &gt; Images](../admin-tooling/config/images.md) page. Due to caching, it may take a few minutes for your changes to appear.
 
 ### How do I change the background image of the onboarding screens?
 
-Head over to [Config &gt; Onboarding](../admin-tooling/config/onboarding.md) to change the background image.  This will add a nice spruce of personality as new members join your forem.
+Head over to [Config &gt; Onboarding](../admin-tooling/config/onboarding.md) to change the background image. This will add a nice spruce of personality as new members join your forem.
 
 ### How do I upload an image to get its direct image URL?
 
@@ -35,7 +49,6 @@ This is a great request and is on our road-map, but is not currently available.
 
 It’s oftentimes a good idea to keep the community private and invite-only until you’ve built some momentum. It’s definitely not necessary, and every community is different, but it’s certainly a common and effective tactic.
 
-### Email digest frequency: does a user have to enable this feature in their email notification settings? I noticed for dev.to it was disabled by default. Are the email templates customizable? 
+### Email digest frequency: does a user have to enable this feature in their email notification settings? I noticed for dev.to it was disabled by default. Are the email templates customizable?
 
-New users will be prompted to opt-in to these Digest emails as part of Onboarding.  They can also always adjust via their preferences in their Settings.  The email templates at this point are not customizable.
-
+New users will be prompted to opt-in to these Digest emails as part of Onboarding. They can also always adjust via their preferences in their Settings. The email templates at this point are not customizable.

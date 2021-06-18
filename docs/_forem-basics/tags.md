@@ -3,7 +3,7 @@ description: A high-level overview of the most important Forem features.
 sidebar_position: 1
 ---
 
-# What are tags?
+# Tags
 
 Tags are added to posts by authors and are used to categorize the post. Users can also follow tags which effect how often they are seen in the user's feed. Users can edit the follow weight of each tag from `/dashboard/following_tags` so that they see the tags more or less often.
 

@@ -3,7 +3,7 @@ description: A high-level overview of the most important Forem features.
 sidebar_position: 0
 ---
 
-# What are Pages?
+# Pages
 
 **Pages** are a way to store static content on your Forem that won't appear in Feeds. They allow for custom formating [compared to Posts](https://admin.forem.com/docs/_forem-basics/what_are_posts) and can be assigned top level paths.
 

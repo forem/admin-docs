@@ -19,7 +19,7 @@ Forem community members are able to organizations via their own `/settings/organ
 
 ### Example Screenshots
 
-![Org Page](/img/screen-shot-2020-09-09-at-11.49.56-am.png)
+![Org Page](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/orgDemoHeroku.png)
 
-![Optional CTA](/img/screen-shot-2020-09-09-at-11.53.11-am.png)
+![Optional CTA](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/orgCTAtriplebyte.png)
 

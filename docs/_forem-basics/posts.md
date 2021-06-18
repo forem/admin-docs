@@ -3,7 +3,7 @@ description: A high-level overview of the most important Forem features.
 sidebar_position: 0
 ---
 
-# What are posts?
+# Posts
 
 **Posts** (commonly referred to as **Articles**) are the format of content that populate Forem feeds. They can contain text (formatted in markdown), images, videos, and other embedded content. Post authors and Forem Admins have the option to enable/disable discussions on their posts, and Forem Admins have the option to Pin community posts to the top of the main feed.
 

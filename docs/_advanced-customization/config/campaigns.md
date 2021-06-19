@@ -23,7 +23,7 @@ You can choose to enable each feature individually or at the same time.
 
 ## Campaign Hero HTML Variant Name
 
-An HTML Variant is the HTML and CSS design of your banner. Visit [HTML Variants](https://admin.forem.com/docs/_advanced-customization/html_variants) (`/admin/customization/html_variants`) to design your banner and add the name of the HTML variant to this field.
+An HTML Variant is the HTML and CSS design of your banner. Visit [HTML Variants](/docs/_advanced-customization/html_variants) (`/admin/customization/html_variants`) to design your banner and add the name of the HTML variant to this field.
 
 ### Campaign Articles Require Approval
 

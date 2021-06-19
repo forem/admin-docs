@@ -33,7 +33,7 @@ Click on the arrow beside an item from the checklist to expand it.
 
 ### 1. Set up and configure your Forem
 
-[Upon installing your Forem, you will be prompted to join it.](https://admin.forem.com/docs/_getting-started/first_user_registration) As the first user, you will be given **Super Admin** privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](https://admin.forem.com/docs/_forem-basics/user_roles/)
+[Upon installing your Forem, you will be prompted to join it.](/docs/_getting-started/first_user_registration) As the first user, you will be given **Super Admin** privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](/docs/_forem-basics/user_roles/)
 
 Navigate to your **Admin Portal** by appending `/admin` to the homepage URL of your Forem (e.g. **dev.to/admin**) or selecting **Admin** from the dropdown menu under your profile image at the top-right of your screen.
 
@@ -60,9 +60,9 @@ Until these fields are completed, you will see a notification pinned to the top 
 
 Once you’ve completed the initial config settings, we recommend you navigate down the page to
 
-- [Community Content](https://admin.forem.com/docs/_advanced-customization/config/community-content)
-- [Images](https://admin.forem.com/docs/_advanced-customization/config/images)
-- [User Experience and Brand](https://admin.forem.com/docs/_advanced-customization/config/user-experience-and-brand)
+- [Community Content](/docs/_advanced-customization/config/community-content)
+- [Images](/docs/_advanced-customization/config/images)
+- [User Experience and Brand](/docs/_advanced-customization/config/user-experience-and-brand)
 
 These three sections will allow you to set up the bulk of your design options, like choosing your logo, primary brand color, community name, etc. Clicking each link will take you to the relevant page in these docs, to continue to complete your customization process.
 

@@ -77,7 +77,7 @@ We always recommend that Forem admins set up a **Welcome Thread** early on. The 
 
 You can either set up a Welcome Thread just once and use it to welcome all folks who join your Forem, or you can regularly create new welcome threads to greet new members in batches. It’s up to you!
 
-The "official" Welcome Thread is always the most recent post published under the #welcome tag by the Site Staff User. Your Site Staff User is set to your [First User](https://forem-admin.netlify.app/docs/_getting-started/first_user_registration) by default but can be changed at any time by adjusting the **Staff User ID** under **Community Content** in `/admin/customization/config`.
+The "official" Welcome Thread is always the most recent post published under the #welcome tag by the Site Staff User. Your Site Staff User is set to your [First User](/docs/_getting-started/first_user_registration) by default but can be changed at any time by adjusting the **Staff User ID** under **Community Content** in `/admin/customization/config`.
 
 To create your Welcome Thread, ensure you’re logged into the account that is set as Site Staff User. From the homepage of your Forem, click the **Create Post** button in the top right-hand corner. You can say anything you want in the Welcome Thread, as long as you include the #welcome tag.
 

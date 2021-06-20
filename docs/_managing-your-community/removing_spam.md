@@ -20,7 +20,7 @@ To banish a user, you must be logged into a super-admin account and:
 
 ## What if the individual post a spammy post, but I'm not entirely sure that they are spammer and so don't want to banish them?
 
-You can always [unpublish a user's article](/docs/_managing-your-community/how_do_I_delete_a_post_or_comment) and then suspend them instead of banishing them.
+You can always [unpublish a user's article](/docs/_managing-your-community/deleting_posts_and_comments) and then suspend them instead of banishing them.
 
 ## Steps to Suspend a User
 

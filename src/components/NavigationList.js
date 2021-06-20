@@ -21,8 +21,8 @@ const NavigationSections = [
     title: "Forem Basics",
     links: [
       { title: "What are pages?", url: "docs/_forem-basics/what_are_pages" },
-      { title: "What are posts?", url: "docs/_forem-basics/what_are_posts" },
-      { title: "What are tags?", url: "docs/_forem-basics/what_are_tags" },
+      { title: "What are posts?", url: "docs/_forem-basics/posts" },
+      { title: "What are tags?", url: "docs/_forem-basics/tags" },
     ],
   },
   {
@@ -30,15 +30,15 @@ const NavigationSections = [
     links: [
       {
         title: "How do I delete a post or comment?",
-        url: "docs/_managing-your-community/how_do_I_delete_a_post_or_comment",
+        url: "docs/_managing-your-community/deleting_posts_and_comments",
       },
       {
         title: "How do I remove spam?",
-        url: "docs/_managing-your-community/how_do_I_remove_spam",
+        url: "docs/_managing-your-community/removing_spam",
       },
       {
         title: "How do I suspend a user?",
-        url: "docs/_managing-your-community/how_do_i_suspend_a_user",
+        url: "docs/_managing-your-community/suspending_users",
       },
     ],
   },

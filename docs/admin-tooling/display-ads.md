@@ -24,7 +24,7 @@ You'll also see an edit button to edit the display ad and a destroy button to co
 
 ### How to Create a Display Ad
 
-Before you get started, you'll need an Organization ID \# to to create the ad. If you have not created an organization yet, you can do so [from your settings page](/docs/_managing-your-community/organization-pages.md). Once you've created an organization, you can look up the Organization ID \# by visiting /admin/organizations.
+Before you get started, you'll need an Organization ID \# to to create the ad. If you have not created an organization yet, you can do so from your settings page. Once you've created an organization, you can look up the Organization ID \# by visiting /admin/organizations.
 
 To create a new display ad, click the "Make A New Display Ad" button from /admin/display_ads. This will bring you to a form with the following fields:
 

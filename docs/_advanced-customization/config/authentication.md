@@ -24,7 +24,7 @@ You can configure whether community members can use email/password to register a
 
 You can optionally restrict which emails are allowed to join. Useful for internal company forems or college emails, etc. Within this setting you can specify whether you want the list of allowed emails to be publicly visible. \(It is most likely a better experience if the list is visible, but you may want to keep it private for any reason.\)
 
-You will additionally have the option of enabling Google reCAPTCHA for email/password registration.  Refer to the [reCAPTCHA page for more info](/docs/_advanced-customization/google-recaptcha).
+You will additionally have the option of enabling Google reCAPTCHA for email/password registration.  Refer to the [reCAPTCHA page for more info](/docs/_advanced-customization/config/google-recaptcha).
 
 ### Generating Keys
 

@@ -1,3 +1,8 @@
+---
+description: Configure your Google Analytics.
+position: 7
+---
+
 # Google Analytics
 
 ### View ID

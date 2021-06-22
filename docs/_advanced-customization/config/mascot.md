@@ -1,3 +1,8 @@
+---
+description: Configure your Forems Mascot and User.
+position: 9
+---
+
 # Mascot
 
 ### About

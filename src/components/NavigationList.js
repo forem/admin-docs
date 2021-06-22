@@ -20,7 +20,7 @@ const NavigationSections = [
   {
     title: "Forem Basics",
     links: [
-      { title: "What are pages?", url: "docs/_forem-basics/what_are_pages" },
+      { title: "What are pages?", url: "docs/_forem-basics/pages" },
       { title: "What are posts?", url: "docs/_forem-basics/posts" },
       { title: "What are tags?", url: "docs/_forem-basics/tags" },
     ],

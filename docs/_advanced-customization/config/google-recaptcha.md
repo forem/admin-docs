@@ -3,6 +3,8 @@ description: >-
   reCAPTCHA is used to prevent spam from hitting your report abuse page. This is
   an optional, but highly recommended protection against spam. More details
   here: https://www.google.com/recaptcha/about/
+
+position: 8
 ---
 
 # Google reCAPTCHA

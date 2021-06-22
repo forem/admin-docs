@@ -22,14 +22,14 @@ Please click the following links for more information on each field in the "Get 
 As part of your initial set-up, we encourage you to also configure your:
 
 * [Logo SVG](images.md#logo-svg) \(aka navbar logo\)
-* [Authentication](authentication.md)
+* [Authentication](/docs/_advanced-customization/config/authentication)
 * [Sidebar tags](tags.md#sidebar-tags)
 
-### [API Tokens](api-tokens.md)
+### [API Tokens](/docs/_advanced-customization/config/api-tokens)
 
 Used to set the health check token, video encoder key, and other tokens.
 
-### [Authentication](authentication.md)
+### [Authentication](/docs/_advanced-customization/config/authentication)
 
 Define the authentication settings of your Forem.  Auth providers, tokens, etc.
 
@@ -53,7 +53,7 @@ You can change the emails your community members will contact for different need
 
 Changing the frequency of how often the "Digest" emails are sent.
 
-### \*\*\*\*[**Google Analytics Reporting API v4**](google-analytics.md)\*\*\*\*
+### \*\*\*\*[**Google Analytics Reporting API v4**](/docs/_advanced-customization/config/google-analytics)\*\*\*\*
 
 You're able to add your own Tracking ID to use Google Analytics on your forem.
 
@@ -61,11 +61,11 @@ You're able to add your own Tracking ID to use Google Analytics on your forem.
 
 This is where you'll set your community logo, favicon, etc.
 
-### \*\*\*\*[**Mascot**](mascot.md)\*\*\*\*
+### \*\*\*\*[**Mascot**](/docs/_advanced-customization/config/mascot)\*\*\*\*
 
 Setting up the mascot on your forem.
 
-### \*\*\*\*[**Meta Keywords**](meta-keywords.md)\*\*\*\*
+### \*\*\*\*[**Meta Keywords**](/docs/_advanced-customization/config/meta-keywords)\*\*\*\*
 
 Here's where you'll define the meta keywords for different types of pages.
 
@@ -97,7 +97,7 @@ A place to set up configuration around sponsorships.
 
 Set the tags which show up by default in the sidebar.
 
-### \*\*\*\*[**User Experience and Brand**](user-experience-and-brand.md)\*\*\*\*
+### \*\*\*\*[**User Experience and Brand**](/docs/_advanced-customization/config/user-experience-and-brand)\*\*\*\*
 
 Update your feed style, default font, brand colors, etc.
 

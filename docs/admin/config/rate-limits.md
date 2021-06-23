@@ -4,7 +4,7 @@ description: >-
   user can take within a certain amount of time.
 ---
 
-# Rate Limits & Anti-Spam
+# X Rate Limits & Anti-Spam
 
 Note: Some limits only apply to new users. The number of days a user is considered new defaults to 3 but can be configured.
 

@@ -1,4 +1,4 @@
-# Events
+# X Events
 
 Events are listed at the `/events` path. They chronologically list upcoming events as well as displaying recent past events.
 

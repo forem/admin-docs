@@ -29,6 +29,11 @@ module.exports = {
           position: "left",
           label: "Getting Started",
         },
+        {
+          href: "https://forem.dev",
+          label: "Explore Forem.dev",
+          position: "right",
+        },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',

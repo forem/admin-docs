@@ -60,7 +60,7 @@ In addition to the report, we also display a history of email messages with the 
 
 Note that when Reporters send in a report they are automatically messaged a standard email thanking them for their report: 
 
-!([Example of automatic message sent to abuse reporter](/img/thank-you-reporter.png)  
+![Example of automatic message sent to abuse reporter](/img/thank-you-reporter.png)  
   
 Oftentimes, the Reporter and Affected are the same person but there are many scenarios where the Reporter is a third party witness to the bad behavior.
 

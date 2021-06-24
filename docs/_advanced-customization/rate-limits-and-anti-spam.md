@@ -9,7 +9,7 @@ Note: Some limits only apply to new users. The number of days a user is consider
 
 ### Rate Limit Article Update
 
-The number of articles a user can update within 30 seconds. To limit the number of articles a user can publish, see [Rate Limit Published Article Creation](rate-limits.md#rate-limit-published-article-creation).
+The number of articles a user can update within 30 seconds. To limit the number of articles a user can publish, see "Rate Limit Published Article Creation" below.
 
 ### Rate Limit User Update
 
@@ -69,7 +69,7 @@ The number of user subscriptions a user can submit within 30 seconds.
 
 ### Spam Trigger Terms
 
-Individual \(case insensitive\) phrases that trigger spam alerts, comma-separated. For example, if you are seeing a lot of spam about illegal movie downloads, you might want to consider adding these phrases: `fullhd 1080p, free movie download` to this field.
+Individual (case insensitive) phrases that trigger spam alerts, comma-separated. For example, if you are seeing a lot of spam about illegal movie downloads, you might want to consider adding these phrases: `fullhd 1080p, free movie download` to this field.
 
-If any posts are published with these keywords, they will be auto-reported by your mascot as vomit reactions that you can confirm or mark as invalid in [admin/reports](../reports.md#vomit-reactions).
+If any posts are published with these keywords, they will be auto-reported by your mascot as vomit reactions that you can confirm or mark as invalid in `/admin/moderation/reports`.
 

@@ -1,5 +1,5 @@
 ---
-description: Assign API keys.
+description: Define public name for sponsors.
 position: 0
 ---
 

@@ -9,7 +9,7 @@ position: 4
 
 Credits enable users to purchase classified listings from your site. Listings can be considered a marketplace for the community: users can offer their services, share events, list items for sale, etc.
 
-**In order to sell credits, you will need to have** Stripe API **configured under your Forem's [Monetization settings](https://admin.forem.com/docs/_advanced-customization/config/monetization)**. Users can purchase credits from `/yourpage/credits/purchase`
+**In order to sell credits, you will need to have** Stripe API **configured under your Forem's [Monetization settings](https://admin.forem.com/docs/_advanced-customization/config/monetization)**. Users can purchase credits from `/credits/purchase`
 
 ### Credit Prices
 

@@ -5,28 +5,35 @@ position: 12
 
 # Newsletter
 
-To set these newsletters, you'll first have to [make a Mailchimp account](https://login.mailchimp.com/signup/). Once you've created your account, you'll need to make an API key:
+Newsletter settings allow you to integrate your Mailchimp newsletter audience with your Forem community members. Newsletters are sent from your Mailchimp account and are different from your [Forem Email Digests](https://admin.forem.com/docs/_advanced-customization/config/email-digest-frequency). Currently, Forem is only configured for Mailchimp newsletter management. If you'd like to request additional integrations, [find out how to contribute feature requests on forem.dev here](https://admin.forem.com/docs/_community-resources/connect_with_forem_builders).
+
+If you don't already have [a Mailchimp account, sign up for one](https://login.mailchimp.com/signup/). 
 
 ### Mailchimp API Key
 
-To get your API key, follow the[ instructions on Mailchimp.](https://mailchimp.com/help/about-api-keys/) Your end page \([https://us12.admin.mailchimp.com/account/api/](https://us12.admin.mailchimp.com/account/api/)\) should look something like this:
+Once you've created your account, you'll need to make an API key. To get your API key, follow the [instructions on Mailchimp](https://mailchimp.com/help/about-api-keys/).
 
-![](/img/mailchimp-api-example.png)
+![Mailchimp API Key management page](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/mailchimpAPI.png)
 
-Copy and paste "Your API Key" into the /admin/config field:
+![Your API end page should look something like this](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/mailchimp-api-example.png)
 
-![](/img/screen-shot-2020-10-21-at-11.26.22-am (1).png)
+Copy and paste **Your API Key** from Mailchimp into the **Mailchimp API Key** field under **Newsletter** in `/admin/customization/config`.
+
+![Paste the API key from Mailchimp into your Forem Config](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/mailchimpAPItoConfig.png)
 
 ### Main Newsletter
 
-This is what DEV uses as their weekly newsletter that gets sent out every Tuesday. You can use this as your weekly newsletter through Mailchimp. Mailchimp calls these newsletters "audiences".
+This is the newsletter you will send to all your Forem members. Mailchimp calls these newsletters **Audiences**. 
 
-1. First, create an audience in Mailchimp: [https://us12.admin.mailchimp.com/lists/new-list/](https://us12.admin.mailchimp.com/lists/new-list/)
-2. Fill out the fields accordingly and save.
-3. Go to the "Settings" -&gt; "Audience name and defaults" 
-4. On the right hand side, you'll see an Audience ID. Copy that and paste it into the Main Newsletter field in /admin/config:
+If already have an audience set up that you want to use for this Newsletter, skip to Step 2 below. Otherwise, go ahead and create one in Step 1.
 
-![](/img/screen-shot-2020-10-21-at-11.26.10-am.png)
+![Mailchimp New Audience form](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/mailchimpCreateAudience.png)
+
+1. [Create a New Audience in Mailchimp](https://us12.admin.mailchimp.com/lists/new-list/). Fill out the fields accordingly and save.
+2. Once you have an audience you want to use (whether you already had one set up or just created it) Go to the **Settings > Audience name and defaults**
+3. On the right hand side, you'll see the **Audience ID**. Copy and paste it into the **Main Newsletter** field in `/admin/config`:
+
+![Enter the Audience ID under Main Newsletter](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/mailchimpMainNewsletterAudienceID.png)
 
 ### Sustaining Members Newsletter
 

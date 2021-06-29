@@ -11,7 +11,7 @@ getting started, we'd like you to review our contributing and style g
 When naming files we should opt for kebab case, `kebab-case`, in order to remain
 consistent and clear. This rule applies for folders as well. However, before creating
 a folder, it'd be best to check in with the Community Success team at 
-[forem.dev](forem.dev) for organizational purposes.
+[forem.dev](https://forem.dev) for organizational purposes.
 
 #### Examples
 Document Title: User Roles > `user-roles.md`

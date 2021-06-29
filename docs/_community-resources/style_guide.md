@@ -18,7 +18,7 @@ Document Title: User Roles > `user-roles.md`
 
 Document Title: Pages > `pages.md`
 
-Document Title: Connecting with Forem Creators and Admins  > 
+Document Title: Connecting with Forem Creators and Admins  > \ 
 `connecting-with-forem-creators-and-admins.md`
 
 With a longer title, it'd also be acceptable to shorted the slug(or file name). For

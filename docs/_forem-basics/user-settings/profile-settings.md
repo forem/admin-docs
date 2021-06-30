@@ -1,3 +1,8 @@
+---
+description: A summary of User Profile Settings fields
+position: 1
+---
+
 # Profile Settings
 
 If a user is a member of multiple Forems, they can have entirely different settings for each one. As an Admin, you may experience users who are unaccustomed to this, so it's handy for you to know what falls under their Settings compared to your Forem Admin configuration.

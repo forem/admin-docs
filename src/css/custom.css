@@ -19,7 +19,7 @@
 */
 
 :root {
-  --ifm-color-primary: #21ba70;
+  --ifm-color-primary: #005B30;
   --ifm-code-font-size: 95%;
   --ifm-footer-background-color: #022830;
   --ifm-spacing-horizontal: 3rem;
@@ -37,6 +37,16 @@ html[data-theme="dark"] {
 
 .footer__links {
   text-align: center;
+}
+
+.heroBanner_src-pages- a,
+.features_src-components- a {
+  text-decoration: underline;
+}
+
+.heroBanner_src-pages- a:hover,
+.features_src-components- a:hover {
+  color: #057E44;
 }
 
 .pagination-nav__item a {

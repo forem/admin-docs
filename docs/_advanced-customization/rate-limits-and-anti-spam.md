@@ -1,6 +1,6 @@
 ---
 description: How to use Rate Limits & Anti-spam tooling.
-position: 56
+sidebar_position: 56
 ---
 
 # Rate Limits & Anti-Spam
@@ -19,7 +19,7 @@ The number of profile updates a user can make within 30 seconds.
 
 The number of times a user can submit feedback within a 5 minute period.
 
-### Rate Limit Follow Count Daily 
+### Rate Limit Follow Count Daily
 
 The number of users a person can follow in one day.
 
@@ -72,4 +72,3 @@ The number of user subscriptions a user can submit within 30 seconds.
 Individual (case insensitive) phrases that trigger spam alerts, comma-separated. For example, if you are seeing a lot of spam about illegal movie downloads, you might want to consider adding these phrases: `fullhd 1080p, free movie download` to this field.
 
 If any posts are published with these keywords, they will be auto-reported by your mascot as vomit reactions that you can confirm or mark as invalid in `/admin/moderation/reports`.
-

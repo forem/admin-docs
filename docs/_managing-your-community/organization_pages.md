@@ -27,18 +27,11 @@ Organization accounts are a free option for teams, companies, clubs, or anyone e
 
 ## Creating an organization page
 
-Anyone can create an organization. The person who creates the organization can visit `/settings/organization` (organizations are found under a user's personal settings) and fill out the following fields:
-
-- **Name**: The displayed name of the organization
-- **Username**: The organization URL will be the Forem URL `/username`. This is also referred to as the **slug** on other forms.
-- **Profile image**: Supports PNG, SVG, JPG
-- **Website url**: Include the https://
-- **Summary**: Text that will be displayed below the organization name on its landing page
-- **Proof**: Asks the user to demonstrate their association with the organization to prevent unauthorized organizations being made in the name of companies or brands or individuals.
+Any user can create a new organization from their [User Organization Settings page](https://admin.forem.com/docs/_forem-basics/user-settings/organization-settings). The person who creates the organization will be the main organization admin. 
 
 ## Invite new members 
 
-New members must be signed up to the Forem with an individual account. Organization admins can find the invite token in their organization settings at `/settings/organization` under **Grow the team**. The new member inputs the token on their own `/settings/organization` (if they are already a member of one or more organizations, they will need to select **New Organization** from the drop-down menu at the top of the page in order to input a token code).
+Organization admins can find the invite token in their [User Organization Settings page](https://admin.forem.com/docs/_forem-basics/user-settings/organization-settings) under **Grow the team**.
 
 ## Organization roles
 
@@ -56,12 +49,5 @@ Organization admins can reattribute an organization post by visiting `/dashboard
 
 ## Deleting an organization
 
-A user can delete their organization if they:
-
-- are the only member in the organization
-- are an admin of the organization
-- the organization has no posts
-- and the organization has no credits
-
-To delete an organization, first make ensure the user is logged in as the admin of the organization they wish to delete. Navigate to `/settings/organization` and scroll down to the bottom of the page where it says **Danger Zone** to delete the organization. Due to known caching issues organizations may occasionally take a while to delete.
+To delete an organization, first make ensure the user is logged in as the admin of the organization they wish to delete. Navigate to their [User Organization Settings page](https://admin.forem.com/docs/_forem-basics/user-settings/organization-settings) and scroll down to the bottom of the page where it says **Danger Zone** to delete the organization. 
 

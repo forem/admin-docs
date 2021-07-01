@@ -1,6 +1,6 @@
 ---
 description: A summary of User Account Settings fields
-position: 4
+sidebar-position: 4
 ---
 
 # Account Settings

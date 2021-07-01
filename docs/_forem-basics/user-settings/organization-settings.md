@@ -33,7 +33,7 @@ To delete an organization, ensure the organization they want to delete is select
 
 ## New Organization Settings
 
-In order to Join an existing organization they are not a member of, or to create a new organization, users need to select **New Organization** from the drop down menu that appears in place of their username at the top of the page.
+In order to join an existing organization they are not a member of, or to create a new organization, users need to select **New Organization** from the drop down menu that appears in place of their username at the top of the page.
 
 ![If a user doesn't have any existing organizations, they don't see a menu at the top of their screen](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/userOrgNew.png)
 
@@ -50,7 +50,9 @@ Anyone can create an organization by filling out the following fields:
 - **Profile image**: Supports PNG, SVG, JPG
 - **Website url**: Include the https://
 - **Summary**: Text that will be displayed below the organization name on its landing page
-- **Proof**: Asks the user to demonstrate their association with the organization to prevent unauthorized organizations being made in the name of companies or brands or individuals.[the Organization Pages documentation](#), along with additional information on how to manage the organization.
+- **Proof**: Asks the user to demonstrate their association with the organization to prevent unauthorized organizations being made in the name of companies or brands or individuals.
 
-The person who creates the organization will be the main organization admin. 
+**The person who creates the organization will be the main organization admin. Organizations can have as many admins as they have members. Forems don't currently have distinctions between organization founders or members, only between admins and members.**
+
+For more information about organizations for Forem Admins, see [the Organization Pages documentation](#).
 

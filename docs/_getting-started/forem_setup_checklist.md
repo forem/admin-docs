@@ -152,8 +152,10 @@ Once you’ve created all the Navigation Links, you can edit each one to customi
 
 Navigate to **Authentication** in `/admin/customization/config` and choose your specific authentication options.
 
-If you want your community to only allow people to join if you manually invite them, keep **Invite-only mode** checked. If you choose this option, you’ll need to navigate to `https://dev.to/admin/invitations` and click “New” (which should appear as a tab also near the top of the page beside “Invitations”). From here, you’ll be able to invite new members to join your Forem.
-
+If you want your community to only allow people to join if you manually invite them, keep **Invite-only mode** checked. **In order to send invitations, you will need to have [SMTP settings](https://admin.forem.com/docs/_advanced-customization/config/smtp-settings) configured for your Forem. Without SMTP settings, your Forem will not be able to send invites, notifications, digests, or admin confirmations.**
+  
+If you choose this option, you’ll need to navigate to `https://dev.to/admin/invitations` and click “New” (which should appear as a tab also near the top of the page beside “Invitations”). From here, you’ll be able to invite new members to join your Forem.
+  
 If you choose to make your community **Open Registration** via email and other registration options, you’ll be prompted to set up each registration option.
 
 </details>

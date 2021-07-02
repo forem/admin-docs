@@ -32,8 +32,10 @@ Visiting `/admin/customization/pages/new` allows you to create a new page.
 - **Is Top Level Path?**
   - If checked, your page lives at `/slug`
   - If not checked, your page lives at `/page/slug`
-- **Feature Flag**
-  - _coming soon_
+- Use as 'Locked Screen'
+- This determines if the page will be used as a landing page for anonymous viewers (landing pages replace the traditional registration screen). This feature only works for private Forems. If your Forem is public, the landing page will not display.
+- Only one page can be used as a locked screen at a time. 
+- Locked screens can be overwritten. To use another locked screen when there is already a locked screen in use, click the "Overwrite current locked screen" button in the modal that appears when "Use as 'Locked Screen'" is clicked.
 
 ## What can you do with pages?
 

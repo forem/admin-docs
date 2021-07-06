@@ -61,7 +61,7 @@ Navigate to `/admin/customization/config` and select "Onboarding" to change out 
 How do I upload an image to get its direct image URL?
 </summary>
 
-You can go to /admin/advanced/tools in your Forem Admin page to upload an image.
+You can go to `/admin/advanced/tools` in your Forem Admin page to upload an image.
 
 ![](/img/screencapture-localhost-3000-admin-advanced-tools-2021-05-06-12_55_40.png)
 

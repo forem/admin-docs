@@ -26,14 +26,14 @@ Address of the remote mail server, e.g. **smtp.gmail.com** or **smtp.sendgrid.ne
 The port that your mail server runs on. This could be 25 or 587 for unencrypted/TLS email, or 465 for SSL-encrypted email, so it's best to confirm these settings with your SMTP service provider.
 
 ### Authentication
-If your mail server requires authentication, you need to specify the authentication type here, e.g. **plain**, **login**, or **cram_md5**
+If your mail server specifies authentication type, you will need to make sure that this field reflects this. The default is usually "login" (which will send password Base64 encoded), with other options being "plain" (will send the password in the clear) or "cram_md5" (combines a Challenge/Response mechanism to exchange information and a cryptographic Message Digest 5 algorithm to hash important information).
 
 ### User name
-If your mail server requires authentication, copy the username from your server. This might be the username before the **@** sign, or it may be your entire email address. [For Sendgrid, this is always `api key`](https://docs.sendgrid.com/for-developers/sending-email/upgrade-your-authentication-method-to-api-keys#upgrade-to-api-keys-for-your-smtp-integration). Check with your SMTP host if you are unsure.
+Username specified for your SMTP service (not always the username for accessing your account). This varies from provider to provider. For some, this may be the username before the **@** sign, or it may be your entire email address. [For Sendgrid, this is always `api key`](https://docs.sendgrid.com/for-developers/sending-email/upgrade-your-authentication-method-to-api-keys#upgrade-to-api-keys-for-your-smtp-integration). Check with your SMTP host if you are unsure.
 
 ### Password
-If your mail server requires authentication, copy the password from your server. Sendgrid users will need to generate an API key instead, and [use the full API key as the password.](https://docs.sendgrid.com/for-developers/sending-email/upgrade-your-authentication-method-to-api-keys#upgrade-to-api-keys-for-your-smtp-integration)
+Password specified for your SMTP service (not always the password for accessing your account). Sendgrid users will need to generate an API key instead, and [use the full API key as the password.](https://docs.sendgrid.com/for-developers/sending-email/upgrade-your-authentication-method-to-api-keys#upgrade-to-api-keys-for-your-smtp-integration). [Sendinblue users will need to request an SMTP password from Support before being able to use SMTP](https://help.sendinblue.com/hc/en-us/articles/209463245).
 
 ### Domain
-If you need to specify a HELO domain, you can do it here.
+If you need to specify a HELO domain, you can do it here. If not, leave this field blank.
 

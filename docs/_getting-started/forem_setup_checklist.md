@@ -162,4 +162,4 @@ If you choose to make your community **Open Registration** via email and other r
 
 ## We’re Just Getting Started
 
-These are just the beginning steps for setting up your Forem. Now that you have the bare essentials, we recommend that you experiment with the site a bit and return to these docs as needed. If you have any questions, please check out our FAQ first, give other sections of this documentation a quick read, and don’t hesitate to post under [#help](https://forem.dev/t/help) on [forem.dev](https://forem.dev/), our meta-Forem for offering support to Forem creators.
+These are just the beginning steps for setting up your Forem. Now that you have the bare essentials, we recommend that you experiment with the site a bit and return to these docs as needed. If you have any questions, please [check out our FAQ](https://admin.forem.com/docs/frequently_asked_questions) first, give other sections of this documentation a quick read, and don’t hesitate to post under [#help](https://forem.dev/t/help) on [forem.dev](https://forem.dev/), our meta-Forem for offering support to Forem creators.

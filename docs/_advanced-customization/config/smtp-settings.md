@@ -32,7 +32,7 @@ If your mail server specifies authentication type, you will need to make sure th
 Username specified for your SMTP service (not always the username for accessing your account). This varies from provider to provider. For some, this may be the username before the **@** sign, or it may be your entire email address. [For Sendgrid, this is always "api key"](https://docs.sendgrid.com/for-developers/sending-email/upgrade-your-authentication-method-to-api-keys#upgrade-to-api-keys-for-your-smtp-integration). Check with your SMTP host if you are unsure.
 
 ### Password
-Password specified for your SMTP service (not always the password for accessing your account). Sendgrid users will need to generate an API key instead, and [use the full API key as the password.](https://docs.sendgrid.com/for-developers/sending-email/upgrade-your-authentication-method-to-api-keys#upgrade-to-api-keys-for-your-smtp-integration). [Sendinblue users will need to request an SMTP password from Support before being able to use SMTP](https://help.sendinblue.com/hc/en-us/articles/209463245).
+Password specified for your SMTP service (not always the password for accessing your account). Sendgrid users will need to generate an API key instead, and [use the full API key as the password](https://docs.sendgrid.com/for-developers/sending-email/upgrade-your-authentication-method-to-api-keys#upgrade-to-api-keys-for-your-smtp-integration). [Sendinblue users will need to request an SMTP password from Support before being able to use SMTP](https://help.sendinblue.com/hc/en-us/articles/209463245).
 
 ### Domain
 If you need to specify a HELO domain, you can do it here. If not, leave this field blank.

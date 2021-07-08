@@ -33,7 +33,7 @@ Click on the arrow beside an item from the checklist to expand it.
 
 ### 1. Set up and configure your Forem
 
-[Upon installing your Forem, you will be prompted to join it.](/docs/getting-started/first_user_registration) As the first user, you will be given **Super Admin** privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](/docs/forem-basics/user_roles/)
+[Upon installing your Forem, you will be prompted to join it.](/docs/getting-started/first_user_registration) As the first user, you will be given **Super Admin** privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](/docs/forem-basics/user-roles/)
 
 Navigate to your **Admin Portal** by appending `/admin` to the homepage URL of your Forem (e.g. **dev.to/admin**) or selecting **Admin** from the dropdown menu under your profile image at the top-right of your screen.
 
@@ -150,8 +150,8 @@ Once you’ve created all the Navigation Links, you can edit each one to customi
 
 ### 5. Set your Forem's access level and invite people to join your community
 
-To begin with, open the **User Experience and Brand** section at the very bottom of the `admin/customization/config` page. If you'd like your Forem to be viewable by unregistered visitors, ensure the **Public** box is checked. If you only want registered members to be able to view content on your Forem, ensure the **Public** box is unchecked. 
-  
+To begin with, open the **User Experience and Brand** section at the very bottom of the `admin/customization/config` page. If you'd like your Forem to be viewable by unregistered visitors, ensure the **Public** box is checked. If you only want registered members to be able to view content on your Forem, ensure the **Public** box is unchecked.
+
 Navigate to **Authentication** in `/admin/customization/config` and choose your specific authentication options.
 
 If you want your community to only allow people to join if you manually invite them, keep **Invite-only mode** checked. **In order to send invitations, you will need to have [SMTP settings](https://admin.forem.com/docs/advanced-customization/config/smtp-settings) configured for your Forem. Without SMTP settings, your Forem will not be able to send invites, notifications, digests, or admin confirmations.**
@@ -164,4 +164,4 @@ If you choose to make your community **Open Registration** via email and other r
 
 ## We’re Just Getting Started
 
-These are just the beginning steps for setting up your Forem. Now that you have the bare essentials, we recommend that you experiment with the site a bit and return to these docs as needed. If you have any questions, please [check out our FAQ](https://admin.forem.com/docs/frequently_asked_questions) first, give other sections of this documentation a quick read, and don’t hesitate to post under [#help](https://forem.dev/t/help) on [forem.dev](https://forem.dev/), our meta-Forem for offering support to Forem creators.
+These are just the beginning steps for setting up your Forem. Now that you have the bare essentials, we recommend that you experiment with the site a bit and return to these docs as needed. If you have any questions, please [check out our FAQ](https://admin.forem.com/docs/frequently-asked-questions) first, give other sections of this documentation a quick read, and don’t hesitate to post under [#help](https://forem.dev/t/help) on [forem.dev](https://forem.dev/), our meta-Forem for offering support to Forem creators.

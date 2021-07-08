@@ -15,6 +15,11 @@ module.exports = {
       appId: process.env.ALGOLIA_APP_ID,
       indexName: process.env.ALGOLIA_INDEX_NAME,
     },
+    algolia: {
+      apiKey: "63e1a3533b440fc655791f8a37e7df02",
+      appId: "A133UIV45B",
+      indexName: "forem-admin",
+    },
     navbar: {
       // title: 'Forem Admin Docs',
       logo: {
@@ -25,7 +30,7 @@ module.exports = {
       items: [
         {
           type: "doc",
-          docId: "getting-started/first_user_registration",
+          docId: "getting-started/first-user-registration",
           position: "left",
           label: "Getting Started",
         },
@@ -49,7 +54,7 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "/docs/getting-started/first_user_registration",
+              to: "/docs/getting-started/first-user-registration",
             },
           ],
         },

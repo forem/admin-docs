@@ -9,11 +9,11 @@ const NavigationSections = [
     links: [
       {
         title: "First User Registration",
-        url: "docs/getting-started/first_user_registration",
+        url: "docs/getting-started/first-user-registration",
       },
       {
         title: "Forem Setup Checklist",
-        url: "docs/getting-started/forem_setup_checklist",
+        url: "docs/getting-started/forem-setup-checklist",
       },
     ],
   },
@@ -30,29 +30,29 @@ const NavigationSections = [
     links: [
       {
         title: "How do I delete a post or comment?",
-        url: "docs/managing-your-community/deleting_posts_and_comments",
+        url: "docs/managing-your-community/deleting-posts-and-comments",
       },
       {
         title: "How do I remove spam?",
-        url: "docs/managing-your-community/removing_spam",
+        url: "docs/managing-your-community/removing-spam",
       },
       {
         title: "How do I suspend a user?",
-        url: "docs/managing-your-community/suspending_users",
+        url: "docs/managing-your-community/suspending-users",
       },
     ],
   },
   {
     title: "Advanced Customization",
     links: [
-      { title: "Display Ads", url: "docs/advanced-customization/display_ads" },
+      { title: "Display Ads", url: "docs/advanced-customization/display-ads" },
       {
         title: "HTML Variants",
-        url: "docs/advanced-customization/html_variants",
+        url: "docs/advanced-customization/html-variants",
       },
       {
         title: "Tag Display Order",
-        url: "docs/advanced-customization/tag_display_order",
+        url: "docs/advanced-customization/tag-display-order",
       },
     ],
   },
@@ -62,15 +62,15 @@ const NavigationSections = [
       {
         title:
           "How do I change the background image of the onboarding screens?",
-        url: "docs/frequently_asked_questions",
+        url: "docs/frequently-asked-questions",
       },
       {
         title: "How do I set the logo on my Forem?",
-        url: "docs/frequently_asked_questions",
+        url: "docs/frequently-asked-questions",
       },
       {
         title: "Where do I go to get help with self-hosting my Forem?",
-        url: "docs/frequently_asked_questions",
+        url: "docs/frequently-asked-questions",
       },
     ],
   },
@@ -79,15 +79,15 @@ const NavigationSections = [
     links: [
       {
         title: "Who are these docs for?",
-        url: "docs/community-resources/who_are_these_docs_for",
+        url: "docs/community-resources/who-are-these-docs-for",
       },
       {
         title: "Connect with Forem builders?",
-        url: "docs/community-resources/connect_with_forem_builders",
+        url: "docs/community-resources/connect-with-forem-builders",
       },
       {
         title: "How can I submit a bug report?",
-        url: "docs/community-resources/submit_bug_report",
+        url: "docs/community-resources/submit-bug-report",
       },
     ],
   },

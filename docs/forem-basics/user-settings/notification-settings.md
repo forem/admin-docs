@@ -26,4 +26,4 @@ These are notifications that only appear on the notifications page (accessible w
 
 ## Moderator notifications
 
-Only moderators will see this option. [For more information on **User Roles**, check out this guide](https://admin.forem.com/docs/forem-basics/user_roles).
+Only moderators will see this option. [For more information on **User Roles**, check out this guide](https://admin.forem.com/docs/forem-basics/user-roles).

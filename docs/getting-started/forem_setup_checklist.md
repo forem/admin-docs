@@ -92,7 +92,7 @@ Now, if you append `/welcome` to your Forem’s URL, you should navigate straigh
 <details>
 <summary>3. Update and customize your Forem tags</summary>
 
-### 3. Update and Customize Your Forem Tags
+### 3. Update and customize your Forem tags
 
 Any user on your Forem is able to create a tag by including it on their post and saving the article. The difference between these tags and those you create as Forem admin is that organically-created tags are the most basic version with no custom options enabled.
 
@@ -146,10 +146,12 @@ Once you’ve created all the Navigation Links, you can edit each one to customi
 </details>
 
 <details>
-<summary>5. Invite people to join your Forem</summary>
+<summary>5. Set your Forem's access level and invite people to join your community</summary>
 
-### 5. Invite People to Join Your Forem
+### 5. Set your Forem's access level and invite people to join your community
 
+To begin with, open the **User Experience and Brand** section at the very bottom of the `admin/customization/config` page. If you'd like your Forem to be viewable by unregistered visitors, ensure the **Public** box is checked. If you only want registered members to be able to view content on your Forem, ensure the **Public** box is unchecked. 
+  
 Navigate to **Authentication** in `/admin/customization/config` and choose your specific authentication options.
 
 If you want your community to only allow people to join if you manually invite them, keep **Invite-only mode** checked. **In order to send invitations, you will need to have [SMTP settings](https://admin.forem.com/docs/advanced-customization/config/smtp-settings) configured for your Forem. Without SMTP settings, your Forem will not be able to send invites, notifications, digests, or admin confirmations.**

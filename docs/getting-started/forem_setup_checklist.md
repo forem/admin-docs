@@ -33,7 +33,7 @@ Click on the arrow beside an item from the checklist to expand it.
 
 ### 1. Set up and configure your Forem
 
-[Upon installing your Forem, you will be prompted to join it.](/docs/_getting-started/first_user_registration) As the first user, you will be given **Super Admin** privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](/docs/_forem-basics/user_roles/)
+[Upon installing your Forem, you will be prompted to join it.](/docs/getting-started/first_user_registration) As the first user, you will be given **Super Admin** privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](/docs/forem-basics/user_roles/)
 
 Navigate to your **Admin Portal** by appending `/admin` to the homepage URL of your Forem (e.g. **dev.to/admin**) or selecting **Admin** from the dropdown menu under your profile image at the top-right of your screen.
 
@@ -60,9 +60,9 @@ Until these fields are completed, you will see a notification pinned to the top 
 
 Once you’ve completed the initial config settings, we recommend you navigate down the page to
 
-- [Community Content](/docs/_advanced-customization/config/community-content)
-- [Images](/docs/_advanced-customization/config/images)
-- [User Experience and Brand](/docs/_advanced-customization/config/user-experience-and-brand)
+- [Community Content](/docs/advanced-customization/config/community-content)
+- [Images](/docs/advanced-customization/config/images)
+- [User Experience and Brand](/docs/advanced-customization/config/user-experience-and-brand)
 
 These three sections will allow you to set up the bulk of your design options, like choosing your logo, primary brand color, community name, etc. Clicking each link will take you to the relevant page in these docs, to continue to complete your customization process.
 
@@ -77,7 +77,7 @@ We always recommend that Forem admins set up a **Welcome Thread** early on. The 
 
 You can either set up a Welcome Thread just once and use it to welcome all folks who join your Forem, or you can regularly create new welcome threads to greet new members in batches. It’s up to you!
 
-The "official" Welcome Thread is always the most recent post published under the #welcome tag by the Site Staff User. Your Site Staff User is set to your [First User](/docs/_getting-started/first_user_registration) by default but can be changed at any time by adjusting the **Staff User ID** under **Community Content** in `/admin/customization/config`.
+The "official" Welcome Thread is always the most recent post published under the #welcome tag by the Site Staff User. Your Site Staff User is set to your [First User](/docs/getting-started/first_user_registration) by default but can be changed at any time by adjusting the **Staff User ID** under **Community Content** in `/admin/customization/config`.
 
 To create your Welcome Thread, ensure you’re logged into the account that is set as Site Staff User. From the homepage of your Forem, click the **Create Post** button in the top right-hand corner. You can say anything you want in the Welcome Thread, as long as you include the #welcome tag.
 
@@ -152,10 +152,10 @@ Once you’ve created all the Navigation Links, you can edit each one to customi
 
 Navigate to **Authentication** in `/admin/customization/config` and choose your specific authentication options.
 
-If you want your community to only allow people to join if you manually invite them, keep **Invite-only mode** checked. **In order to send invitations, you will need to have [SMTP settings](https://admin.forem.com/docs/_advanced-customization/config/smtp-settings) configured for your Forem. Without SMTP settings, your Forem will not be able to send invites, notifications, digests, or admin confirmations.**
-  
+If you want your community to only allow people to join if you manually invite them, keep **Invite-only mode** checked. **In order to send invitations, you will need to have [SMTP settings](https://admin.forem.com/docs/advanced-customization/config/smtp-settings) configured for your Forem. Without SMTP settings, your Forem will not be able to send invites, notifications, digests, or admin confirmations.**
+
 If you choose this option, you’ll need to navigate to `https://dev.to/admin/invitations` and click “New” (which should appear as a tab also near the top of the page beside “Invitations”). From here, you’ll be able to invite new members to join your Forem.
-  
+
 If you choose to make your community **Open Registration** via email and other registration options, you’ll be prompted to set up each registration option.
 
 </details>

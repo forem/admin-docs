@@ -5,7 +5,7 @@ sidebar_position: 0
 
 # Pages
 
-**Pages** are a way to store static content on your Forem that won't appear in Feeds. They allow for custom formating [compared to Posts](/docs/_forem-basics/posts) and can be assigned top level paths.
+**Pages** are a way to store static content on your Forem that won't appear in Feeds. They allow for custom formating [compared to Posts](/docs/forem-basics/posts) and can be assigned top level paths.
 
 ## Overview
 
@@ -34,7 +34,7 @@ Visiting `/admin/customization/pages/new` allows you to create a new page.
   - If not checked, your page lives at `/page/slug`
 - Use as 'Locked Screen'
 - This determines if the page will be used as a landing page for anonymous viewers (landing pages replace the traditional registration screen). This feature only works for private Forems. If your Forem is public, the landing page will not display.
-- Only one page can be used as a locked screen at a time. 
+- Only one page can be used as a locked screen at a time.
 - Locked screens can be overwritten. To use another locked screen when there is already a locked screen in use, click the "Overwrite current locked screen" button in the modal that appears when "Use as 'Locked Screen'" is clicked.
 
 ## What can you do with pages?

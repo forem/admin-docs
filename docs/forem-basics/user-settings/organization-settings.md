@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # Organization Settings
 
-This is a guide to the User Organization Settings, because organizations are created and managed under individual user account settings. The [Organization Pages documentation](https://admin.forem.com/docs/_managing-your-community/organization_pages) covers additional settings and configuration for Forem Admins.
+This is a guide to the User Organization Settings, because organizations are created and managed under individual user account settings. The [Organization Pages documentation](https://admin.forem.com/docs/managing-your-community/organization_pages) covers additional settings and configuration for Forem Admins.
 
 If a user already has an organization configured, this page will display information about an existing organization by default.
 
@@ -48,7 +48,7 @@ In order to join an existing organization they are not a member of, or to create
 
 ## Join An Organization
 
-In order to join an existing organization that they are not already a member or admin for, users can enter the [secret code provided to them by an org admin](https://admin.forem.com/docs/_managing-your-community/organization_pages)
+In order to join an existing organization that they are not already a member or admin for, users can enter the [secret code provided to them by an org admin](https://admin.forem.com/docs/managing-your-community/organization_pages)
 
 ## Create An Organization
 

@@ -25,10 +25,8 @@ Before submitting, it should look like this:
 
 ![](/img/image (2).png)
 
-Once you've clicked submit, you should see your site and secret keys:  
-
+Once you've clicked submit, you should see your site and secret keys:
 
 ![](/img/recaptcha-submit-example.png)
 
-Please add them to your Forem's config section in the **Email** section of [`Config > Authentication`](/docs/_advanced-customization/config/authentication).
-
+Please add them to your Forem's config section in the **Email** section of [`Config > Authentication`](/docs/advanced-customization/config/authentication).

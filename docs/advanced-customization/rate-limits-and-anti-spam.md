@@ -9,7 +9,7 @@ Note: Some limits only apply to new users. The number of days a user is consider
 
 ### Rate Limit Article Update
 
-The number of articles a user can update within 30 seconds. To limit the number of articles a user can publish, see [Rate Limit Published Article Creation](https://admin.forem.com/docs/_advanced-customization/rate-limits-and-anti-spam#rate-limit-published-article-creation) below.
+The number of articles a user can update within 30 seconds. To limit the number of articles a user can publish, see [Rate Limit Published Article Creation](https://admin.forem.com/docs/advanced-customization/rate-limits-and-anti-spam#rate-limit-published-article-creation) below.
 
 ### Rate Limit User Update
 

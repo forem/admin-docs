@@ -5,7 +5,7 @@ sidebar_position: 0
 
 # First User Registration
 
-When you first install your Forem, you will be invited to become its First User. **Until you create your First User account, the sign-up page will be accessible to anyone visiting your Forem’s URL.** It is important to complete this registration immediately upon spinning up your Forem because the first user will be given **Super Admin** privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](/docs/_forem-basics/user_roles)
+When you first install your Forem, you will be invited to become its First User. **Until you create your First User account, the sign-up page will be accessible to anyone visiting your Forem’s URL.** It is important to complete this registration immediately upon spinning up your Forem because the first user will be given **Super Admin** privileges which will allow you to configure your Forem. [Click here for more information about different user roles.](/docs/forem-basics/user_roles)
 
 ![First User sign-up form](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstSplash.png)
 
@@ -17,7 +17,7 @@ Your profile image is the only field on the initial form that can be skipped dur
 
 ![Suggested tags form](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstTags.png)
 
-Before being able to access your Forem, you will need to accept your Community Code of Conduct and Terms of Use. The text for these is the Forem default, and you can [modify them from your Pages Admin](/docs/_forem-basics/pages) later on.
+Before being able to access your Forem, you will need to accept your Community Code of Conduct and Terms of Use. The text for these is the Forem default, and you can [modify them from your Pages Admin](/docs/forem-basics/pages) later on.
 
 ![Accept Community Code of Conduct and Terms of Use](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstAgreement.png)
 
@@ -25,4 +25,4 @@ Congratulations! You are a new Forem Super Admin. Welcome to your Forem!
 
 ![Welcome to your new Forem homepage!](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstHome.png)
 
-[Continue to your Getting Started Checklist guide](/docs/_getting-started/forem_setup_checklist) for instructions on how to start customizing your Forem and getting it ready for your community.
+[Continue to your Getting Started Checklist guide](/docs/getting-started/forem_setup_checklist) for instructions on how to start customizing your Forem and getting it ready for your community.

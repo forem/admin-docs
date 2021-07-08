@@ -8,8 +8,8 @@ Organization accounts are a free option for teams, companies, clubs, or anyone e
 
 - Dedicated Landing Page: organizations have a page to display key information, a list of organization members, and more. Here are a few examples from DEV:
 
-     * [https://dev.to/twilio](https://dev.to/twilio)
-     * [https//dev.to/heroku](https://dev.to/heroku)
+  - [https://dev.to/twilio](https://dev.to/twilio)
+  - [https//dev.to/heroku](https://dev.to/heroku)
 
 ![Org Page](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/orgDemoHeroku.png)
 
@@ -27,11 +27,11 @@ Organization accounts are a free option for teams, companies, clubs, or anyone e
 
 ## Creating an organization page
 
-Any user can create a new organization from their [User Organization Settings page](https://admin.forem.com/docs/_forem-basics/user-settings/organization-settings). The person who creates the organization will be the main organization admin. 
+Any user can create a new organization from their [User Organization Settings page](https://admin.forem.com/docs/forem-basics/user-settings/organization-settings). The person who creates the organization will be the main organization admin.
 
-## Invite new members 
+## Invite new members
 
-Organization admins can find the invite token in their [User Organization Settings page](https://admin.forem.com/docs/_forem-basics/user-settings/organization-settings) under **Grow the team**.
+Organization admins can find the invite token in their [User Organization Settings page](https://admin.forem.com/docs/forem-basics/user-settings/organization-settings) under **Grow the team**.
 
 ## Organization roles
 
@@ -45,9 +45,8 @@ Organization Admins are able to view analytics for all posts published under the
 
 ## Changing post author
 
-Organization admins can reattribute an organization post by visiting `/dashboard` and then clicking on the tab for the organization account (located just below **Posts**). Whereas their dashboard previously listed all their individual posts, the organization dashboard will list of all organization posts. Clicking on the `...` will offer additional options, including reattributing posts. 
+Organization admins can reattribute an organization post by visiting `/dashboard` and then clicking on the tab for the organization account (located just below **Posts**). Whereas their dashboard previously listed all their individual posts, the organization dashboard will list of all organization posts. Clicking on the `...` will offer additional options, including reattributing posts.
 
 ## Deleting an organization
 
-To delete an organization, first make ensure the user is logged in as the admin of the organization they wish to delete. Navigate to their [User Organization Settings page](https://admin.forem.com/docs/_forem-basics/user-settings/organization-settings) and scroll down to the bottom of the page where it says **Danger Zone** to delete the organization. 
-
+To delete an organization, first make ensure the user is logged in as the admin of the organization they wish to delete. Navigate to their [User Organization Settings page](https://admin.forem.com/docs/forem-basics/user-settings/organization-settings) and scroll down to the bottom of the page where it says **Danger Zone** to delete the organization.

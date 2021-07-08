@@ -25,4 +25,4 @@ Congratulations! You are a new Forem Super Admin. Welcome to your Forem!
 
 ![Welcome to your new Forem homepage!](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstHome.png)
 
-[Continue to your Getting Started Checklist guide](/docs/getting-started/forem_setup_checklist) for instructions on how to start customizing your Forem and getting it ready for your community.
+[Continue to your Getting Started Checklist guide](/docs/getting-started/forem-setup-checklist) for instructions on how to start customizing your Forem and getting it ready for your community.

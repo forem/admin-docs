@@ -19,10 +19,11 @@
 */
 
 :root {
-  --ifm-color-primary: #005B30;
+  --ifm-color-primary: #005b30;
   --ifm-code-font-size: 95%;
   --ifm-footer-background-color: #022830;
   --ifm-spacing-horizontal: 3rem;
+  --ifm-link-decoration: underline;
 }
 
 html[data-theme="dark"] {
@@ -46,11 +47,7 @@ html[data-theme="dark"] {
 
 .heroBanner_src-pages- a:hover,
 .features_src-components- a:hover {
-  color: #057E44;
-}
-
-.pagination-nav__item a {
-  text-decoration: none;
+  color: #057e44;
 }
 
 .container {
@@ -80,9 +77,6 @@ details summary:hover {
 
 code {
   border: var(--ifm-color-primary) solid 0.1rem;
-}
-
-.testDetail {
 }
 
 .testDetail summary {

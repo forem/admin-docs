@@ -7,7 +7,7 @@ position: 16
 
 :::important
 
-NOTE: Once you submit your SMTP settings for your Forem, all users will be invited to confirm their email addresses to be able to log in again. Only the First User won't have to do this. **Please ensure that your [First User](https://admin.forem.com/docs/getting-started/first-user-registration) is still a [Super Admin](https://admin.forem.com/docs/forem-basics/user-roles) and that you still have [access to that account](https://admin.forem.com/docs/forem-basics/user-settings/account-settings) before proceeding with these settings. Without this, you may possibly lose access to your Forem if the SMTP settings configuration fails.**
+NOTE: Once you submit your SMTP settings for your Forem, all users will be automatically logged out and required to confirm their email addresses to be able to log in again. Only the First User won't have to do this. **Please ensure that your [First User](https://admin.forem.com/docs/getting-started/first-user-registration) is still a [Super Admin](https://admin.forem.com/docs/forem-basics/user-roles) and that you still have [access to that account](https://admin.forem.com/docs/forem-basics/user-settings/account-settings) before proceeding with these settings. Without this, you may possibly lose access to your Forem if the SMTP settings configuration fails.**
 
 ::: 
 
@@ -35,7 +35,7 @@ Before you can configure your Forem for SMTP, many SMTP providers require you to
 
 Expand your **SMTP Settings** under `/admin/customization/config` 
 
-**Remember: submitting these settings will lock out all users who haven't confirmed their email address (by replying to an email sent by your Forem to the email address they supplied at registration). Ensure you have full access to your First User (user ID 1) complete with Super Admin permissions before proceeding.**
+**Remember: submitting these settings will lock out all users who haven't confirmed their email address (by requesting an email confirmation at the log in screen, which will be sent to the email address they supplied at registration). Ensure you have full access to your First User (user ID 1) complete with Super Admin permissions before proceeding.**
 
 ### Address
 

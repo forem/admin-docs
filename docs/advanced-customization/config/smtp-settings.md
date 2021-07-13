@@ -5,7 +5,17 @@ position: 16
 
 # SMTP Settings
 
-These settings are required for your Forem to send emails. If you wish to send invites (for example, for an invite-only Forem), email digests, activity notifications, you need to specify which email host will relay those messages for you. When choosing your transactional email service, check that the rate limit (maximum number of emails you can send) allows for your Forem to send all the emails it needs to. Some providers, especially free ones, set a cap to minimize spam. If your rate limit is too low, emails from your Forem may not be sent, and this may impact the user experience of new or existing members.
+:::important
+
+NOTE: Once you submit your SMTP settings for your Forem, all users will be invited to confirm their email addresses to be able to log in again. Only the First User won't have to do this. **Please ensure that your [First User](https://admin.forem.com/docs/getting-started/first-user-registration) is still a [Super Admin](https://admin.forem.com/docs/forem-basics/user-roles) and that you still have [access to that account](https://admin.forem.com/docs/forem-basics/user-settings/account-settings) before proceeding with these settings. Without this, you may possibly lose access to your Forem if the SMTP settings configuration fails.**
+
+::: 
+
+These settings are required for your Forem to send emails. If you wish to send invites (for example, for an invite-only Forem), email digests, activity notifications, you need to specify which email host will relay those messages for you. 
+
+## Choosing a SMTP provider
+
+When choosing your transactional email service, check that the rate limit (maximum number of emails you can send) allows for your Forem to send all the emails it needs to. Some providers, especially free ones, set a cap to minimize spam. If your rate limit is too low, emails from your Forem may not be sent, and this may impact the user experience of new or existing members.
 
 In order to configure SMTP for your Forem, you will need to obtain an email service. Some suggested SMTP providers are
 
@@ -20,6 +30,12 @@ Before you can configure your Forem for SMTP, many SMTP providers require you to
 - [Sendgrid](https://docs.sendgrid.com/ui/account-and-settings/how-to-set-up-domain-authentication)
 - [SparkPost](https://www.sparkpost.com/docs/getting-started/getting-started-sparkpost/#domain-setup)
 - [Mailgun's domain verification documentation](https://help.mailgun.com/hc/en-us/articles/360026833053-Domain-Verification-Walkthrough)
+
+## SMTP Settings
+
+Expand your **SMTP Settings** under `/admin/customization/config` 
+
+**Remember: submitting these settings will lock out all users who haven't confirmed their email address (by replying to an email sent by your Forem to the email address they supplied at registration). Ensure you have full access to your First User (user ID 1) complete with Super Admin permissions before proceeding.**
 
 ### Address
 

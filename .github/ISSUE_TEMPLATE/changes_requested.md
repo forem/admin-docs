@@ -1,6 +1,6 @@
 ---
-Name: Changes Requested
-About: Create a report to help us improve a document
+name: Changes Requested
+about: Create a report to help us improve a document
 ---
 
 ### Explain the changes

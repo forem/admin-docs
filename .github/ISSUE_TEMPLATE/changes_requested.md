@@ -1,18 +1,16 @@
 ---
-name: Changes Requested
-about: Create a report to help us improve a document
+Name: Changes Requested
+About: Create a report to help us improve a document
 ---
 
-**Explain the changes**
+### Explain the changes
 
 <!-- A clear and concise description of the changes to be made and why they should be made. -->
 
-**Suggested changes**
+### Suggested changes
 
 <!-- Place the changes you've made here -->
 
-**Additional context**
+### Additional context
 
 <!-- Add any other context about the problem or helpful links here. -->
-
-{"mode":"full","isActive":false}

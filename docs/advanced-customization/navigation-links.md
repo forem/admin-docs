@@ -7,17 +7,15 @@ position: 0
 
 ### Overview
 
-The `/admin/customization/navigation_links` page is used to configure the sidebar that appears on your home page. By default you should see the following sidebar navigation items on your homepage:
+The `/admin/customization/navigation_links` page is used to configure the sidebar that appears on your home page. The sidebar has two sections: `Default` (its title is your Community Name) and `Other`. By default you should see the following sidebar navigation items on your homepage:
 
-| Name | URL |
-| :--- | :--- |
-| Reading List | /readinglist |
-| Code of Conduct | /code-of-conduct |
-| Privacy Policy | /privacy |
-| Terms of use | /terms |
-| Contact | /contact |
-
-If you create more than 5 links, then the first 5 links will be visible by default on the sidebar, whilst the rest will be collapsed into a **More** section. When **More** is clicked the remainder of the links will display.   
+| Name | URL | Section
+| :--- | :--- | :---
+| Reading List | /readinglist | Default |
+| Code of Conduct | /code-of-conduct | Other |
+| Privacy Policy | /privacy | Other |
+| Terms of use | /terms | Other |
+| Contact | /contact | Default |
 
 ### Possible additional navigation links:
 
@@ -43,10 +41,13 @@ A brief description of each of the fields can be found below:
 * **Name** is the user facing friendly name that you will give the link.
 * **URL** sets the url for the link. The user will be directed to this link when they click on the navigation item.
 * **Icon** requires an SVG icon to be pasted into the text area. The icon will be displayed in a 24x24 px box. More info on finding SVGs below.
+* **Section** determines which section the link will be displayed ("Default" or "Other").
 * **Position** provides the position or the order placement of the links in the sidebar. If you choose to not specify an order then the links will be ordered in a descending order by name. 
 * **Display only when signed in** allows the admin to decide whether that link should only be shown after the user has signed into their account.
 
-You may also edit or delete your navigation link at any point. 
+You may also edit or delete your navigation link at any point.
+
+*NOTE: If you do not have any Other links, the Other section will not show up in your sidebar.*
 
 ### Finding SVGs
 

@@ -61,7 +61,7 @@ const NavigationSections = [
       },
       {
         title: "Add and sort  Navigation Links",
-        url: "docs/advanced-customization/navigation_links",
+        url: "docs/advanced-customization/navigation-links",
       },
     ],
   },

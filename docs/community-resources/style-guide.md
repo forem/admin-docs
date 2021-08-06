@@ -5,7 +5,9 @@ sidebar_position: 2
 
 # Contributing and Style Guide
 
-Thanks for your interest in contributing to Forem's Admin Documentation! Before getting started, we'd like you to review our contributing and style guide. Afterward, please visit our [Forem Admin Docs repo](https://github.com/forem/admin-docs#forem-admin-docs) and [submit an issue](https://github.com/forem/admin-docs/issues/new/choose) using one of our templates.
+Thanks for your interest in contributing to Forem's Admin Documentation! 
+Before getting started, we'd like you to review our contributing and style guide. Afterward, please visit our [Forem Admin Docs repo]
+(https://github.com/forem/admin-docs#forem-admin-docs) and [submit an issue](https://github.com/forem/admin-docs/issues/new/choose) using one of our templates.
 
 ## Naming Conventions
 

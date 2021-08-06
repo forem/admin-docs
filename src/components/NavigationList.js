@@ -20,24 +20,30 @@ const NavigationSections = [
   {
     title: "Forem Basics",
     links: [
-      { title: "Pages", url: "docs/forem-basics/pages" },
-      { title: "Posts", url: "docs/forem-basics/posts" },
-      { title: "Tags", url: "docs/forem-basics/tags" },
+      {
+        title: "Create static content with Pages",
+        url: "docs/forem-basics/pages",
+      },
+      {
+        title: "Manage User Roles and Permissions",
+        url: "docs/forem-basics/user-roles",
+      },
+      { title: "Update and customize Tags", url: "docs/forem-basics/tags" },
     ],
   },
   {
     title: "Managing Your Community",
     links: [
       {
-        title: "How do I delete a post or comment?",
+        title: "Deleting Posts and Comments",
         url: "docs/managing-your-community/deleting-posts-and-comments",
       },
       {
-        title: "How do I remove spam?",
+        title: "Removing Spam",
         url: "docs/managing-your-community/removing-spam",
       },
       {
-        title: "How do I suspend a user?",
+        title: "Suspending Users",
         url: "docs/managing-your-community/suspending-users",
       },
     ],
@@ -45,14 +51,17 @@ const NavigationSections = [
   {
     title: "Advanced Customization",
     links: [
-      { title: "Display Ads", url: "docs/advanced-customization/display-ads" },
       {
-        title: "HTML Variants",
-        url: "docs/advanced-customization/html-variants",
+        title: "Set up OAuth and Access Level",
+        url: "docs/advanced-customization/config/authentication",
       },
       {
-        title: "Tag Display Order",
-        url: "docs/advanced-customization/tag-display-order",
+        title: "Configure SMTP Settings",
+        url: "docs/advanced-customization/config/smtp-settings",
+      },
+      {
+        title: "Add and sort  Navigation Links",
+        url: "docs/advanced-customization/navigation_links",
       },
     ],
   },
@@ -82,12 +91,12 @@ const NavigationSections = [
         url: "docs/community-resources/who-are-these-docs-for",
       },
       {
-        title: "Connect with Forem builders?",
+        title: "Connect with other Forem Creators",
         url: "docs/community-resources/connect-with-forem-builders",
       },
       {
-        title: "How can I submit a bug report?",
-        url: "docs/community-resources/submit-bug-report",
+        title: "Contribute to these docs",
+        url: "docs/community-resources/style-guide",
       },
     ],
   },

@@ -5,6 +5,10 @@ position: 1
 
 # Authentication
 
+## Setting Forem view-access
+
+If you'd like to change whether your Forem can be viewed by everyone or only registered users, be sure to address this in [**User Experience and Brand**](https://admin.forem.com/docs/advanced-customization/config/user-experience-and-brand) before setting your Authentication options.
+
 ### Invite Only Mode
 
 Check this option if you'd like your Forem to be private. The only way that people will be able to create an account is if you send them an invite.

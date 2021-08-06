@@ -45,11 +45,19 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Forem Docs",
           items: [
             {
-              label: "Getting Started",
-              to: "/docs/getting-started/first-user-registration",
+              label: "Admin Docs",
+              to: "/",
+            },
+            {
+              label: "Selfhost Installation",
+              to: "https://github.com/forem/selfhost",
+            },
+            {
+              label: "Developer Docs",
+              to: "https://docs.forem.com/",
             },
           ],
         },
@@ -76,6 +84,10 @@ module.exports = {
             {
               label: "GitHub",
               href: "https://github.com/forem/admin-docs",
+            },
+            {
+              label: "Email Us",
+              href: "mailto:hello@forem.com",
             },
           ],
         },

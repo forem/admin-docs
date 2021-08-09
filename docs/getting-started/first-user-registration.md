@@ -11,7 +11,7 @@ When you first install your Forem, you will be invited to become its First User.
 
 You will need to complete the sign up process before your Forem is fully usable.
 
-Your profile image is the only field on the initial form that can be skipped during registration, but you can make changes to every field via your [User Settings](link to User Settings page) at a later point. Your username will carry through to the next form, where you can optionally add some Basic details that will feature in your user profile. From here on out, you will experience the same sign up process as your community members.
+Your profile image is the only field on the initial form that can be skipped during registration, but you can make changes to every field via your [User Settings](https://admin.forem.com/docs/forem-basics/user-settings/profile-settings) at a later point. Your username will carry through to the next form, where you can optionally add some Basic details that will feature in your user profile. From here on out, you will experience the same sign up process as your community members.
 
 ![Basic info form](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstProfileBlank.png)
 

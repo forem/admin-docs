@@ -7,11 +7,11 @@ position: 4
 
 ### About Credits
 
-Credits enable users to purchase classified listings from your site. Listings can be considered a marketplace for the community: users can offer their services, share events, list items for sale, etc.
+Credits enable users to purchase [classified listings](https://admin.forem.com/docs/advanced-customization/listings) from your site. Listings can be considered a marketplace for the community: users can offer their services, share events, list items for sale, etc.
 
 ### Credit Prices
 
-We recommend tiered bulk pricing for credits \(i.e. the more credits someone buys, the cheaper each credit becomes\).
+We recommend tiered bulk pricing for credits (i.e. the more credits someone buys, the cheaper each credit becomes).
 
 You can include up to four tiers of credit pricing:
 

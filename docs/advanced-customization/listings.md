@@ -66,7 +66,7 @@ To view or modify **Listings Categories**, either click on **Listings Categories
 - **Cost**: Amount it costs in credits to post a listing in this category **It does not cost users credits to save a draft listing.**
 - **Rules**: Listings in this category should meet this description.
 - **Slug**:	Short address to category, e.g. `/listings/slug`
-- **Color**: In hexadecimal
+- **Color**: The social preview color in hexadecimal
 - **Decription**: A note for admins about this category.
 
 ### Modify Listings Categories
@@ -80,6 +80,6 @@ The **Make a new Listing Category** and **Edit Listing Category** share the same
 - **Cost**: Shown beside the listing category name in the drop-down menue on the **Create a new listing** form. Choose any amount in full credits, either using the up/down arrows or entering a numerical value without decimal points.
 - **Rules**: A short, accurate description of the requirements for the category. Displayed in a expandable list on the **Create a new listing** form.
 - **Slug**: The page for this category e.g. `/listings/slug`
-- **Social preview color**: (color picker)
+- **Social preview color**: Used for the listings text whenever a listing gets shared on social. Displayed on a white background.
 - **Description**: Provides space to give more information about this category. Only visible by Admins from `/admin/apps/listings/categories`
 

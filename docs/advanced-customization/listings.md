@@ -31,9 +31,11 @@ Any registered user can create a new listing by navigating to `/listings/new`. T
 ![Create a new listing with expanded category details](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/listingsCreateNewExpandCategories.png)
 
 ### Listings Dashboard for Users
-Each user has a personal Listings Dashboard on a Forem, accessed by adding `/listings/dashboard` to the Forem URL. If a user is a member of an organization as well, they will see a separate listings dashboard for their individual and organization accounts:
+Each user has a personal Listings Dashboard on a Forem, accessed by adding `/listings/dashboard` to the Forem URL:
 
 ![Individual Listings Dashboard](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/listingsDashboardNoOrg.png)
+
+If a user is a member of an organization as well, they will see a separate listings dashboard for their individual and organization accounts:
 
 ![Organization Listings Dashboard](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/listingsDashboardOrg.png)
 

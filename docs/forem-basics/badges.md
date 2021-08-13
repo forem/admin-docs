@@ -15,8 +15,7 @@ Badges are managed from `/admin/content_manager/badges`, where they can be creat
 
 Click **Create Badge** and you'll open form with the following fields:
 
-- **Title**: name of badge
-- **Slug**: the URL for the badge \(/badges/slug-of-badge\) so people can read about the badge.
+- **Title**: name of badge (a badge's link is auto-generated based on the title, e.g. the title **Slug of Badge** would generate the link `/badges/slug-of-badge`) 
 - **Description**: the description that appears when a user is awarded the badge
 - **Badge Image**: upload an image of your badge
 - **Credits Awarded**: number of credits awarded to a user after they were awarded the badge
@@ -46,19 +45,19 @@ Examples types of badges from DEV:
 
 ## How do I set up an automatically-awarded badge?
 
-The following badges can be awarded automatically. To do so, be sure to set up a badge using a matching `slug`.
+The following badges can be awarded automatically. To do so, be sure to set up a badge using a matching **Slug** by matching the exact formating of the **Badge Name** in the table below.
 
 For the top post by tag badges, the Forem admin will need to create a badge and associate it with a tag.
 
 Here's a comprehensive list of the badges' slugs to recreate:
 
-| Badge Name       | Badge Slug      | Note                                                                        |
-| :--------------- | :-------------- | :-------------------------------------------------------------------------- |
-| DEV Contributor  | dev-contributor | This is not generalized. This relates strictly to the DEV Open source repo. |
-| `x` Year Badge   | `x`-year-club   | N/A                                                                         |
-| `x` Streak Badge | `x`-week-streak | capped at 16 weeks, must be 2,4,8,16                                        |
-| Tag Badge        | slug of the tag | associate the badge with a tag via /admin/badges                            |
-| Beloved Comment  | beloved-comment | Automatically awards a badge if someone's comment reaches 25 likes          |
+| Badge Name         | Badge Slug        | Note                                                                        |
+| :----------------- | :---------------- | :-------------------------------------------------------------------------- |
+| DEV Contributor    | dev-contributor   | This is not generalized. This relates strictly to the DEV Open source repo. |
+| **X** Year Badge   | **X**-year-club   | N/A                                                                         |
+| **X** Streak Badge | **X**-week-streak | capped at 16 weeks, must be 2,4,8,16                                        |
+| Tag Badge          | slug of the tag   | associate the badge with a tag via /admin/badges                            |
+| Beloved Comment    | beloved-comment   | Automatically awards a badge if someone's comment reaches 25 likes          |
 
 ## How To Remove A Badge
 

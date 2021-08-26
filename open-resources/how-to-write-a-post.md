@@ -1,7 +1,7 @@
----
-title: How to write a post
-attribution: NO ATTRIBUTION NECESSARY
----
+
+> title: How to write a post
+> attribution: NO ATTRIBUTION NECESSARY
+
 
 >Photo by [Daniel Thomas](https://unsplash.com/@dtbosse)
  

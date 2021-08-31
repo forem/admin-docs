@@ -27,7 +27,7 @@ The **Suggest a Podcast** form contains the following fields:
 * **Title:** title of the podcast, written as it should be displayed (required)
 * **Description:** brief description of the podcast that appears beneath the title on the podcast's homepage
 * **Website URL:** website URL of the podcast, if applicable
-* **Feed URL:** RSS feed address of the podcast (required)
+* **Feed URL:** RSS feed address of the podcast (required). To find the RSS feed URL, we recommend checking [GetRSSFeed](https://getrssfeed.com/)
 * **Twitter username:** podcast Twitter handle, if applicable
 * **Slug:** the address of the podcast's homepage on your Forem i.e. **mypodcast** if you want `/mypodcast` to be the podcast homepage. This can't be an address that already exists (e.g. a username or organization name that is already in use) and we recommend lower case only as there have been issues with UPPER CASE characters in the past. (required)
 * **Main color hex:**  color theme for your podcast page 

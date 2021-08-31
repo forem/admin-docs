@@ -38,12 +38,16 @@ Certain pages can be overridden to display a custom page built by yourself or te
 
 :::note
 
-Certain pages are not able to be be overridden due to their dynamic content. These pages are:
+Only certain pages are able to be be overridden. These pages are:
 
-- `/pod`
-- `/listings`
-- `/sponsors`
-- `/readinglist`
+- `/about`
+- `/about_listings`
+- `/bounty`
+- `/contact`
+- `/community_moderation`
+- `/faq`
+- `/post_a_job`
+- `/tag_moderation`
 
 :::
 

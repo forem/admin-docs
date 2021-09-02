@@ -46,32 +46,9 @@ Only certain pages are able to be be overridden. These pages are:
 - `/contact`
 - `/community_moderation`
 - `/faq`
-- `/post_a_job`
 - `/tag_moderation`
+- `/post_a_job`
 
 :::
 
-### Getting Started
-
-Navigate to your admin page and then to the pages section, `/admin/customization/pages`.
-
-You'll see the "Override defaults" section below the "Pages" section. We'll click the "New page" button in the top right.
-
-### Creating the Page
-
-You'll be present a new page with a form to fill out:
-
-![](/img/overridePageNewForm.png)
-
-To override a page, contact in our case, we'll need to ensure we fill the form out with the proper "title", "slug", and "body markdown".
-
-- **Title**: "Contact Us"
-- **Slug**: "contact"
-- **Body Markdown**:
-
-```
-### We'd love to hear from you
-You can reach us at:
-Email: example@yoursite.tld
-Twitter: @yourHandle
-```
+You can follow our tutorial on [Generated Pages here](https://forem.dev/communitysuccess/overriding-a-generated-page-1mph)!

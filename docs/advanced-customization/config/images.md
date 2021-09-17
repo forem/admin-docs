@@ -60,4 +60,4 @@ This is the icon that shows up in mobile navigation to open up the left sidebar.
 
 This is the icon that shows up in mobile navigation to open up the right sidebar. Please upload as an SVG, no greater than 24 x 24 px.
 
-![Right Navbar SVG Icon](/img/screen-shot-2020-09-12-at-1.29.07-pm (1).png)
+![Right Navbar SVG Icon](/img/screen-shot-2020-09-12-at-1.29.07-pm%20\(1\).png)

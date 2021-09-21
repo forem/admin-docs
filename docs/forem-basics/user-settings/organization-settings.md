@@ -52,7 +52,7 @@ In order to join an existing organization that they are not already a member or 
 
 ## Create An Organization
 
-Anyone can create an organization by filling out the following fields:
+Anyone (admin or user) can create an organization by navigating to `/settings/organization` and filling out the following required fields:
 
 - **Name**: The displayed name of the organization
 - **Username**: The organization URL will be the Forem URL `/username`. This is also referred to as the **slug** on other forms.
@@ -61,6 +61,6 @@ Anyone can create an organization by filling out the following fields:
 - **Summary**: Text that will be displayed below the organization name on its landing page
 - **Proof**: Asks the user to demonstrate their association with the organization to prevent unauthorized organizations being made in the name of companies or brands or individuals.
 
-**The person who creates the organization will be the main organization admin. Organizations can have as many admins as they have members. Forems don't currently have distinctions between organization founders or members, only between admins and members.**
+After filling out these fields, you must click "Create Organization" at the bottom of the page. You can then return to `/settings/organization` to add other attributes to your org and invite org members. Note that you can create multiple orgs and switch between them by using the dropdown menu at the top of the page that says "Settings for..."
 
-For more information about organizations for Forem Admins, see [the Organization Pages documentation](#).
+**The person who creates the organization will be the main organization admin. Organizations can have as many admins as they have members. Forems don't currently have distinctions between organization founders or members, only between admins and members.**).

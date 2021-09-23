@@ -17,20 +17,19 @@ If you're looking for information about a custom page, please visit our [Pages d
 
 Here's a high-level list of the pages you'll receive once your Forem is created.
 
-- `/contact`
 - `/about`
-- `/faq`
-- `/community-moderation`
-- `/tag-moderation`
-- `/terms`
 - `/code-of-conduct`
-- `/privacy`
-- `/readinglist`
+- `/community-moderation`
+- `/contact`
 - `/events`
+- `/faq`
 - `/listings`
 - `/pod`
-- `/listings`
+- `/privacy`
+- `/readinglist`
 - `/sponsors`
+- `/tag-moderation`
+- `/terms`
 
 ## Overriding a Generated Page
 
@@ -41,14 +40,14 @@ Certain pages can be overridden to display a custom page built by yourself or te
 Only certain pages are able to be be overridden. These pages are:
 
 - `/about`
-- `/about_listings`
-- `/bounty`
+- `/about-listings`
 - `/contact`
-- `/community_moderation`
+- `/community-moderation`
 - `/faq`
-- `/tag_moderation`
-- `/post_a_job`
+- `/tag-moderation`
+
+- `/contact` has unique status, in that it's an automatically generated and populated page (which comes with its own [Navigation Link](https://admin.forem.com/docs/advanced-customization/navigation-links) configured) that can be overridden by being created in the Page
 
 :::
 
-You can follow our tutorial on [Generated Pages here](https://forem.dev/communitysuccess/overriding-a-generated-page-1mph)!
+You can follow our tutorial on [Generated Pages here](https://forem.dev/communitysuccess/overriding-a-generated-page-1mph), and [grab some sample content for your pages here](https://forem.dev/ellativity/series/13)!

@@ -78,5 +78,3 @@ Using the 1-5 scale (1: novice; 5: expert), rate what you believe a post's exper
 ## Mod Center
 
 To use all of the features described above in bulk, visit: [forem.dev/mod](/mod)!
-
-![mod-center](https://dev-to-uploads.s3.amazonaws.com/i/co60m21kqxz5wsw9rmw1.gif)

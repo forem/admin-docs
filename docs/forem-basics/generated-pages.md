@@ -46,7 +46,7 @@ Only certain pages are able to be be overridden. These pages are:
 - `/faq`
 - `/tag-moderation`
 
-- `/contact` has unique status, in that it's an automatically generated and populated page (which comes with its own [Navigation Link](https://admin.forem.com/docs/advanced-customization/navigation-links) configured) that can be overridden by being created in the Page
+- `/contact` has unique status, in that it's an automatically generated and populated page (which comes with its own [Navigation Link](https://admin.forem.com/docs/advanced-customization/navigation-links) configured) that can be overridden by being [created as a new Page](https://admin.forem.com/docs/forem-basics/pages).
 
 :::
 

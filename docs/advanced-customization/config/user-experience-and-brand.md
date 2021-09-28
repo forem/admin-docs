@@ -31,6 +31,10 @@ Minimum score needed for a post to show up on default tag page. We recommend kee
 
 Minimum score needed for a post to show up on the unauthenticated home page. We recommend keeping this at "0" for most Forems.
 
+### Index Minimum Score
+
+Minimum score needed for a post to show up in search engine results and the sitemap. We recommend keeping this at "0" for most Forems.
+
 ### Default Font
 
 Select the default font that you'd like to display on your community

@@ -24,6 +24,7 @@ Here's a high-level list of the pages you'll receive once your Forem is created.
 - `/events`
 - `/faq`
 - `/listings`
+- `/organization-info`
 - `/pod`
 - `/privacy`
 - `/readinglist`

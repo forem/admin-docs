@@ -71,4 +71,6 @@ The number of user subscriptions a user can submit within 30 seconds.
 
 Individual (case insensitive) phrases that trigger spam alerts, comma-separated. For example, if you are seeing a lot of spam about illegal movie downloads, you might want to consider adding these phrases: `fullhd 1080p, free movie download` to this field.
 
-If any posts are published with these keywords, they will be auto-reported by your mascot as vomit reactions that you can confirm or mark as invalid in `/admin/moderation/reports`.
+If any posts are published with these keywords, they will be auto-reported by your mascot as vomit reactions that you can confirm or mark as invalid in `/admin/moderation/reports`. 
+
+If any user names contain these strings they will also be flagged and user vomited, making their user score recalculat to a below zero[<sup>[14858]</sup>](https://github.com/forem/forem/pull/14858)

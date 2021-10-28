@@ -48,7 +48,7 @@ Users with the **Trusted** role are community moderators. They have access to `/
 
 Users with the **Warn** role are users that admins flag to one another because of their previous behavior across the site. These are typically users that have broken the Code of Conduct previously but are currently not suspended. We want to make sure their previous actions are taken into consideration if they break the Code of Conduct again. 
 
-Users with the **Warn** role have all the same privileges as **Members in good standing**.
+Users with the **Warn** role have all the same privileges as **Members in good standing**. Setting a **Trusted** User’s role to **Warn** will remove their **Trusted** privileges and return them to the same privileges as **Members in good standing**.
 
 Changing a user's status to the **Warn** role does not automatically send an email to the user (we generally advise that users are notified when their roles change, including if they become **Warned**). 
 

@@ -1,0 +1,6 @@
+# A basic redirect rule
+[[redirects]]
+  from = "/docs/advanced-customization/config/"
+  to = "/docs/advanced-customization/config/api-tokens"
+  
+  

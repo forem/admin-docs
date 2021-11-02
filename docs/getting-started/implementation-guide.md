@@ -5,8 +5,6 @@ sidebar_position: 2
 
 # Forem Implementation Guide
 
-## Purpose
-
 This implementation guide is meant to outline a clear path to success for Forem Creators. 
 
 We've broken this guide down into 3 stages — **Ready**, **Set**, & **Grow. As you progress through the checklist for each stage, you'll complete the set up process for your Forem, learn the various features available to you and your community, and eventually begin growing your Forem community.  

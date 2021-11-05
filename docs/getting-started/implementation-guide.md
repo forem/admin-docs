@@ -23,7 +23,7 @@ We've broken this guide down into 3 stages — **Ready**, **Set**, & **Grow**. A
 :::important
 
 **Need help provisioning your Forem? Schedule a 1:1 call with the Community Success Team.**
-- For Cloud Partners, we have likely already registered the first user and walked the Forem Setup Checklist on your behalf. You may schedule a call with us using Calendly [here](https://calendly.com/d/cfs-bkt-kvj/forem-community-success-1-1-meetings-with-partners) if you'd like us to walk you through any of these details.
+- For Cloud Partners, we have most likely already registered the first user and completed the Forem Setup Checklist on your behalf. Still, feel free to schedule a call with us using Calendly [here](https://calendly.com/d/cfs-bkt-kvj/forem-community-success-1-1-meetings-with-partners) if you'd like us to walk you through any of these details.
 - Self-hosted creators may schedule a call with us using Calendly [here](https://calendly.com/d/cdz-xw3-tc5/forem-community-success-1-1-meetings-with-creators)
 
 :::

@@ -11,7 +11,7 @@ We've broken this guide down into 3 stages — **Ready**, **Set**, & **Grow**. A
 
 ## Ready (Stage 1)
 
-1. Register First User (generally the primary community admin)
+1. Register First User
 2. Follow Forem Setup Checklist
     - [Get Started Checklist](https://admin.forem.com/docs/getting-started/forem-setup-checklist#1-set-up-and-configure-your-forem) (Set community name, description, suggested tags, suggested users)
     - [Create a Welcome Thread](https://admin.forem.com/docs/getting-started/forem-setup-checklist#2-create-a-welcome-thread)
@@ -19,9 +19,14 @@ We've broken this guide down into 3 stages — **Ready**, **Set**, & **Grow**. A
     - [Create Pages and Sort Them in the Nav Sidebar](https://admin.forem.com/docs/getting-started/forem-setup-checklist#4-create-pages-and-sort-them-in-the-navigation-sidebar)
     - [Set your Forem's access level and invite people to join your community](https://admin.forem.com/docs/getting-started/forem-setup-checklist#5-set-your-forems-access-level-and-invite-people-to-join-your-community)
 
+
+:::important
+
 **Need help provisioning your Forem? Schedule a 1:1 call with the Community Success Team.**
-- Cloud Partners may schedule a call with us using Calendly [here](https://calendly.com/d/cfs-bkt-kvj/forem-community-success-1-1-meetings-with-partners).
+- For Cloud Partners, we have likely already registered the first user and walked the Forem Setup Checklist on your behalf. You may schedule a call with us using Calendly [here](https://calendly.com/d/cfs-bkt-kvj/forem-community-success-1-1-meetings-with-partners) if you'd like us to walk you through any of these details.
 - Self-hosted creators may schedule a call with us using Calendly [here](https://calendly.com/d/cdz-xw3-tc5/forem-community-success-1-1-meetings-with-creators)
+
+:::
 
 ## Set (Stage 2)
 

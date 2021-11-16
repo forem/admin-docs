@@ -36,14 +36,7 @@ We've broken this guide down into 3 stages — **Ready**, **Set**, & **Grow**. A
     - [See available user roles](https://admin.forem.com/docs/forem-basics/user-roles)
     - [See generated pages that ship with a Forem and learn how to edit them](https://admin.forem.com/docs/forem-basics/generated-pages)
     - [Consider adding badges](https://admin.forem.com/docs/forem-basics/badges)
-2. Moderation
-    - [See available admin moderation features](https://admin.forem.com/docs/managing-your-community/admin-moderation-features)
-    - [Learn how to remove spam](https://admin.forem.com/docs/managing-your-community/removing-spam)
-    - [Handle Reports](https://admin.forem.com/docs/advanced-customization/reports)
-    - [Adjust Rate Limits & Anti-spam](https://admin.forem.com/docs/advanced-customization/rate-limits-and-anti-spam)
-    - [Recruit Trusted Users](https://admin.forem.com/docs/managing-your-community/trusted-user-features)
-    - [Recruit Tag Moderators](https://admin.forem.com/docs/managing-your-community/tag-moderator-features)
-3. Explore advanced features
+2. Explore advanced features
     - [Create a banner with HTML Variants](https://admin.forem.com/docs/advanced-customization/html-variants)
     - [Create display ads for the homepage](https://admin.forem.com/docs/advanced-customization/display-ads)
     - [Set sidebar tags](https://admin.forem.com/docs/advanced-customization/tag-display-order)
@@ -53,7 +46,14 @@ We've broken this guide down into 3 stages — **Ready**, **Set**, & **Grow**. A
 
 1. Add your Forem to [Forem Discover](https://discover.forem.com/)
     - View other Forems to get a sense of what the successful communities are doing
-2. Follow our growth playbook (TBD)
+2. Learn about moderation tooling:
+    - [See available admin moderation features](https://admin.forem.com/docs/managing-your-community/admin-moderation-features)
+    - [Learn how to remove spam](https://admin.forem.com/docs/managing-your-community/removing-spam)
+    - [Handle Reports](https://admin.forem.com/docs/advanced-customization/reports)
+    - [Adjust Rate Limits & Anti-spam](https://admin.forem.com/docs/advanced-customization/rate-limits-and-anti-spam)
+    - [Recruit Trusted Users](https://admin.forem.com/docs/managing-your-community/trusted-user-features)
+    - [Recruit Tag Moderators](https://admin.forem.com/docs/managing-your-community/tag-moderator-features)
+    - Watch Forem's Community Success Team [discuss moderation here](https://youtu.be/uMp1ULIvEso)
 3. Participate in the community on forem.dev
     - Stay up to date on the latest changes by following [#changelog](https://forem.dev/t/changelog)
     - Make feature requests using [this template](https://forem.dev/new/features) in [#features](https://forem.dev/t/features)

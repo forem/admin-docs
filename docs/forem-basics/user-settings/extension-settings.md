@@ -31,12 +31,6 @@ Clicking on **Insert** will insert the template markdown into the Comment textbo
 
 ![Comment template rendered in Preview](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/commentTemplatePreview.png)
 
-## Connect settings
-
-Connect is Forem's built in direct messaging interface. The default settings are for users to only receive DMs from other users who they follow back. The **Inbox privacy** option allows users to switch between opening their inbox to messages from all other users of the Forem or keep their inbox private to mutual follows.
-
-Users can optionally set guidelines or instructions for users who open a new Connect conversation with them.
-
 ## Publishing to Forem from RSS
 
 Users can configure RSS feed settings to import content from another source every time they save these settings and periodically thereafter. Posts land in their `/dashboard` as drafts to allow them to make manual fixes to formatting before publishing. In the case of Medium, the full post is usually not imported by RSS and needs to be manually added to the stub post. Medium RSS feed URLs are https://medium.com/feed/@your_username

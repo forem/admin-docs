@@ -41,7 +41,3 @@ Here is a quick example of how these fields surface on the tag page:
 Tag moderators get to have their profiles featured on the tag page!
 
 ![Tag page with tag moderators](/img/image-2020-10-22-at-4.11.41-pm.png)
-
-#### Connect with other tag moderators
-
-When a user becomes a tag moderator, they are automatically added to a group connect channel. We find that tag moderators enjoy chatting with one another and sharing advice on how to moderate the Forem. Tag mods should see the group channel when they visit /connect.

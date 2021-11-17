@@ -25,7 +25,6 @@ Any registered user can create a new listing by navigating to `/listings/new`. T
 - **Tags**: Users can add up to 8 tags to support listing searchability.
 - **Custom Expire Date**: If applicable for time sensitive events, deadlines, etc. If not specified, the listing will expire 30 days from the posting date.
 - **Post under an organization**: Posting on behalf of an organization spends organization credits rather than credits from the individual who creates the listing.
-- **Connect messaging**: Allow Users to message me via Connect.
 - ** Location**: 32 characters max, plain text
 
 ![Create a new listing with expanded category details](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/listingsCreateNewExpandCategories.png)

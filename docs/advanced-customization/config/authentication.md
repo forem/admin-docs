@@ -5,6 +5,13 @@ position: 1
 
 # Authentication
 
+:::important
+
+NOTE: if you intend to use Twitter or GitHub [liquid tags for embeds in your Forem posts](https://developers.forem.com/frontend/liquid-tags), you will need to configure authentication for these OAuth apps as detailed below - **even if you don't want to use OAuth for log in/sign in** - otherwise these liquid tags will return authentication errors.
+
+:::
+
+
 ## Setting Forem view-access
 
 If you'd like to change whether your Forem can be viewed by everyone or only registered users, be sure to address this in [**User Experience and Brand**](https://admin.forem.com/docs/advanced-customization/config/user-experience-and-brand) before setting your Authentication options.
@@ -47,7 +54,7 @@ Choose which authentication providers users can log in from. We currently offer:
     - `https://www.{forem-url.com}/users/auth/twitter/callback`
   - Be sure to select the "[request email address from users](https://user-images.githubusercontent.com/22895284/51078803-9a9a2700-16bb-11e9-8f27-dbfe04b52031.png)" option
     - You may need to ensure that your app points to a valid Terms of Service + Privacy page to see this option as available \([details](https://developer.twitter.com/en/docs/apps/app-permissions)\)
-- [GitHub OAuth instructions](https://docs.github.com/en/developers/apps/creating-an-oauth-app)
+- [GitHub OAuth instructions](https://docs.github.com/en/developers/apps/creating-an-oauth-app) (be sure to create an OAuth App rather than a standard GitHub App)
   - [More information here](https://docs.forem.com/backend/auth-github/)
   - Callback URL: `https://{your-forem-url.com}/users/auth/github`
 - [Facebook OAuth instructions](https://developers.facebook.com/docs/apps)

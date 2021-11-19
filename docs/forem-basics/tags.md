@@ -25,7 +25,7 @@ As an admin, you have the ability to manipulate a number of traits for an indivi
 
 **Short Summary**: Displayed on tag page
 
-**Rules Markdown:** Displayed on tag page + in drop-down of rich editor
+**Rules Markdown:** Displayed on tag page + in drop-down of rich editor. Filling out this field adds a "Create Post" button to the tag page, taking users straight to a new post in their Post Editor with this tag prefilled.
 
 **Submission Template**: Placeholder text that appears when creating a new post under the tag. You can share these templates by directing people to `/new/{tag_name}`. This is especially useful when encouraging members to post about a topic in a structured format. This field takes markdown. 
 

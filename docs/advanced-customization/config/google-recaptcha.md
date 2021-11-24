@@ -21,9 +21,9 @@ position: 8
 
 Before submitting, it should look like this:
 
-![](/img/image (1).png)
+![](/img/recaptcha-registration-example.png)
 
-![](/img/image (2).png)
+![](/img/recaptcha-checkbox-example.png)
 
 Once you've clicked submit, you should see your site and secret keys:
 

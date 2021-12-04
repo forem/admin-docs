@@ -47,16 +47,20 @@ Once a podcast is suggested, navigate to `/admin/content_manager/podcasts` to ap
 * Find your podcast and click the title
 * Scroll to the bottom
 * Check the checkbox **Podcast is reachable**
+* Check the checkbox **Featured** - If you'd like this podcast to be featured
 * Check the checkbox **Published**
 * Click **Update Podcast**
 
-![Podcast is Reachable + Published](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/podcastPublish.png)
+![Podcast is Reachable + Published](https://user-images.githubusercontent.com/19507316/144723195-5b26d465-ac9b-46dc-a3e4-9ad9dc957aa1.png)
 
 You should be able to navigate to your podcast page \(e.g. `/mypodcast`\) and see all recent podcasts.
 
 {% hint style="info" %}
 Anyone can suggest a podcast for your Forem, but it doesn't mean you have to approve it! You are free to curate your podcast offerings however you like.
 {% endhint %}
+
+### How To Feature A Podcast
+Featuring a Podcast gives it a new position on the `/pods` page, above all of the other podcasts. In order to make a podcast "Featured" you will need to head to `/admin/content_manager/podcasts` > select the podcast you want featured and ensure the "Featured" input box is checked.
 
 ### Fetch Episodes
 

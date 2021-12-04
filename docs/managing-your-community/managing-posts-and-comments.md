@@ -1,9 +1,9 @@
 ---
-description: A high-level overview of the most important Forem features.
+description: A breakdown of managing user content on the admin pages.
 sidebar_position: 0
 ---
 
-# Deleting Posts and Comments
+# Managing Posts and Comments
 
 Below we'll go over how to delete posts and comments in detail.
 
@@ -26,6 +26,9 @@ If you want to fully delete the user's article, follow the steps above and then:
 2. Click the red "delete" button beside the unpublished post's title
 
 There is no easy way to undelete a post, so please be careful when doing this.
+
+### Unpublish all of a User's Posts
+To unpublish all of a user's posts, you'll want to navigate to their admin profile, `/admin/users/{id}/edit`, and you'll want to scroll down to "Semi-Destructive Actions" and click the button "Unpublish all posts" - this will unpublish all of the user's posts. 
 
 ### Banish a User to Delete All of Their Posts
 

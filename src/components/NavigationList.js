@@ -36,7 +36,7 @@ const NavigationSections = [
     links: [
       {
         title: "Deleting Posts and Comments",
-        url: "docs/managing-your-community/deleting-posts-and-comments",
+        url: "docs/managing-your-community/managing-posts-and-comments",
       },
       {
         title: "Removing Spam",

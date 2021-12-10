@@ -35,6 +35,8 @@ At this point, you can choose to enable any/all of:
 - Twitter
 - Facebook
 
+**Be aware that restricting which emails are allowed to join your Forem will also restrict any OAuth accounts that are registered to a different email domain.** For example, if you limit your Forem registrations to **forem.com** email addresses, someone with **example@forem.com** email address can register. However, if their GitHub account is registered to **example@not-forem.com** they won't be able to connect their GitHub account to their Forem via OAuth.
+
 ### Email and Password
 
 You can configure whether community members can use email/password to register and/or login.'

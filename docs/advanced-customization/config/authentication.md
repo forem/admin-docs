@@ -32,6 +32,7 @@ At this point, you can choose to enable any/all of:
 
 - Email
 - GitHub
+- Google
 - Twitter
 - Facebook
 
@@ -67,7 +68,10 @@ Choose which authentication providers users can log in from. We currently offer:
   - Callback URL: `https://{your-forem-url.com}/users/auth/github`
 - [Facebook OAuth instructions](https://developers.facebook.com/docs/apps)
   - [More information here](https://docs.forem.com/backend/auth-facebook/)
+- [Google OAuth2 instructions](https://console.cloud.google.com/projectcreate)
+  - [More information here](https://developers.forem.com/backend/auth-google/)
+  - Callback URL: `https://{your-forem-url.com}/users/auth/google_oauth2`
 
-Apple and Google are coming soon.
+Apple and Forem are coming soon.
 
 In order to use these providers, you need to add their respective keys. You can create keys for these providers by visiting their developer portals, linked above.

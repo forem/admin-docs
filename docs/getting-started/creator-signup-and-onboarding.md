@@ -3,7 +3,7 @@ description: A high-level overview of the most important Forem features.
 sidebar_position: 0
 ---
 
-# First User Registration
+# Creator Signup and Onboarding
 
 When you first install your Forem, you will be invited to sign up and set up your Creator account. **Until you create your Creator account, the sign-up page will be accessible to anyone visiting your Forem’s URL.** It is important to complete this registration immediately upon spinning up your Forem because the Creator will be given [**Super Admin** privileges](https://admin.forem.com/docs/forem-basics/user-roles#super-admin) which will allow them to configure your Forem.
 

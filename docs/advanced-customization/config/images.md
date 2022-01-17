@@ -15,7 +15,8 @@ The following logo types are accepted: PNG, JPG, and JPEG. Logos should not be m
 ### Secondary Logo
 
 Used as a secondary logo in places like the sign-in modals, user onboarding, and Apple touch icons. This field requires an image URL link and we recommend that the image be a minimum of 512px512px in dimensions for the best results.
- Note: You can quickly generate an image link URL by visiting `/admin/advanced/tools` and uploading a photo.
+
+**Note: You can quickly generate an image link URL by visiting `/admin/advanced/tools` and uploading a photo.**
 
 ### Main Social Image
 
@@ -23,7 +24,7 @@ This image is used as the default OpenGraph image that appears when you share li
 
 ![Social Image in use on Twitter](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/ImagesSocial.png)
 
-Note: You can quickly generate an image link URL by visiting `/admin/advanced/tools` and uploading a photo.
+**Note: You can quickly generate an image link URL by visiting `/admin/advanced/tools` and uploading a photo.**
 
 ### Favicon URL
 
@@ -31,4 +32,4 @@ The Favicon is a small, iconic image that represents your website. Favicons are 
 
 ![Favicon in use in browser tab](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/ImagesFavicon.png)
 
-Note: You can quickly generate an image link URL by visiting `/admin/advanced/tools` and uploading a photo.
+**Note: You can quickly generate an image link URL by visiting `/admin/advanced/tools` and uploading a photo.**

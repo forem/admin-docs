@@ -13,10 +13,12 @@ You will need to complete the signup process before being able to customize your
 
 ![Screenshot of Creator Signup page](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/creatorSignupPage.png)
 
-Required Form Fields
+### Required Form Fields
 
 **Name and Username:** We ask that you provide your name, which we use to generate a username for you. Should you wish to change your username, you’ll be able to edit it inline by clicking the pencil icon next to your proposed username.
+
 **Email:** We request your email as a unique identifier and for future communication, like to receive the Creator newsletter as well as to receive community support.
+
 **Password:** Your password must be a minimum of 8 characters. You can view your password in plain text by toggling the eye icon on the password field.
  
 After submitting the completed form, you will be asked to verify your email address. It is important to note that you will not be able to proceed through the rest of the onboarding process until you have done so.

@@ -8,8 +8,8 @@ const NavigationSections = [
     title: "Getting Started",
     links: [
       {
-        title: "First User Registration",
-        url: "docs/getting-started/first-user-registration",
+        title: "Creator Signup and Onboarding",
+        url: "docs/getting-started/creator-signup-and-onboarding",
       },
       {
         title: "Forem Setup Checklist",

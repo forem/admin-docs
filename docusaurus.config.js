@@ -25,7 +25,7 @@ module.exports = {
       items: [
         {
           type: "doc",
-          docId: "getting-started/first-user-registration",
+          docId: "getting-started/creator-signup-and-onboarding",
           position: "left",
           label: "Getting Started",
         },

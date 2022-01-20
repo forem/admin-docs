@@ -37,34 +37,31 @@ Click on the arrow beside an item from the checklist to expand it.
 
 Navigate to your **Admin Portal** by appending `/admin` to the homepage URL of your Forem (e.g. **dev.to/admin**) or selecting **Admin** from the dropdown menu under your profile image at the top-right of your screen.
 
-![Accessing Admin Portal from dropdown menu under profile image](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstDropdownAdmin.png)
+![Accessing Admin Portal from dropdown menu under profile image](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/userMenuAccessingAdminPortal.png)
 
 You will see the **Admin Navigation** sidebar menu on the left side of the **Forem Admin landing page**. This is where you will find all your Forem Admin tools and features.
 
 Navigate to `/admin/customization/config` using the **Admin Navigation** menu.
 
-![Get Started Config](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstConfig.png)
+![Opening Config from the Admin > Customization sidebar menu](https://github.com/forem/admin-docs/blob/main/static/img/adminCustomizationConfig.png)
 
-Once in **Config**, you will see a list of options for things that you can set up. For your initial configuration, you will need to complete the fields under **Get Started**:
-
-- Community name
-- Community description
-- Suggested tags
-- Suggested users
-
-  ![Get Started Config filled out](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstConfigFilled.png)
-
-Until these fields are completed, you will see a notification pinned to the top of your screen in any view of your Forem.
-
-![Get Started Config completed](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/firstConfigUpdated.png)
-
-Once you’ve completed the initial config settings, we recommend you navigate down the page to
+Once in **Config**, we recommend you navigate down the page to these sections, which will allow you to set up the bulk of your design options, like choosing your logo, primary brand color, community name, etc. Clicking each link will take you to the relevant page in these docs, to continue to complete your customization process:
 
 - [Community Content](/docs/advanced-customization/config/community-content)
+  - Community name
+  - Tagline
+  - Community description
 - [Images](/docs/advanced-customization/config/images)
+  - Logo
+  - Secondary Logo
+  - Favicon
+- Onboarding
+  - Suggested tags
+  - Suggested users
 - [User Experience and Brand](/docs/advanced-customization/config/user-experience-and-brand)
-
-These three sections will allow you to set up the bulk of your design options, like choosing your logo, primary brand color, community name, etc. Clicking each link will take you to the relevant page in these docs, to continue to complete your customization process.
+  - Primary brand color hex
+  - Public
+  - Display in Directory
 
 </details>
 
@@ -85,7 +82,7 @@ To create your Welcome Thread, ensure you’re logged into the account that is s
 
 **Tip: the most recent post with a cover image will show at the top of the feed until another post with a cover image is published, no matter how many posts are published after it without cover images. Use a cover image on your Welcome Thread for the best new user experience.**
 
-Now, if you append `/welcome` to your Forem’s URL, you should navigate straight to the Welcome Thread. For inspiration, here’s what [Promoso’s welcome thread](https://community.promoso.io/welcome) looks like.
+Now, if you append `/welcome` to your Forem’s URL, you should navigate straight to the Welcome Thread. For inspiration, here’s what [forem.dev’s welcome thread](https://forem.dev/welcome) looks like.
 
 </details>
 

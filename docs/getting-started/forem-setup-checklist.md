@@ -151,7 +151,7 @@ To begin with, open the **User Experience and Brand** section at the very bottom
 
 [Navigate to **Authentication** in `/admin/customization/config` and configure your authentication options](https://admin.forem.com/docs/advanced-customization/config/authentication).
 
-If you want your community to only allow people to join if you manually invite them, keep **Invite-only mode** checked. **In order to send invitations, you will need to have [SMTP settings](https://admin.forem.com/docs/advanced-customization/config/smtp-settings) configured for your Forem. Without SMTP settings, your Forem will not be able to send invites, notifications, digests, or admin confirmations.**
+If you want your community to only allow people to join if you manually invite them, keep **Invite-only mode** checked. **In order to send invitations, you will need to have [your Email Server Settings (SMTP)](http://admin.forem.com/docs/advanced-customization/config/email-server-settings) configured for your Forem. Without Email Server Settings, your Forem will not be able to send invites, notifications, digests, or admin confirmations.**
 
 If you choose this option, you’ll need to navigate to `https://dev.to/admin/invitations` and click “New” (which should appear as a tab also near the top of the page beside “Invitations”). From here, you’ll be able to invite new members to join your Forem.
 

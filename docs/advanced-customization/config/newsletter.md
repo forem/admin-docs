@@ -5,7 +5,7 @@ position: 12
 
 # Newsletter
 
-Newsletter settings allow you to integrate your Mailchimp newsletter audience with your Forem community members. Newsletters are sent from your Mailchimp account and are different from your [Forem Email Digests](https://admin.forem.com/docs/advanced-customization/config/email-digest-frequency).
+Newsletter settings allow you to integrate your Mailchimp newsletter audience with your Forem community members. Newsletters are sent from your Mailchimp account and are different from your [Forem Email Digests](https://admin.forem.com/docs/advanced-customization/config/emails#periodic-email-digest).
 
 It's up to you how often you want to create and send your Mailchimp newsletters (we recommend no more than one newsletter per week). You will create and manage these and their sending frequency entirely in Mailchimp, with the API (settings below) sharing the subscribers list with Mailchimp.
 

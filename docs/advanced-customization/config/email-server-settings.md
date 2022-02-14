@@ -1,9 +1,18 @@
 ---
-description: Configure your Forem's SMTP server settings.
-position: 16
+description: Configure your Forem's Email Server Settings.
+position: 5
 ---
 
-# SMTP Settings
+# Email Server Settings (SMTP)
+
+
+## Forem Cloud Clients
+
+As a Forem Cloud client, we provide an email server managed by the Forem team. All settings are managed by us and the from and reply email addresses for all emails are set as noreply@forem.com.
+
+However, you can override this to use your own email server.
+
+These settings are required for your Forem to send emails. If you wish to send invites (for example, for an invite-only Forem), email digests, activity notifications, you need to specify which email host will relay those messages for you.
 
 :::important
 
@@ -11,7 +20,6 @@ NOTE: Once you submit your SMTP settings for your Forem, all users will be autom
 
 :::
 
-These settings are required for your Forem to send emails. If you wish to send invites (for example, for an invite-only Forem), email digests, activity notifications, you need to specify which email host will relay those messages for you.
 
 ## Choosing a SMTP provider
 
@@ -31,23 +39,11 @@ Before you can configure your Forem for SMTP, many SMTP providers require you to
 - [SparkPost](https://www.sparkpost.com/docs/getting-started/getting-started-sparkpost/#domain-setup)
 - [Mailgun's domain verification documentation](https://help.mailgun.com/hc/en-us/articles/360026833053-Domain-Verification-Walkthrough)
 
-## SMTP Settings
+## Email Server Settings
 
-Expand your **SMTP Settings** under `/admin/customization/config`
+Expand your **Email Server Settings** under `/admin/customization/config`
 
 **Remember: submitting these settings will lock out all users who haven't confirmed their email address (by requesting an email confirmation at the log in screen, which will be sent to the email address they supplied at registration). Ensure you have full access to your First User (user ID 1) complete with Super Admin permissions before proceeding.**
-
-### Address
-
-Address of the remote mail server, e.g. **smtp.gmail.com** or **smtp.sendgrid.net**
-
-### Port
-
-The port that your mail server runs on. This could be 25 or 587 for unencrypted/TLS email, or 465 for SSL-encrypted email, so it's best to confirm these settings with your SMTP service provider.
-
-### Authentication
-
-If your mail server specifies authentication type, you will need to make sure that this field reflects this. The default is usually "login" (which will send password Base64 encoded), with other options being "plain" (will send the password in the clear) or "cram_md5" (combines a Challenge/Response mechanism to exchange information and a cryptographic Message Digest 5 algorithm to hash important information).
 
 ### User name
 
@@ -57,6 +53,24 @@ Username specified for your SMTP service (not always the username for accessing 
 
 Password specified for your SMTP service (not always the password for accessing your account). Sendgrid users will need to generate an API key instead, and [use the full API key as the password](https://docs.sendgrid.com/for-developers/sending-email/upgrade-your-authentication-method-to-api-keys#upgrade-to-api-keys-for-your-smtp-integration). [Sendinblue users will need to request an SMTP password from Support before being able to use SMTP](https://help.sendinblue.com/hc/en-us/articles/209463245).
 
+### Address
+
+Address of the remote mail server, e.g. **smtp.gmail.com** or **smtp.sendgrid.net**
+
+### Authentication
+
+If your mail server specifies authentication type, you will need to make sure that this field reflects this. The default is usually "login" (which will send password Base64 encoded), with other options being "plain" (will send the password in the clear) or "cram_md5" (combines a Challenge/Response mechanism to exchange information and a cryptographic Message Digest 5 algorithm to hash important information).
+
 ### Domain
 
 If you need to specify a HELO domain, you can do it here. If not, leave this field blank.
+
+### Port
+
+The port that your mail server runs on. This could be 25 or 587 for unencrypted/TLS email, or 465 for SSL-encrypted email, so it's best to confirm these settings with your SMTP service provider.
+
+### From email address
+The email address that all emails will be sent from.
+
+### Reply to email address
+The email address that users reply to.

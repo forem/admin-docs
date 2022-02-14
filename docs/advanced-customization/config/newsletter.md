@@ -1,6 +1,6 @@
 ---
 description: How to configure Mailchimp newsletters with your Forem
-position: 12
+position: 13
 ---
 
 # Newsletter

@@ -12,4 +12,3 @@ This health checkup token is used to enable a secure endpoint for monitoring the
 ## Video Encoder Key
 
 This is a secret key used to allow AWS to perform video encoding through the VideoStatesController.  Currently, Videos is not available on most forems.
-

@@ -1,6 +1,6 @@
 ---
 description: How to go into "campaign mode" on the homepage.
-position: 19
+position: 16
 ---
 
 # User Experience and Brand

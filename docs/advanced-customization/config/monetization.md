@@ -1,6 +1,6 @@
 ---
 description: Define various monetization variables.
-position: 0
+position: 12
 ---
 
 # Monetization

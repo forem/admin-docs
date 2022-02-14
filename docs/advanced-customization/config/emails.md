@@ -1,6 +1,6 @@
 ---
-description: Set your community email address.
-position: 5
+description: Set your community email address and periodic email digest.
+position: 6
 ---
 
 # Emails

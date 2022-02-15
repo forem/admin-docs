@@ -8,7 +8,7 @@ position: 5
 
 ## Forem Cloud Clients
 
-As a Forem Cloud client, we provide an email server managed by the Forem team. All settings are managed by us and the from and reply email addresses for all emails are set as noreply@forem.com.
+As a Forem Cloud client, you are provided with an email server managed by the Forem team. All settings are managed by us and the from and reply email addresses for all emails are set as noreply@forem.com.
 
 However, you can override this to use your own email server.
 

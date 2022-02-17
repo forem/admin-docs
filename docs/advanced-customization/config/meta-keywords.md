@@ -1,6 +1,6 @@
 ---
 description: Configure your Forems Meta Keywords.
-position: 10
+position: 11
 ---
 
 # Meta Keywords
@@ -18,4 +18,3 @@ Included on article / post pages.
 ### Tag
 
 Included on tag pages.
-

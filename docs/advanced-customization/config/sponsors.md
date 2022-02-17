@@ -1,6 +1,6 @@
 ---
 description: Define public name for sponsors.
-position: 0
+position: 15
 ---
 
 # Sponsors

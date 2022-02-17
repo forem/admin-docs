@@ -1,6 +1,6 @@
 ---
 description: Assign social media variables for community.
-position: 0
+position: 14
 ---
 
 # Social Media
@@ -28,4 +28,3 @@ Instagram username, no punctuation (e.g. "thepracticaldev")
 ### Twitch
 
 Twitch username, no punctuation (e.g. "thepracticaldev")
-

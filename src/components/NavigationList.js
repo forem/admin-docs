@@ -56,8 +56,8 @@ const NavigationSections = [
         url: "docs/advanced-customization/config/authentication",
       },
       {
-        title: "Configure SMTP Settings",
-        url: "docs/advanced-customization/config/smtp-settings",
+        title: "Configure Email Server Settings (SMTP)",
+        url: "docs/advanced-customization/config/email-server-settings",
       },
       {
         title: "Add and sort  Navigation Links",

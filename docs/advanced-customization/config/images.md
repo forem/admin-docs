@@ -1,13 +1,13 @@
 ---
 description: How to go into "campaign mode" on the homepage.
-position: 8
+position: 9
 ---
 
 # Images
 
 ### Logo
 
-The main site logo appears in the site’s navbar (in the top left-hand corner). 
+The main site logo appears in the site’s navbar (in the top left-hand corner).
 The following logo types are accepted: PNG, JPG, and JPEG. Logos should not be more than 3 MB in size and should not be greater than 4096x4096px in dimensions. If your upload attempt is unsuccessful, try resizing the logo and uploading it again.
 
 ![Logo in use in navbar](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/ImagesLogo.png)

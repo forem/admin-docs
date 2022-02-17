@@ -9,12 +9,12 @@ sidebar_position: 2
 
 ## Email notifications
 
-The most common encounter most admins have with this page is to help direct users who wish to reduce their notification volume. Some users may opt into the [Newsletter](https://admin.forem.com/docs/advanced-customization/config/newsletter) or [Digest](https://admin.forem.com/docs/advanced-customization/config/email-digest-frequency) during Onboarding, without realizing that these can be frequent emails, and later wish to opt out.
+The most common encounter most admins have with this page is to help direct users who wish to reduce their notification volume. Some users may opt into the [Newsletter](https://admin.forem.com/docs/advanced-customization/config/newsletter) or [Digest](https://admin.forem.com/docs/advanced-customization/config/emails#periodic-email-digest) during Onboarding, without realizing that these can be frequent emails, and later wish to opt out.
 
-Your Forem needs to have [SMTP settings configured](https://admin.forem.com/docs/advanced-customization/config/smtp-settings) in order to send digests and other email notifications.
+Your Forem needs to have [Email Server Settings (SMTP) configured](http://admin.forem.com/docs/advanced-customization/config/email-server-settings) in order to send digests and other email notifications.
 
 - **Send me weekly newsletter emails**: This is where users opt in or out of your [Newsletters](https://admin.forem.com/docs/advanced-customization/config/newsletter). Although they're described as "weekly newsletters" your newsletters may be more or less frequent. You manage this frequency yourself via your newsletter provider.
-- **Send me a periodic digest of top posts from my tags**: Digests are sent at [the frequency you specify in your Admin Config](https://admin.forem.com/docs/advanced-customization/config/email-digest-frequency). Users can customize the content of the digest much like they customize their feed content: by following other community members, and modifying their [tag weightings](https://admin.forem.com/docs/forem-basics/tags) (as mentioned in [this comment](https://dev.to/michaelcurrin/comment/1abef) on DEV) so they "anti-follow" any topics they don't want to read about.
+- **Send me a periodic digest of top posts from my tags**: Digests are sent at [the frequency you specify in your Admin Config](https://admin.forem.com/docs/advanced-customization/config/emails#periodic-email-digest). Users can customize the content of the digest much like they customize their feed content: by following other community members, and modifying their [tag weightings](https://admin.forem.com/docs/forem-basics/tags) (as mentioned in [this comment](https://dev.to/michaelcurrin/comment/1abef) on DEV) so they "anti-follow" any topics they don't want to read about.
 
 ## Mobile notifications
 

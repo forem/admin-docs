@@ -42,10 +42,6 @@ Your Forem installation includes an information page for RSS at `/p/publishing_f
 
 This is a beta feature that allows for micropayments on posts. The user settings page includes a [link to a DEV article on the subject](https://dev.to/hacksultan/web-monetization-like-i-m-5-1418) and further information is available at [the Web Monetization Community Forem](https://community.webmonetization.org/)!
 
-## Generate a personal blog from your Forem posts
-
-Another beta feature that allows users to automatically generate a self-hosted static blog feed from their posts.
-
 ## GitHub
 
 Users can pin their GitHub repositories to their profile homepage. Removing the OAuth association with GitHub also removes the repo links.

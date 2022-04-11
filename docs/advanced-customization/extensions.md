@@ -13,7 +13,7 @@ The `/admin/advanced/extensions` page contains additional features that you can 
 
 # Listings
 
-Enable [listings for your Forem](docs\advanced-customization\extensions.md) by checking the box. Disable listings by unchecking the box.
+Enable listings for your Forem by checking the box. Disable listings by unchecking the box.
 
 ## Overview
 

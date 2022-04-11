@@ -1,15 +1,7 @@
 ---
-description: A high-level overview of extensions.
+description: A high-level overview of listings.
 sidebar_position: 0
 ---
-
-# Extensions
-
-## Overview
-
-The `/admin/advanced/extensions` page contains additional features that you can enable in your community. These features provide extra community tools, such as listings or mascot accounts, that can help with activating or serving specific community use cases.
-
-![Selecting Extensions from the Developer Tools section of the Admin Panel](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/developerToolsExtensions.png)
 
 # Listings
 

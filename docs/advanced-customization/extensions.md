@@ -1,9 +1,19 @@
 ---
-description: How to manage Forem Listings
-sidebar_position: 12
+description: A high-level overview of extensions.
+sidebar_position: 0
 ---
 
+# Extensions
+
+## Overview
+
+The `/admin/advanced/extensions` page contains additional features that you can enable in your community. These features provide extra community tools, such as listings or mascot accounts, that can help with activating or serving specific community use cases.
+
+![Selecting Extensions from the Developer Tools section of the Admin Panel](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/developerToolsExtensions.png)
+
 # Listings
+
+Enable [listings for your Forem](docs\advanced-customization\extensions\listings.md) by checking the box. Disable listings by unchecking the box.
 
 ## Overview
 Listings can be considered a marketplace for the community: users can offer their services, share events, list items for sale, etc. Listings are paid for with [credits](https://admin.forem.com/docs/advanced-customization/config/credits), which can be obtained through two main methods: 

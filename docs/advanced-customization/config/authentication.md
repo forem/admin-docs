@@ -7,16 +7,21 @@ position: 1
 
 :::important
 
-NOTE: if you intend to use Twitter or GitHub [liquid tags for embeds in your Forem posts](https://developers.forem.com/frontend/liquid-tags), you will need to configure authentication for these OAuth apps as detailed below - **even if you don't want to use OAuth for log in/sign in** - otherwise these liquid tags will return authentication errors.
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
 
 :::
 
+:::important
+
+NOTE: if you intend to use Twitter or GitHub [liquid tags for embeds in your Forem posts](https://developers.forem.com/frontend/liquid-tags), you will need to configure authentication for these OAuth apps as detailed below - **even if you don't want to use OAuth for log in/sign in** - otherwise these liquid tags will return authentication errors.
+
+:::
 
 ## Setting Forem view-access
 
 If you'd like to change whether your Forem can be viewed by everyone or only registered users, be sure to address this in [**User Experience and Brand**](https://admin.forem.com/docs/advanced-customization/config/user-experience-and-brand) before setting your Authentication options.
 
-###  General settings
+### General settings
 
 #### Block email domains
 

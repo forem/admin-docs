@@ -5,6 +5,12 @@ sidebar_position: 0
 
 # Generated Pages
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 **Generated Pages** are pages that are created for your when your Forem is created and spun up for the first time.
 
 :::important

@@ -5,6 +5,12 @@ sidebar_position: 56
 
 # Rate Limits & Anti-Spam
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 Note: Some limits only apply to new users. The number of days a user is considered new defaults to 3 but can be configured.
 
 ### Rate Limit Article Update
@@ -71,6 +77,6 @@ The number of user subscriptions a user can submit within 30 seconds.
 
 Individual (case insensitive) phrases that trigger spam alerts, comma-separated. For example, if you are seeing a lot of spam about illegal movie downloads, you might want to consider adding these phrases: `fullhd 1080p, free movie download` to this field.
 
-If any posts are published with these keywords, they will be auto-reported by your mascot as vomit reactions that you can confirm or mark as invalid in `/admin/moderation/reports`. 
+If any posts are published with these keywords, they will be auto-reported by your mascot as vomit reactions that you can confirm or mark as invalid in `/admin/moderation/reports`.
 
 If any user names contain these strings they will also be flagged and user vomited, making their user score recalculat to a below zero[<sup>[14858]</sup>](https://github.com/forem/forem/pull/14858)

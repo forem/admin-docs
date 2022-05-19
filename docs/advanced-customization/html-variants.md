@@ -5,18 +5,24 @@ sidebar_position: 0
 
 # HTML Variants
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 ## Overview
 
 HTML Variants are HTML/CSS designs that are included in different areas of the platform. The most popular use of HTML Variants are as banner designs for the homepage banner. HTML Variants are versatile and will change between multiple variants if set for one location.
 
 You can filter variants by:
 
-* Leaderboard (published & approved)
-* Mine (variants you have created)
-* Admin (all variants, included unpublished and unapproved)
-* Article show below article CTA (variants set to appear below each post)
-* Badge Landing Page (variants set specifically to appear on `/badge`)
-* Campaign (variants set to appear on the homepage banner) 
+- Leaderboard (published & approved)
+- Mine (variants you have created)
+- Admin (all variants, included unpublished and unapproved)
+- Article show below article CTA (variants set to appear below each post)
+- Badge Landing Page (variants set specifically to appear on `/badge`)
+- Campaign (variants set to appear on the homepage banner)
 
 ## Steps to Create a New HTML Variant
 
@@ -24,13 +30,13 @@ To create an HTML variant, navigate to `/admin/customization/html_variants` and 
 
 Fill the form with the following:
 
-* Name: A descriptive name of your HTML Variant \(i.e. GithHub Actions Campaign Banner\)
-* Group: Select which area you'd like this variant to appear.
-* Target Tag: This is applicable for 'article show below article CTA' variants only. For example, a call-to-action for anything related to a tag that you'd like to appear under posts with that tag.
-* HTML: This is where you can include the HTML and CSS of your design. 
-  * For campaigns: Please see the code below to reference the proper classes and ids to use to ensure your banner functions appropriately.
-* Published: Set published: true when your variant is ready to be used.
-* Approved: An admin needs to set approved:true in order for your variant to go live.
+- Name: A descriptive name of your HTML Variant \(i.e. GithHub Actions Campaign Banner\)
+- Group: Select which area you'd like this variant to appear.
+- Target Tag: This is applicable for 'article show below article CTA' variants only. For example, a call-to-action for anything related to a tag that you'd like to appear under posts with that tag.
+- HTML: This is where you can include the HTML and CSS of your design.
+  - For campaigns: Please see the code below to reference the proper classes and ids to use to ensure your banner functions appropriately.
+- Published: Set published: true when your variant is ready to be used.
+- Approved: An admin needs to set approved:true in order for your variant to go live.
 
 The 'fork' button allows you to quickly duplicate an existing HTML Variant to make adjustments to your own version. The 'preview' button gives you a sense of what your variant will look like once it's published and approved.
 
@@ -38,7 +44,7 @@ NOTE: In order to publish your HTML Variant, you must navigate to `/admin/custom
 
 ## Example HTML Variant
 
-Below is an example of an HTML Variant that results in this banner: 
+Below is an example of an HTML Variant that results in this banner:
 
 ![Example HTML Variant](https://user-images.githubusercontent.com/16007075/121434737-c339b000-c94b-11eb-90f5-ef95d5edb9cc.png)
 
@@ -58,7 +64,7 @@ Below is an example of an HTML Variant that results in this banner:
     border: 2px solid #dfe3e6;
     box-shadow: 2px 2px 2px #dfe3e6;
   }
-  
+
   .campaignmode-hackathon--first {
     width: 50%;
     display: inline-block;
@@ -135,7 +141,7 @@ Below is an example of an HTML Variant that results in this banner:
        width: 80%;
        font-size: 0.9em;
   }
-  
+
     .campaignmode-hackathon--first {
       width: 90%;
       margin-left: 5%;

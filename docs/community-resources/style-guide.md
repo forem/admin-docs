@@ -5,6 +5,12 @@ sidebar_position: 2
 
 # Contributing and Style Guide
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 Thanks for your interest in contributing to Forem's Admin Documentation! 
 Before getting started, we'd like you to review our contributing and style guide. Afterward, please visit our [Forem Admin Docs repo](https://github.com/forem/admin-docs#forem-admin-docs) and [submit an issue](https://github.com/forem/admin-docs/issues/new/choose) using one of our templates.
 

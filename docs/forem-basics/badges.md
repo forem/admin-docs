@@ -5,6 +5,12 @@ sidebar_position: 8
 
 # Badges
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 ## Overview
 
 Badges appear on user profiles and are a great way to reward your community. People love collecting badges!
@@ -15,7 +21,7 @@ Badges are managed from `/admin/content_manager/badges`, where they can be creat
 
 Click **Create Badge** and you'll open form with the following fields:
 
-- **Title**: name of badge (a badge's link is auto-generated based on the title, e.g. the title **Slug of Badge** would generate the link `/badges/slug-of-badge`) 
+- **Title**: name of badge (a badge's link is auto-generated based on the title, e.g. the title **Slug of Badge** would generate the link `/badges/slug-of-badge`)
 - **Description**: the description that appears when a user is awarded the badge
 - **Badge Image**: upload an image of your badge
 - **Credits Awarded**: number of credits awarded to a user after they were awarded the badge

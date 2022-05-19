@@ -5,9 +5,15 @@ position: 0
 
 # Podcasts
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 ### Overview
 
-Every Forem comes configured to stream podcasts from a variety of feed sources. Available podcasts are listed on `/pod`. If a user follows a podcast, they will see an item in their feed that updates when new episodes are published. 
+Every Forem comes configured to stream podcasts from a variety of feed sources. Available podcasts are listed on `/pod`. If a user follows a podcast, they will see an item in their feed that updates when new episodes are published.
 
 ![New podcast episodes appearing in a user's feed](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/podcastEpisodesInFeed.png)
 
@@ -17,26 +23,26 @@ When a podcast is played on platform, a player will appear at the bottom of the 
 
 ### How To Add A Podcast
 
-In order to add a podcast, navigate to `/pod` and click **Suggest a Podcast** at the end of the list of available podcasts (depending on how many podcast your Forem hosts, you may need to scroll), or navigate directly to `/podcasts`. 
+In order to add a podcast, navigate to `/pod` and click **Suggest a Podcast** at the end of the list of available podcasts (depending on how many podcast your Forem hosts, you may need to scroll), or navigate directly to `/podcasts`.
 
 ![Suggest a Podcast appears at the end of the list of available podcasts](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/podcastSuggest.png)
 
 The **Suggest a Podcast** form contains the following fields:
 
-* **I am the owner of this podcast:** check this box to confirm ownership of (and the right to publish) this podcast
-* **Title:** title of the podcast, written as it should be displayed (required)
-* **Description:** brief description of the podcast that appears beneath the title on the podcast's homepage
-* **Website URL:** website URL of the podcast, if applicable
-* **Feed URL:** RSS feed address of the podcast (required). To find the RSS feed URL, we recommend checking [GetRSSFeed](https://getrssfeed.com/)
-* **Twitter username:** podcast Twitter handle, if applicable
-* **Slug:** the address of the podcast's homepage on your Forem i.e. **mypodcast** if you want `/mypodcast` to be the podcast homepage. This can't be an address that already exists (e.g. a username or organization name that is already in use) and we recommend lower case only as there have been issues with UPPER CASE characters in the past. (required)
-* **Main color hex:**  color theme for your podcast page 
-* **Image:** square image of your podcast album cover (required)
-* **Pattern image:** horizontal image of the banner that appears on your podcast page (this is not required, but certain colour combinations of Main color hex will render the podcast title text unreadable, so we recommend uploading a suitably contrasting **Pattern image**)
-* **Android URL:** listening link for Android
-* **Itunes URL:** Apple podcast link
-* **Overcast URL:** Overcast URL
-* **Soundcloud URL:** Soundcloud URL
+- **I am the owner of this podcast:** check this box to confirm ownership of (and the right to publish) this podcast
+- **Title:** title of the podcast, written as it should be displayed (required)
+- **Description:** brief description of the podcast that appears beneath the title on the podcast's homepage
+- **Website URL:** website URL of the podcast, if applicable
+- **Feed URL:** RSS feed address of the podcast (required). To find the RSS feed URL, we recommend checking [GetRSSFeed](https://getrssfeed.com/)
+- **Twitter username:** podcast Twitter handle, if applicable
+- **Slug:** the address of the podcast's homepage on your Forem i.e. **mypodcast** if you want `/mypodcast` to be the podcast homepage. This can't be an address that already exists (e.g. a username or organization name that is already in use) and we recommend lower case only as there have been issues with UPPER CASE characters in the past. (required)
+- **Main color hex:** color theme for your podcast page
+- **Image:** square image of your podcast album cover (required)
+- **Pattern image:** horizontal image of the banner that appears on your podcast page (this is not required, but certain colour combinations of Main color hex will render the podcast title text unreadable, so we recommend uploading a suitably contrasting **Pattern image**)
+- **Android URL:** listening link for Android
+- **Itunes URL:** Apple podcast link
+- **Overcast URL:** Overcast URL
+- **Soundcloud URL:** Soundcloud URL
 
 ![Suggest a Podcast form](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/podcastSuggestionForm.png)
 
@@ -44,12 +50,12 @@ Click 'Suggest' to submit the podcast for consideration.
 
 Once a podcast is suggested, navigate to `/admin/content_manager/podcasts` to approve and publish it:
 
-* Find your podcast and click the title
-* Scroll to the bottom
-* Check the checkbox **Podcast is reachable**
-* Check the checkbox **Featured** - If you'd like this podcast to be featured
-* Check the checkbox **Published**
-* Click **Update Podcast**
+- Find your podcast and click the title
+- Scroll to the bottom
+- Check the checkbox **Podcast is reachable**
+- Check the checkbox **Featured** - If you'd like this podcast to be featured
+- Check the checkbox **Published**
+- Click **Update Podcast**
 
 ![Podcast is Reachable + Published](https://user-images.githubusercontent.com/19507316/144723195-5b26d465-ac9b-46dc-a3e4-9ad9dc957aa1.png)
 
@@ -60,17 +66,18 @@ Anyone can suggest a podcast for your Forem, but it doesn't mean you have to app
 {% endhint %}
 
 ### How To Feature A Podcast
+
 Featuring a Podcast gives it a new position on the `/pods` page, above all of the other podcasts. In order to make a podcast "Featured" you will need to head to `/admin/content_manager/podcasts` > select the podcast you want featured and ensure the "Featured" input box is checked.
 
 ### Fetch Episodes
 
 If you notice that your podcast page isn't populated with the latest podcasts, take these steps:
 
-* Navigate to `/admin/content_manager/podcasts`
-* Click on your podcast
-* Check the **Force** box
-* Set the \# of episodes you'd like to fetch
-* Click **Fetch episodes**
+- Navigate to `/admin/content_manager/podcasts`
+- Click on your podcast
+- Check the **Force** box
+- Set the \# of episodes you'd like to fetch
+- Click **Fetch episodes**
 
 ![Force fetch podcast episodes](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/podcastFetch.png)
 
@@ -78,20 +85,18 @@ If you notice that your podcast page isn't populated with the latest podcasts, t
 
 You can add multiple admins for a podcast. To do so, take these steps:
 
-* Navigate to `/admin/content_manager/podcasts`
-* Click on your podcast
-* Scroll to **Manage Admins**
-* Add the User ID \# of the admin you'd like to add.
-* Click **Add Admin**
+- Navigate to `/admin/content_manager/podcasts`
+- Click on your podcast
+- Scroll to **Manage Admins**
+- Add the User ID \# of the admin you'd like to add.
+- Click **Add Admin**
 
 ### Edit Podcast
 
-Once a podcast suggestion has been submitted, you can edit details in podcast by visiting `/admin/content_manager/podcasts`.   
+Once a podcast suggestion has been submitted, you can edit details in podcast by visiting `/admin/content_manager/podcasts`.
 
 ### Upload a Pattern Image
 
 In the even that the podcast title is unreadable, due to color selection, upload a contrasting background to act as the header image:
 
 ![Upload a Pattern Image](https://raw.githubusercontent.com/forem/admin-docs/main/static/img/podcastBackgroundImage.png)
-
-

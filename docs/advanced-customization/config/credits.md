@@ -5,6 +5,12 @@ position: 4
 
 # Credits
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 ### About Credits
 
 Credits enable users to purchase [classified listings](https://admin.forem.com/docs/advanced-customization/listings) from your site. Listings can be considered a marketplace for the community: users can offer their services, share events, list items for sale, etc.

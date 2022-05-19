@@ -5,10 +5,15 @@ position: 6
 
 # Emails
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 ### Contact email address
 
 The contact email address is used for any contact links. It will appear on auto-populated support pages, Code of Conduct, Terms of Use, Privacy Policy, and any other locations around the site where users may need to reach out for additional help.
-
 
 ### Periodic email digest
 

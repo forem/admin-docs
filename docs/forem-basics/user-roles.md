@@ -5,13 +5,19 @@ sidebar_position: 0
 
 # User Roles
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 A user's role indicates the level of permissions they have across the site.
 
 To update a user's role, you'll need to:
 
-* Find them via `/admin/users`
-* Click the `Manage User` button
-* Select their new role\(s) in the drop-down
+- Find them via `/admin/users`
+- Click the `Manage User` button
+- Select their new role\(s) in the drop-down
 
 ![This is the page available at /admin/users](/img/userRolesManage.png)
 
@@ -19,12 +25,11 @@ To update a user's role, you'll need to:
 
 Admins have the ability to remove any role other than the **Super Admin** role from users. Admins do not, however, have the ability to remove roles from themselves. To remove a user's role, you'll need to:
 
-* Find them via `/admin/users`
-* Click the `Manage User` button
-* Click the `X` button next to the role\(s\) you wish to remove
+- Find them via `/admin/users`
+- Click the `Manage User` button
+- Click the `X` button next to the role\(s\) you wish to remove
 
 ![This is where admins can remove roles from users other than themselves](/img/userRolesCurrentRole.png)
-
 
 ## Base Roles
 
@@ -38,7 +43,7 @@ Users with the **Suspend** role no longer have the privilege to publish posts or
 
 ### Regular Member
 
-A regular member is a user **in good standing**. They have access to all basic privileges \(publishing posts, writing comments, etc\) but they do not have higher access such as community moderation or site administration. 
+A regular member is a user **in good standing**. They have access to all basic privileges \(publishing posts, writing comments, etc\) but they do not have higher access such as community moderation or site administration.
 
 ### Trusted
 
@@ -46,11 +51,11 @@ Users with the **Trusted** role are community moderators. They have access to `/
 
 ### Warn
 
-Users with the **Warn** role are users that admins flag to one another because of their previous behavior across the site. These are typically users that have broken the Code of Conduct previously but are currently not suspended. We want to make sure their previous actions are taken into consideration if they break the Code of Conduct again. 
+Users with the **Warn** role are users that admins flag to one another because of their previous behavior across the site. These are typically users that have broken the Code of Conduct previously but are currently not suspended. We want to make sure their previous actions are taken into consideration if they break the Code of Conduct again.
 
 Users with the **Warn** role have all the same privileges as **Members in good standing**. Setting a **Trusted** User’s role to **Warn** will remove their **Trusted** privileges and return them to the same privileges as **Members in good standing**.
 
-Changing a user's status to the **Warn** role does not automatically send an email to the user (we generally advise that users are notified when their roles change, including if they become **Warned**). 
+Changing a user's status to the **Warn** role does not automatically send an email to the user (we generally advise that users are notified when their roles change, including if they become **Warned**).
 
 ## Special Roles
 
@@ -58,13 +63,12 @@ Changing a user's status to the **Warn** role does not automatically send an ema
 
 **Admins** have access to all `/admin` pages on the site but do not have the ability to make site configuration changes (i.e. `admin/customization/config`). We recommend limiting the number of people who have **Admin** permissions for your Forem; consider granting single resource admin privileges first, where possible.
 
-**Admins** can unpublish articles by appending `/edit` to the end of an article URL and updating the article manually. 
+**Admins** can unpublish articles by appending `/edit` to the end of an article URL and updating the article manually.
 
 ### Resource Admin
 
-**Single Resource Admins** have access to select `/admin` pages. For example, **Resource Admin: Articles** gives access to `/admin/content_manager/articles` only. You can give someone as many **Single Resource Admin** roles as necessary, and we would always recommend granting these before a full **Admin** role. 
+**Single Resource Admins** have access to select `/admin` pages. For example, **Resource Admin: Articles** gives access to `/admin/content_manager/articles` only. You can give someone as many **Single Resource Admin** roles as necessary, and we would always recommend granting these before a full **Admin** role.
 
 ### Super Admin
 
-**Super Admins** have the highest level of permissions across the site, including making changes to `/admin/customization/config`. 
-
+**Super Admins** have the highest level of permissions across the site, including making changes to `/admin/customization/config`.

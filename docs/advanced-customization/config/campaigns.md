@@ -5,6 +5,12 @@ position: 2
 
 # Campaigns
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 ## Overview
 
 Campaigns (accessed from `/admin/customization/config`) are a way to highlight information to your audience. You can use campaigns in whatever way suits your needs; most often at [DEV](https://dev.to/), we use them to highlight community celebrations or other call-to-actions.

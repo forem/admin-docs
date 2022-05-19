@@ -5,6 +5,12 @@ sidebar_position: 4
 
 # Organization Settings
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 This is a guide to the User Organization Settings, because organizations are created and managed under individual user account settings. The [Organization Pages documentation](https://admin.forem.com/docs/managing-your-community/organization-pages) covers additional settings and configuration for Forem Admins.
 
 If a user already has an organization configured, this page will display information about an existing organization by default.

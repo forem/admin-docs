@@ -5,6 +5,12 @@ sidebar_position: 6
 
 # Extension Settings
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 ## Comment templates
 
 All users can create and save comment templates for reuse. Templates are composed in markdown, just like posts. They may be GIF-based greetings, or helpful hints and tips for other users, the possibilities are endless. Once a user has comment templates set up, they can manage them from here (delete or edit):

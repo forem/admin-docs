@@ -5,6 +5,12 @@ position: 16
 
 # User Experience and Brand
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 The Forem feed is perhaps _the_ core functionality of the service. It's an adaptation of a concept popularized by other social platforms in the past two decades, and it is something we need to develop with care in a way that empowers individual communities and users.
 
 The core nature of "the feed" is that it needs to evolve and be flexible. We will learn new ideas over time. We need to take into account metrics, but also question the relevance and "goodness" of certain metrics. We want folks finding fulfilling and enriching content, not necessarily addictive content.

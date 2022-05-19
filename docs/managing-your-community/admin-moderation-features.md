@@ -5,6 +5,12 @@ sidebar_position: 3
 
 # Admin Moderation Features
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
+
 ### Overviews
 
 Admins have heightened access across the platform, such as access to backend /admin pages. In addition to these pages, admins also have special moderations features across the Forem that they can access while they interact with the community. Admins have all the features that Tag Moderators have, and more. Before diving into admin moderation features, familiarize yourself with the [tag moderator features](tag-moderator-features.md).

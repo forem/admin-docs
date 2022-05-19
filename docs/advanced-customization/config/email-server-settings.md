@@ -5,6 +5,11 @@ position: 5
 
 # Email Server Settings (SMTP)
 
+:::important
+
+We're in the middle of some fast-moving changes to the Forem Admin experience, so we've paused documentation updates for the time being. You may find that the docs are now outdated in parts. If you have any questions, please visit [forem.dev](https://forem.dev) to request additional support. We thank you for your patience and hope you're liking the changes!
+
+:::
 
 ## Forem Cloud Clients
 
@@ -19,7 +24,6 @@ These settings are required for your Forem to send emails. If you wish to send i
 NOTE: Once you submit your SMTP settings for your Forem, all users will be automatically logged out and required to confirm their email addresses to be able to log in again. Only the First User won't have to do this. **Please ensure that your [First User](https://admin.forem.com/docs/getting-started/creator-signup-and-onboarding) is still a [Super Admin](https://admin.forem.com/docs/forem-basics/user-roles) and that you still have [access to that account](https://admin.forem.com/docs/forem-basics/user-settings/account-settings) before proceeding with these settings. Without this, you may possibly lose access to your Forem if the SMTP settings configuration fails.**
 
 :::
-
 
 ## Choosing a SMTP provider
 
@@ -70,7 +74,9 @@ If you need to specify a HELO domain, you can do it here. If not, leave this fie
 The port that your mail server runs on. This could be 25 or 587 for unencrypted/TLS email, or 465 for SSL-encrypted email, so it's best to confirm these settings with your SMTP service provider.
 
 ### From email address
+
 The email address that all emails will be sent from.
 
 ### Reply to email address
+
 The email address that users reply to.

@@ -35,4 +35,12 @@ Once you've clicked submit, you should see your site and secret keys:
 
 ![](/img/recaptcha-submit-example.png)
 
-Please add them to your Forem's config section in the **Email** section of [`Config > Authentication`](/docs/advanced-customization/config/authentication).
+Please add them to your Forem's config section in the **Email address** section of `Config > Authentication`:
+
+1. First, visit your Forem's config section.
+2. Under `Authentication`, find the `Email address` field.
+3. Hit "Enable" for `Email address`. Note that this is only temporary, if you do not want to enable email address registration for your Forem.
+![](/img/recaptcha-forem-config.jpg)
+4. Check the `Enable Google reCAPTCHA for email password registration` box.
+5. Paste in the appropriate Google reCAPTCHA keys.
+![](/img/recaptcha-forem-config-2.jpg)

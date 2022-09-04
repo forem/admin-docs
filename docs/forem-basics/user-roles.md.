@@ -69,6 +69,6 @@ Changing a user's status to the **Warn** role does not automatically send an ema
 
 **Single Resource Admins** have access to select `/admin` pages. For example, **Resource Admin: Articles** gives access to `/admin/content_manager/articles` only. You can give someone as many **Single Resource Admin** roles as necessary, and we would always recommend granting these before a full **Admin** role.
 
-### Super Admin
+### Super Admin. 
 
 **Super Admins** have the highest level of permissions across the site, including making changes to `/admin/customization/config`.

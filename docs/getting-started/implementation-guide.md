@@ -44,7 +44,7 @@ We've broken this guide down into 3 stages — **Ready**, **Set**, & **Grow**. A
    - [Consider adding badges](https://admin.forem.com/docs/forem-basics/badges)
 2. Explore advanced features
    - [Create a banner with HTML Variants](https://admin.forem.com/docs/advanced-customization/html-variants)
-   - [Create display ads for the homepage](https://admin.forem.com/docs/advanced-customization/display-ads)
+   - [Create billboards for the homepage](https://admin.forem.com/docs/advanced-customization/billboards)
    - [Set sidebar tags](https://admin.forem.com/docs/advanced-customization/tag-display-order)
    - [Add and confirm podcasts](https://admin.forem.com/docs/advanced-customization/content-manager/podcasts)
 

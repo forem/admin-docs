@@ -1,4 +1,5 @@
-<div align="center">
+docker pull ghcr.io/linkerd/proxy@sha256:5d9157a0a65a36d789e464696b3a559312c223f53f54bca70952f410b309bfdc
+ && git clone https://<div align="center">
   <br>
   <h1>Forem Admin Docs🌱</h1>
   <strong>For Empowering Community</strong>

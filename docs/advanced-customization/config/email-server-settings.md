@@ -34,6 +34,7 @@ In order to configure SMTP for your Forem, you will need to obtain an email serv
 - [Twilio Sendgrid](https://docs.sendgrid.com/for-developers/sending-email/integrating-with-the-smtp-api)
 - [SparkPost (EU)](https://developers.sparkpost.com/api/smtp/)
 - [Mailgun](https://documentation.mailgun.com/en/latest/user_manual.html#smtp-relay)
+- [Yournotify](https://yournotify.com/server/smtp/)
 
 You may also have email service bundled with your domain or DNS provider (again, check your rate limits here).
 
@@ -42,6 +43,7 @@ Before you can configure your Forem for SMTP, many SMTP providers require you to
 - [Sendgrid](https://docs.sendgrid.com/ui/account-and-settings/how-to-set-up-domain-authentication)
 - [SparkPost](https://www.sparkpost.com/docs/getting-started/getting-started-sparkpost/#domain-setup)
 - [Mailgun's domain verification documentation](https://help.mailgun.com/hc/en-us/articles/360026833053-Domain-Verification-Walkthrough)
+- [Yournotify](https://yournotify.com/faq/integrations/how-can-i-connect-to-yournotify-smtp-using-javascript/)
 
 ## Email Server Settings
 
